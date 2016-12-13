@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dlsmile"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+	>
+	<ImageView 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/smile"
+    	android:layout_gravity="center"
+	    />
+
+	<TextView
+	    android:id="@+id/hint1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:textColor="#DEDFE0"
+	    android:text="@string/hint1" />
+
+	<LinearLayout
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+		>
+		<TextView
+		    android:id="@+id/hint2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="right"
+		    android:textColor="#DEDFE0"
+		    android:text="@string/hint2" />
+		<Button
+		    android:id="@+id/hint3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="#00000000"
+		    android:gravity="left"
+		    android:textColor="#0000E0"
+		    android:text="@string/hint3" />
+	</LinearLayout>
+</LinearLayout>

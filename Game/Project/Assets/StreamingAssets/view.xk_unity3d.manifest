@@ -1,0 +1,121 @@
+ManifestFileVersion: 0
+CRC: 3814743298
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c672da073f96e5d31deb582175839915
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f7688d342aa3948d95df5ebb693819ea
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 06e65fd02cb0af545bfa417cf8f73dd5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbd65351245eafd4ca1d104ca1133a1f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9ecfc8f110f562045811370b414027fc, type: 3}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1741964061, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -1862395651, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -2095666955, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 575553740, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -1200242548, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -900027084, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1367256648, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1573420865, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0705572320ebf94459703c2534a5af18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a1ea4b3eb847a246865e256744c8e3f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b9d9738407f3c6f419ab165ba86ccafe, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c717c5a4040139b44be8efdb1a09ee1c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9ddfb4857e835044daba25436449d317, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9e2232b6f169e18448efd7a119978c9d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c923aec7e10b56e4b8a5de42978737f3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 22752be7fe40db84e87879641ccbc28b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4c0bc108e8bc1e245a4e4d8fe2db03fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: af7d0d286d3036343ad4ba6f297301df, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e08df8910f342a4aae87be88c08d670, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ed90976a94270064aa985698a4daa454, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5ecd73ca102fcf748be13b873e262709, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 56d04ceaa808a4540845b5b7aee2ce16, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b89197b1e94d604dbb86b117244e9e8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 290852fb56c6302489957fd06934af97, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b40131c99dc4194e8100dd6518a91ee, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3344896c57b225b4c9fa4df612aa44a2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 68da82bd3c634c741ab0d3436df91e96, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c5e9a57ee4f23494b8f2936a72a2bf29, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b8bca7b0aed090c4f8a73a0d6fe78f80, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/view/ShareView.prefab
+- Assets/ResourceABs/view/StoreView.prefab
+- Assets/ResourceABs/view/MsgBoxView.prefab
+- Assets/ResourceABs/view/SceneLoadingView.prefab
+- Assets/ResourceABs/view/MainView.prefab
+- Assets/ResourceABs/view/SelectServerView.prefab
+- Assets/ResourceABs/view/HotUpdateView.prefab
+- Assets/ResourceABs/view/ChatView.prefab
+- Assets/ResourceABs/view/WindowLoadingView.prefab
+- Assets/ResourceABs/view/LoginView.prefab
+Dependencies:
+- F:/2018_Game/Game/Project/Assets/StreamingAssets/atlas_back.xk_unity3d
+- F:/2018_Game/Game/Project/Assets/StreamingAssets/atlas_button.xk_unity3d
+- F:/2018_Game/Game/Project/Assets/StreamingAssets/atlas_texture.xk_unity3d
+- F:/2018_Game/Game/Project/Assets/StreamingAssets/atlas_emoj.xk_unity3d
+- F:/2018_Game/Game/Project/Assets/StreamingAssets/atlas_heroicon.xk_unity3d
+- F:/2018_Game/Game/Project/Assets/StreamingAssets/atlas_skill.xk_unity3d

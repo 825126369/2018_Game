@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 3661907337
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: view.xk_unity3d
+      Dependencies:
+        Dependency_0: atlas_back.xk_unity3d
+        Dependency_1: atlas_button.xk_unity3d
+        Dependency_2: atlas_texture.xk_unity3d
+        Dependency_3: atlas_emoj.xk_unity3d
+        Dependency_4: atlas_heroicon.xk_unity3d
+        Dependency_5: atlas_skill.xk_unity3d
+    Info_1:
+      Name: manager.xk_unity3d
+      Dependencies: {}
+    Info_2:
+      Name: scripts.xk_unity3d
+      Dependencies: {}
+    Info_3:
+      Name: sheet.xk_unity3d
+      Dependencies: {}
+    Info_4:
+      Name: atlas_back.xk_unity3d
+      Dependencies: {}
+    Info_5:
+      Name: atlas_button.xk_unity3d
+      Dependencies: {}
+    Info_6:
+      Name: atlas_item.xk_unity3d
+      Dependencies: {}
+    Info_7:
+      Name: atlas_texture.xk_unity3d
+      Dependencies: {}
+    Info_8:
+      Name: version.xk_unity3d
+      Dependencies: {}
+    Info_9:
+      Name: atlas_emoj.xk_unity3d
+      Dependencies: {}
+    Info_10:
+      Name: atlas_heroicon.xk_unity3d
+      Dependencies: {}
+    Info_11:
+      Name: atlas_rune.xk_unity3d
+      Dependencies: {}
+    Info_12:
+      Name: atlas_share.xk_unity3d
+      Dependencies: {}
+    Info_13:
+      Name: atlas_skill.xk_unity3d
+      Dependencies: {}
+    Info_14:
+      Name: audio.xk_unity3d
+      Dependencies: {}

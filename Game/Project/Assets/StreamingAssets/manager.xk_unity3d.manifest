@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 805515142
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5b439ddaff0dcfa523197e6ad7700b47
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8940bb7aeb34c5bdb48a6873b720f53e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 92
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/manager/EventSystem.prefab
+- Assets/ResourceABs/manager/UIRoot.prefab
+- Assets/ResourceABs/manager/Scene_Camera.prefab
+Dependencies: []

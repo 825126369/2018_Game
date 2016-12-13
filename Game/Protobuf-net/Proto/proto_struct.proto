@@ -1,0 +1,5 @@
+message struct_serverList
+{
+	optional string serverName=1;
+	optional int32 serverId=2;
+}

@@ -1,0 +1,8 @@
+enum ProtoCommand
+{
+	Chat=1100;
+	RegisterAccount=1101;
+	Login=1102;
+	SelectServer=1103;
+	EnterGame=1104;
+}

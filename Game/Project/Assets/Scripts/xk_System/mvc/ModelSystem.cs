@@ -1,0 +1,202 @@
+﻿using System.Collections.Generic;
+using System;
+using xk_System.Net;
+using game.protobuf.data;
+using xk_System.Debug;
+using System.Reflection;
+
+namespace xk_System.Model
+{
+    public class ModelSystem : Singleton<ModelSystem>
+    {
+        private Dictionary<Type, xk_Model> mModelDic;
+
+        public ModelSystem()
+        {
+            mModelDic = new Dictionary<Type, xk_Model>();
+        }
+
+        public T GetModel<T>() where T : xk_Model, new()
+        {
+            Type mType = typeof(T);
+            if (mModelDic.ContainsKey(mType))
+            {
+                return mModelDic[mType] as T;
+            }
+            else
+            {
+                return addModel<T>();
+            }
+        }
+
+        private T addModel<T>() where T : xk_Model, new()
+        {
+            Type mType = typeof(T);
+            if (!mModelDic.ContainsKey(mType))
+            {
+                xk_Model t = new T();
+                t.initModel();
+                mModelDic.Add(mType, t);
+                return t as T;
+            }
+            return null;
+        }
+
+        public void removeModel<T>() where T : xk_Model
+        {
+            Type mType = typeof(T);
+            if (mModelDic.ContainsKey(mType))
+            {
+                xk_Model mModel = mModelDic[mType];
+                mModel.destroyModel();
+                mModelDic.Remove(mType);
+            }
+        }
+    }
+
+    public class xk_Model
+    {
+        public xk_Model()
+        {
+
+        }
+
+        public virtual void initModel()
+        {
+
+        }
+
+        public virtual void destroyModel()
+        {
+
+        }
+    }
+
+    public class SASAModel:xk_Model
+    {
+        private Dictionary<string, List<Action<object>>> m_dicDataBinding = new Dictionary<string, List<Action<object>>>();
+        private Type m_thisType;
+
+        public override void initModel()
+        {
+            base.initModel();
+            this.m_thisType = base.GetType();
+        }
+
+        private object _getPropertyValue(string strName)
+        {
+            FieldInfo field = this.m_thisType.GetField(strName);
+            if (field != null)
+            {
+                return field.GetValue(this);
+            }
+            return base.GetType().GetProperty(strName).GetValue(this, null);
+        }
+
+        public void addDataBinding(Action<object> callBack, string propertyName)
+        {
+            List<Action<object>> list = null;
+            if (this.m_dicDataBinding.ContainsKey(propertyName))
+            {
+                list = this.m_dicDataBinding[propertyName];
+            }
+            else
+            {
+                list = new List<Action<object>>();
+                this.m_dicDataBinding.Add(propertyName, list);
+            }
+            list.Add(callBack);
+        }
+
+        public void removeDataBinding(Action<object> callBack, string propertyName)
+        {
+            List<Action<object>> list = null;
+            if (this.m_dicDataBinding.ContainsKey(propertyName))
+            {
+                list = this.m_dicDataBinding[propertyName];
+                if (list.Contains(callBack))
+                {
+                    list.Remove(callBack);
+                }
+            }
+        }
+
+        internal void updateBinding(string propertyName)
+        {
+            if (this.m_dicDataBinding.ContainsKey(propertyName))
+            {
+                object objData = this._getPropertyValue(propertyName);
+                List<Action<object>> list = new List<Action<object>>(this.m_dicDataBinding[propertyName]);
+                foreach (Action<object> delegate2 in list)
+                {
+                    delegate2(objData);
+                }
+            }
+        }
+    }
+
+    public class NetModel : xk_Model
+    {
+        public void addNetListenFun(ProtoCommand command, Action<Package> mFun)
+        {
+            NetSystem.getSingle().addListenFun((int)command, mFun);
+        }
+
+        public void removeNetListenFun(ProtoCommand command, Action<Package> mFun)
+        {
+            NetSystem.getSingle().removeListenFun((int)command, mFun);
+        }
+
+        public void sendNetData(ProtoCommand command, object data)
+        {
+            NetSystem.getSingle().SendData((int)command, data);
+        }
+    }
+
+    public class DataBind<T>
+    {
+        public T bindData;
+        private event Action<T> bindEvent;
+
+        public DataBind()
+        {
+            bindData = default(T);
+        }
+
+        public void HandleData(T bindData)
+        {
+            this.bindData = bindData;
+            updateDataBind();
+        }
+
+        public void updateDataBind()
+        {
+            if (bindEvent != null)
+            {
+                bindEvent(bindData);
+            }
+        }
+
+        public void addDataBind(Action<T> fun)
+        {
+            if (!CheckDataBinFunIsExist(fun))
+            {
+                bindEvent += fun;
+            }
+            else
+            {
+                DebugSystem.LogError("addDataBind Error: fun Repetition");
+            }
+        }
+
+        private bool CheckDataBinFunIsExist(Action<T> fun)
+        {
+            return DelegateUtility.CheckFunIsExist(bindEvent, fun);
+        }
+
+        public void removeDataBind(Action<T> fun)
+        {
+            bindEvent -= fun;
+        }
+    }
+}

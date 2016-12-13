@@ -1,0 +1,105 @@
+ManifestFileVersion: 0
+CRC: 1473805594
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6f2a4b9cae340c9ce52fbc1879a27c83
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dea23ffc7e96552740e12d1ee5309d8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/rune/r_1_1.png
+- Assets/ResourceABs/atlas/rune/8010.png
+- Assets/ResourceABs/atlas/rune/10001.png
+- Assets/ResourceABs/atlas/rune/8022.png
+- Assets/ResourceABs/atlas/rune/bl_1_2.png
+- Assets/ResourceABs/atlas/rune/8018.png
+- Assets/ResourceABs/atlas/rune/8007.png
+- Assets/ResourceABs/atlas/rune/bl_2_1.png
+- Assets/ResourceABs/atlas/rune/y_1_1.png
+- Assets/ResourceABs/atlas/rune/y_4_3.png
+- Assets/ResourceABs/atlas/rune/10002.png
+- Assets/ResourceABs/atlas/rune/r_3_2.png
+- Assets/ResourceABs/atlas/rune/bl_4_3.png
+- Assets/ResourceABs/atlas/rune/8013.png
+- Assets/ResourceABs/atlas/rune/8002.png
+- Assets/ResourceABs/atlas/rune/8016.png
+- Assets/ResourceABs/atlas/rune/r_2_3.png
+- Assets/ResourceABs/atlas/rune/y_4_2.png
+- Assets/ResourceABs/atlas/rune/yellow_i7.png
+- Assets/ResourceABs/atlas/rune/bl_1_1.png
+- Assets/ResourceABs/atlas/rune/r_1_2.png
+- Assets/ResourceABs/atlas/rune/8015.png
+- Assets/ResourceABs/atlas/rune/8012.png
+- Assets/ResourceABs/atlas/rune/bl_3_2.png
+- Assets/ResourceABs/atlas/rune/r_3_3.png
+- Assets/ResourceABs/atlas/rune/y_3_1.png
+- Assets/ResourceABs/atlas/rune/y_1_2.png
+- Assets/ResourceABs/atlas/rune/8011.png
+- Assets/ResourceABs/atlas/rune/8019.png
+- Assets/ResourceABs/atlas/rune/8020.png
+- Assets/ResourceABs/atlas/rune/yellow_i3.png
+- Assets/ResourceABs/atlas/rune/8001.png
+- Assets/ResourceABs/atlas/rune/runeTargetDisabledLarge20.png
+- Assets/ResourceABs/atlas/rune/y_1_3.png
+- Assets/ResourceABs/atlas/rune/8004.png
+- Assets/ResourceABs/atlas/rune/gold_i3.png
+- Assets/ResourceABs/atlas/rune/b_3_1.png
+- Assets/ResourceABs/atlas/rune/y_2_3.png
+- Assets/ResourceABs/atlas/rune/red_i7.png
+- Assets/ResourceABs/atlas/rune/yellow_i5.png
+- Assets/ResourceABs/atlas/rune/y_2_1.png
+- Assets/ResourceABs/atlas/rune/8006.png
+- Assets/ResourceABs/atlas/rune/blue_i7.png
+- Assets/ResourceABs/atlas/rune/8014.png
+- Assets/ResourceABs/atlas/rune/y_3_3.png
+- Assets/ResourceABs/atlas/rune/gold_i5.png
+- Assets/ResourceABs/atlas/rune/y_4_1.png
+- Assets/ResourceABs/atlas/rune/y_3_2.png
+- Assets/ResourceABs/atlas/rune/b_4_3.png
+- Assets/ResourceABs/atlas/rune/b_1_2.png
+- Assets/ResourceABs/atlas/rune/r_3_1.png
+- Assets/ResourceABs/atlas/rune/r_4_2.png
+- Assets/ResourceABs/atlas/rune/b_2_3.png
+- Assets/ResourceABs/atlas/rune/r_4_1.png
+- Assets/ResourceABs/atlas/rune/b_3_3.png
+- Assets/ResourceABs/atlas/rune/y_2_2.png
+- Assets/ResourceABs/atlas/rune/8009.png
+- Assets/ResourceABs/atlas/rune/blue_i5.png
+- Assets/ResourceABs/atlas/rune/8021.png
+- Assets/ResourceABs/atlas/rune/r_1_3.png
+- Assets/ResourceABs/atlas/rune/runeTargetDisabledLarge10.png
+- Assets/ResourceABs/atlas/rune/bl_2_2.png
+- Assets/ResourceABs/atlas/rune/gold_i7.png
+- Assets/ResourceABs/atlas/rune/b_3_2.png
+- Assets/ResourceABs/atlas/rune/b_4_2.png
+- Assets/ResourceABs/atlas/rune/r_2_1.png
+- Assets/ResourceABs/atlas/rune/bl_3_1.png
+- Assets/ResourceABs/atlas/rune/bl_1_3.png
+- Assets/ResourceABs/atlas/rune/red_i3.png
+- Assets/ResourceABs/atlas/rune/bl_3_3.png
+- Assets/ResourceABs/atlas/rune/b_1_3.png
+- Assets/ResourceABs/atlas/rune/b_1_1.png
+- Assets/ResourceABs/atlas/rune/8005.png
+- Assets/ResourceABs/atlas/rune/bl_4_1.png
+- Assets/ResourceABs/atlas/rune/red_i5.png
+- Assets/ResourceABs/atlas/rune/8003.png
+- Assets/ResourceABs/atlas/rune/r_4_3.png
+- Assets/ResourceABs/atlas/rune/8035.png
+- Assets/ResourceABs/atlas/rune/b_2_1.png
+- Assets/ResourceABs/atlas/rune/b_4_1.png
+- Assets/ResourceABs/atlas/rune/blue_i3.png
+- Assets/ResourceABs/atlas/rune/bl_2_3.png
+- Assets/ResourceABs/atlas/rune/8008.png
+- Assets/ResourceABs/atlas/rune/8017.png
+- Assets/ResourceABs/atlas/rune/runeTargetDisabledLarge30.png
+- Assets/ResourceABs/atlas/rune/b_2_2.png
+- Assets/ResourceABs/atlas/rune/r_2_2.png
+- Assets/ResourceABs/atlas/rune/bl_4_2.png
+Dependencies: []

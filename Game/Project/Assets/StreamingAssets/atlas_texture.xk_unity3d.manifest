@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1485318224
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cf5c5dcd725ce4b7beb7c6f961a5eff7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dea23ffc7e96552740e12d1ee5309d8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/texture/Udyr_bear.png
+- Assets/ResourceABs/atlas/texture/Udyr_tiger.png
+- Assets/ResourceABs/atlas/texture/cs_bg_champions.png
+- Assets/ResourceABs/atlas/texture/LOL_qqlogin.png
+- Assets/ResourceABs/atlas/texture/Udyr_turtle.png
+- Assets/ResourceABs/atlas/texture/background_fwqgx_00.png
+- Assets/ResourceABs/atlas/texture/Udyr_phoenix.png
+Dependencies: []

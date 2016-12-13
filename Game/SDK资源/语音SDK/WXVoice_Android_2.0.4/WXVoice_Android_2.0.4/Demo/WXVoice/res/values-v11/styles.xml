@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <style name="CustomizedWindowTitleBackground"> 
+        <item name="android:background">#262626</item> 
+    </style> 
+    <style name="titlebarstyle" parent="android:Theme"> 
+        <item name="android:windowTitleSize">38dp</item> 
+        <item name="android:windowTitleBackgroundStyle">@style/CustomizedWindowTitleBackground</item> 
+        <!-- All customizations that are NOT specific to a particular API-level can go here. --> 
+    </style> 
+</resources> 

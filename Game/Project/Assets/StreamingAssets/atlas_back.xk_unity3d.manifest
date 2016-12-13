@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2276595495
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 24f5a69ceaab7168877efb4e617b9681
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dea23ffc7e96552740e12d1ee5309d8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/back/yinbida.png
+- Assets/ResourceABs/atlas/back/Screen22.png
+- Assets/ResourceABs/atlas/back/ditu2.png
+- Assets/ResourceABs/atlas/back/jingyantiaojindutiao2.png
+- Assets/ResourceABs/atlas/back/ditu4.png
+- Assets/ResourceABs/atlas/back/wupinkuang.png
+- Assets/ResourceABs/atlas/back/ditu1.png
+- Assets/ResourceABs/atlas/back/Screen41.png
+- Assets/ResourceABs/atlas/back/ditu3.png
+- Assets/ResourceABs/atlas/back/biaoti1.png
+- Assets/ResourceABs/atlas/back/jindutiaodicao.png
+- Assets/ResourceABs/atlas/back/jingyantiaodicao2.png
+- Assets/ResourceABs/atlas/back/jindutiao.png
+- Assets/ResourceABs/atlas/back/Screen06.png
+- Assets/ResourceABs/atlas/back/shangbiankuang1.png
+- Assets/ResourceABs/atlas/back/Wait_Msg.png
+Dependencies: []

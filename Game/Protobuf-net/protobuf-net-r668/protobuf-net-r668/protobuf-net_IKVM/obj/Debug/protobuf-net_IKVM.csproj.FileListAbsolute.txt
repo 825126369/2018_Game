@@ -1,0 +1,8 @@
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net_IKVM\bin\Debug\Licence.txt
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net_IKVM\bin\Debug\IKVM-LICENSE
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net_IKVM\bin\Debug\protobuf-net.XML
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net_IKVM\bin\Debug\protobuf-net.dll
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net_IKVM\bin\Debug\protobuf-net.pdb
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net_IKVM\bin\Debug\IKVM.Reflection.dll
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net_IKVM\obj\Debug\protobuf-net.dll
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net_IKVM\obj\Debug\protobuf-net.pdb

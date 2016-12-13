@@ -1,0 +1,70 @@
+import "Proto/proto_struct.proto";
+
+//请求聊天信息 C->S 消息代码:1100
+message ClientSendData
+{
+	optional string SenderName=1;
+	optional string TalkMsg = 2;				//聊天信息(25中文字符)
+}
+
+//广播世界聊天信息 S->C 消息代码:1100
+message ServerSendData
+{
+	optional string Result			= 1;		//结果
+	optional string NickName		= 2;		//角色名称
+	optional string TalkMsg			= 3;		//聊天信息
+	optional string TalkTime		= 4;		//聊天时间
+}
+
+//注册账号1101
+message csRegisterAccount
+{
+	optional string accountName=1;
+	optional string password=2;
+	optional string repeatPassword=3;
+}
+
+message scRegisterAccount
+{
+	//1正确0错误
+	optional bool result=1;
+	
+}
+
+//登陆游戏1102
+message csLoginGame
+{
+	optional string accountName=1;
+	optional string password=2;
+}
+
+message scLoginGame
+{
+	optional bool result=1;
+}
+
+//获取服务器列表1103
+message csServerList
+{
+	
+}
+
+message scServerList
+{
+	repeated struct_serverList ServerList=1;
+}
+
+//进入游戏1104
+message csEnterGame
+{
+	optional int32 ServerId=1;
+}
+
+message scEnterGame
+{
+
+	optional int32 ServerId=1;
+}
+
+
+

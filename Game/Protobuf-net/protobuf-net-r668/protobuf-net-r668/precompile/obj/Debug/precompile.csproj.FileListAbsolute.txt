@@ -1,0 +1,12 @@
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\precompile\obj\Debug\precompile.csprojResolveAssemblyReference.cache
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\precompile\bin\Debug\Licence.txt
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\precompile\bin\Debug\IKVM-LICENSE
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\precompile\bin\Debug\precompile.XML
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\precompile\bin\Debug\precompile.exe
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\precompile\bin\Debug\precompile.pdb
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\precompile\bin\Debug\IKVM.Reflection.dll
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\precompile\bin\Debug\protobuf-net.dll
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\precompile\bin\Debug\protobuf-net.pdb
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\precompile\bin\Debug\protobuf-net.xml
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\precompile\obj\Debug\precompile.exe
+F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\precompile\obj\Debug\precompile.pdb

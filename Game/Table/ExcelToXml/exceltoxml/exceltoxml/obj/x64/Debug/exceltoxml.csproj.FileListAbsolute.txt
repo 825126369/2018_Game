@@ -1,0 +1,7 @@
+F:\2018_Game\Game\Table\ExcelToXml\exceltoxml\exceltoxml\bin\x64\Debug\exceltoxml.exe.config
+F:\2018_Game\Game\Table\ExcelToXml\exceltoxml\exceltoxml\obj\x64\Debug\Interop.ACTIVEXLib.dll
+F:\2018_Game\Game\Table\ExcelToXml\exceltoxml\exceltoxml\obj\x64\Debug\exceltoxml.csproj.ResolveComReference.cache
+F:\2018_Game\Game\Table\ExcelToXml\exceltoxml\exceltoxml\bin\x64\Debug\exceltoxml.exe
+F:\2018_Game\Game\Table\ExcelToXml\exceltoxml\exceltoxml\bin\x64\Debug\exceltoxml.pdb
+F:\2018_Game\Game\Table\ExcelToXml\exceltoxml\exceltoxml\obj\x64\Debug\exceltoxml.exe
+F:\2018_Game\Game\Table\ExcelToXml\exceltoxml\exceltoxml\obj\x64\Debug\exceltoxml.pdb

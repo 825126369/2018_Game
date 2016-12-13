@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5B9FF267-005F-A3BF-219E-FEAE2D8C894F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_2_1;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>F:\Unity\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>F:\Unity\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\module\chat\ChatModel.cs" />
+    <Compile Include="Assets\Scripts\module\chat\ChatView.cs" />
+    <Compile Include="Assets\Scripts\module\commen\loadingView.cs" />
+    <Compile Include="Assets\Scripts\module\init\initManager.cs" />
+    <Compile Include="Assets\Scripts\module\init\initView.cs" />
+    <Compile Include="Assets\Scripts\module\login\LoginCommand.cs" />
+    <Compile Include="Assets\Scripts\module\login\LoginModel.cs" />
+    <Compile Include="Assets\Scripts\module\login\LoginView.cs" />
+    <Compile Include="Assets\Scripts\module\main\MainModel.cs" />
+    <Compile Include="Assets\Scripts\module\main\MainView.cs" />
+    <Compile Include="Assets\Scripts\module\player\PlayerDataManager.cs" />
+    <Compile Include="Assets\Scripts\module\sdk\share\ShareModel.cs" />
+    <Compile Include="Assets\Scripts\module\sdk\share\ShareView.cs" />
+    <Compile Include="Assets\Scripts\module\selectServer\SelectServerModel.cs" />
+    <Compile Include="Assets\Scripts\module\selectServer\SelectServerView.cs" />
+    <Compile Include="Assets\Scripts\table\DB.cs" />
+    <Compile Include="Assets\Scripts\tools\MonoVersion.cs" />
+    <Compile Include="Assets\Scripts\xk_System\AssetBundleManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\BaseClassManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\CommandSystem.cs" />
+    <Compile Include="Assets\Scripts\xk_System\DbSystem.cs" />
+    <Compile Include="Assets\Scripts\xk_System\EncryptionSystem.cs" />
+    <Compile Include="Assets\Scripts\xk_System\GlobalWindowManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\HotUpdateSystem.cs" />
+    <Compile Include="Assets\Scripts\xk_System\LogManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\ModelSystem.cs" />
+    <Compile Include="Assets\Scripts\xk_System\NetManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\ReflectionSystem.cs" />
+    <Compile Include="Assets\Scripts\xk_System\SdkManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\StaticFunManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\UnityBase.cs" />
+    <Compile Include="Assets\Scripts\xk_System\WinodwManager.cs" />
+    <Compile Include="Assets\TEST\CSharp_TEST\CSharp_Main.cs" />
+    <Compile Include="Assets\TEST\CSharp_TEST\CSharp_TEST3.cs" />
+    <Compile Include="Assets\TEST\CSharp_TEST\CSharp_Test1.cs" />
+    <Compile Include="Assets\TEST\CSharp_TEST\CSharp_Test2.cs" />
+    <Compile Include="Assets\TEST\Db_TEST\TestDb.cs" />
+    <Compile Include="Assets\TEST\Db_TEST\dbtest_main.cs" />
+    <Compile Include="Assets\TEST\Net_TEST\Net_Test.cs" />
+    <Compile Include="Assets\TEST\Net_TEST\test.cs" />
+    <Compile Include="Assets\TEST\UGUI_TEST\UGUI_TEST.cs" />
+    <Compile Include="Assets\TEST\Unity_TEST\Unity_Test.cs" />
+    <Compile Include="Assets\TEST\Unity_TEST\test_view.cs" />
+    <Compile Include="Assets\TEST\test_md5.cs" />
+    <None Include="Assets\ResourceABs\table\DB.xml" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>F:\Unity\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>F:\Unity\Unity\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="GameProtocols">
+      <HintPath>F:\2018_Game\Game\Project\Assets\Scripts\dlls\protobuf\GameProtocols.dll</HintPath>
+    </Reference>
+    <Reference Include="GameProtocolsData">
+      <HintPath>F:\2018_Game\Game\Project\Assets\Scripts\dlls\protobuf\GameProtocolsData.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>F:\2018_Game\Game\Project\Assets\Scripts\dlls\protobuf\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>F:\Unity\Unity\Editor\Data\Managed\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>F:\Unity\Unity\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+//广播世界聊天信息 S->C 消息代码:1105
+message scChatInfo
+{
+	optional string Result			= 1;		//结果
+	optional string NickName		= 2;		//角色名称
+	optional string TalkMsg			= 3;		//聊天信息
+	optional string TalkTime		= 4;		//聊天时间
+}
