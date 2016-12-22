@@ -109,6 +109,10 @@ namespace xk_System.Db
 		/// </summary>
 		public readonly List<int> TypeArray=new List<int>();
 		/// <summary>
+		/// 物品类型名
+		/// </summary>
+		public readonly string ItemTypeName;
+		/// <summary>
 		/// 物品名称
 		/// </summary>
 		public readonly string Name;
@@ -121,69 +125,29 @@ namespace xk_System.Db
 		/// </summary>
 		public readonly int CompoundPrice;
 		/// <summary>
-		/// 物品购买总价格
+		/// 物品出售价格百分比
 		/// </summary>
-		public readonly int BuyPrice;
+		public readonly int SellPricePercent;
 		/// <summary>
-		/// 物品出售价格
+		/// 物品叠加数量最大值
 		/// </summary>
-		public readonly int SellPrice;
+		public readonly int pileCout;
+		/// <summary>
+		/// 物品限制组ID
+		/// </summary>
+		public readonly int ItemLimitId;
+		/// <summary>
+		/// 属性
+		/// </summary>
+		public readonly List<int> ItemAttGroup=new List<int>();
+		/// <summary>
+		/// 技能
+		/// </summary>
+		public readonly List<int> skillGroup=new List<int>();
 		/// <summary>
 		/// 物品简单描述
 		/// </summary>
 		public readonly string simpleDes;
-		/// <summary>
-		/// 物品属性描述
-		/// </summary>
-		public readonly string AttDes;
-	}
-
-	public class ItemAttDB:DbBase
-	{
-		/// <summary>
-		/// 生命值
-		/// </summary>
-		public readonly int hp;
-		/// <summary>
-		/// 法力值
-		/// </summary>
-		public readonly int mp;
-		/// <summary>
-		/// 护甲
-		/// </summary>
-		public readonly int def;
-		/// <summary>
-		/// 暴击几率百分比
-		/// </summary>
-		public readonly int CritRatePercent;
-		/// <summary>
-		/// 暴击伤害百分比
-		/// </summary>
-		public readonly int CritDamagePercent;
-		/// <summary>
-		/// 生命值回复速度
-		/// </summary>
-		public readonly int hpRegen;
-		/// <summary>
-		/// 法力资源回复速度
-		/// </summary>
-		public readonly int mpRegen;
-		/// <summary>
-		/// 移动速度
-		/// </summary>
-		public readonly int moveSpeed;
-		/// <summary>
-		/// 韧性
-		/// </summary>
-		public readonly int tough;
-		/// <summary>
-		/// 护甲穿透
-		/// </summary>
-		public readonly int ArmorPenetration;
-		/// <summary>
-		/// 法术穿透
-		/// </summary>
-		public readonly int SpellPenetration;
 	}
 
 	public class ServerListDB:DbBase
@@ -198,28 +162,48 @@ namespace xk_System.Db
 		public readonly string serverName;
 	}
 
-	public class skillDB:DbBase
+	public class SkillDB:DbBase
 	{
 		/// <summary>
-		/// 技能ID
+		/// 技能所属对象类型
 		/// </summary>
-		public readonly string bbb1;
+		public readonly int ownerType;
+		/// <summary>
+		/// 技能所属对象ID
+		/// </summary>
+		public readonly int ownerID;
+		/// <summary>
+		/// 技能所属对象名
+		/// </summary>
+		public readonly string ownerName;
 		/// <summary>
 		/// 技能名字
 		/// </summary>
-		public readonly List<int> bbb2=new List<int>();
+		public readonly string skillName;
+		/// <summary>
+		/// 被动技能互斥组ID
+		/// </summary>
+		public readonly int exclusionSkillGroupId;
+		/// <summary>
+		/// 技能类型（1被动，2主动）
+		/// </summary>
+		public readonly int skilltype;
+		/// <summary>
+		/// 技能CD
+		/// </summary>
+		public readonly int skillCD;
 		/// <summary>
 		/// 技能描述
 		/// </summary>
-		public readonly List<string> bbb3=new List<string>();
+		public readonly string skillDes;
 		/// <summary>
-		/// 技能Atlas
+		/// 参数1
 		/// </summary>
-		public readonly string aaa;
+		public readonly int arg1;
 		/// <summary>
-		/// 技能Icon
+		/// 参数2
 		/// </summary>
-		public readonly string bbb;
+		public readonly int arg2;
 	}
 
 	public class Sheet1DB:DbBase

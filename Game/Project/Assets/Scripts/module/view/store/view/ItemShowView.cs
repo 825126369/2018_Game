@@ -17,6 +17,8 @@ namespace xk_System.View.Modules
         private ItemData mSavaData;
         private Dictionary<SubItem, StoreSubItem> mSubItemDic = new Dictionary<SubItem, StoreSubItem>();
 
+        public ItemAttView mItemAttView;
+
         public void ShowItem(ItemData mItem)
         {
             mSavaData = mItem;
@@ -90,7 +92,7 @@ namespace xk_System.View.Modules
 
         private void RefreshItemAtt(ItemDB mItem)
         {
-
+            mItemAttView.RefreshAtt(mItem.id);
         }
     }
 }

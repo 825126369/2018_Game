@@ -444,12 +444,11 @@ public abstract class xInfiniteScrollingView<T> : xScrollViewBase<T>
     protected override void OnScroll(Vector2 vt2)
     {
         int _curScrollPerLineIndex = getShowFirstLine();
-        if (_curScrollPerLineIndex == CurrentShowFirstLine)
+        if (_curScrollPerLineIndex != CurrentShowFirstLine)
         {
-            return;
+            Debug.LogError("当前显示的行：" + _curScrollPerLineIndex);
+            RefreshView1(_curScrollPerLineIndex);
         }
-        Debug.LogError("当前显示的行：" + _curScrollPerLineIndex);
-        RefreshView1(_curScrollPerLineIndex);
         JudgeItemOrShow();
     }
 
@@ -628,6 +627,7 @@ public abstract class xInfiniteScrollingView<T> : xScrollViewBase<T>
                     if (v.dataIndex > HidelIndex)
                     {
                         v.gameObject.SetActive(false);
+                        v.RefreshDataIndex(-1);
                     }
                 }
                 int showLength = Length * RowColumnCout;
@@ -657,21 +657,14 @@ public abstract class xInfiniteScrollingView<T> : xScrollViewBase<T>
             }
             else
             {
-                if (CurrentShowLastLine == mdataList.Count - 1)
-                {
-                    return;
-                }
                 int Length = -CurrentShowFirstLine + FirstShowLine;
-                if (CurrentShowLastLine + Length >= mdataList.Count)
-                {
-                    Length = mdataList.Count - 1 - CurrentShowLastLine;
-                }
                 int HidelIndex = FirstShowLine * RowColumnCout;
                 foreach (var v in mItemList)
                 {
                     if (v.dataIndex < HidelIndex)
                     {
                         v.gameObject.SetActive(false);
+                        v.RefreshDataIndex(-1);
                     }
                 }
                 int showLength = Length * RowColumnCout;

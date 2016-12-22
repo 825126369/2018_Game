@@ -8,14 +8,14 @@ public class MakeAtlasTools
 {
     #region
     [MenuItem("UnityEditor/GenerationPackage/MakeAllAtlas")]
-    static void MakeAllAtlas()
+    public static void MakeAllAtlas()
     {
         string targetDir = Application.dataPath + "/ResourceABs/atlas";
         CheckAtlas(targetDir);
         Debug.Log("检查图集完毕");
     }
 
-    public static void CheckAtlas(string path)
+    private static void CheckAtlas(string path)
     {
         DirectoryInfo mDir = new DirectoryInfo(path);
         foreach (var v in mDir.GetDirectories())
@@ -38,18 +38,21 @@ public class MakeAtlasTools
     /// <param name="UITypeFileName">图片的打包标签参考对象</param>
     /// <param name="needRepair">是否需要修复，需要修复的话就不打错误日志了而是修复日志</param>
     /// <returns>图片是否设置正确</returns>
-    public static bool CheckTextureInfoAndRepairIfNeed(string assetPath, string UITypeFileName = null, bool needRepair = true)
+    private static bool CheckTextureInfoAndRepairIfNeed(string assetPath, string UITypeFileName = null, bool needRepair = true)
     {
         TextureImporter ti = AssetImporter.GetAtPath(assetPath) as TextureImporter;
         bool isRight = true;
         if (ti.textureType != TextureImporterType.Sprite)
         {
-            if (!needRepair)
+            if (ti.textureType != TextureImporterType.Advanced || ti.spriteImportMode == SpriteImportMode.None)
             {
-                string debugLog = "TextrueType must be sprite where path is \"{0}\", maybe you forget to set it?If not ,don't move it into {1} file.";
-                Debug.LogError(string.Format(debugLog, assetPath));
+                if (!needRepair)
+                {
+                    string debugLog = "TextrueType must be sprite where path is \"{0}\", maybe you forget to set it?If not ,don't move it into {1} file.";
+                    Debug.LogError(string.Format(debugLog, assetPath));
+                }
+                isRight = false;
             }
-            isRight = false;
         }
         else if (!string.IsNullOrEmpty(UITypeFileName) && ti.spritePackingTag != UITypeFileName)
         {
@@ -79,7 +82,11 @@ public class MakeAtlasTools
 
         if (!isRight && needRepair)
         {
-            ti.textureType = TextureImporterType.Sprite;
+            if (ti.textureType != TextureImporterType.Advanced)
+            {
+                ti.textureType = TextureImporterType.Sprite;
+            }
+            ti.spriteImportMode = SpriteImportMode.Single;
             ti.spritePackingTag = UITypeFileName;
             ti.mipmapEnabled = false;
             ti.spritePixelsPerUnit = 100;

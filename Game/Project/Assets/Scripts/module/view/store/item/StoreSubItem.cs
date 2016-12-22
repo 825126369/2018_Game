@@ -24,7 +24,7 @@ public class StoreSubItem : MonoBehaviour
     public void RefreshItem(ItemDB mItemDB)
     {
         mSaveData = mItemDB;
-        mPrice.text = "" + mSaveData.BuyPrice;
+        mPrice.text = "" + mSaveData.CompoundPrice;
         Sprite mSprite = AtlasManager.Instance.GetSprite("item", mSaveData.id.ToString());
         mIcon.sprite = mSprite;
     }

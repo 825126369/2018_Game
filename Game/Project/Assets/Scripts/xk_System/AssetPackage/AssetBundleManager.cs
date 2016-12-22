@@ -325,27 +325,15 @@ namespace xk_System.AssetPackage
             }
         }
 #endif
-        /// <summary>
-        /// 本地外部存储加载Bundle文件,顶层使用
-        /// </summary>
-        /// <param name="BaseBundleInfo"></param>
-        /// <param name="assetName"></param>
-        /// <returns></returns>
-        public AssetBundle LoadBundle(string bundleName)
+        public IEnumerator AsyncLoadBundle(string bundleName)
         {
-#if UNITY_EDITOR
-            if (GameConfig.Instance.orUseAssetBundle)
+            if (!JudegeOrExistBundle(bundleName))
             {
-                SyncLoadFromLocalSingleBundle(bundleName);
-                return mBundleDic[bundleName];
-            }else
-            {
-                return null;
-            }
-#else
-            SyncLoadFromLocalSingleBundle(bundleName);
-            return mBundleDic[bundleName];
-#endif
+                string path = AssetBundlePath.Instance.ExternalStorePath + "/" + bundleName;
+                AssetBundle asset = AssetBundle.LoadFromFile(path);
+                SaveBundleToDic(bundleName, asset);
+                yield return null;
+            }          
         }
         /// <summary>
         /// 这个东西用来在顶层使用
@@ -355,7 +343,6 @@ namespace xk_System.AssetPackage
         /// <returns></returns>
         public UnityEngine.Object LoadAsset(AssetInfo mAssetInfo)
         {
-#if UNITY_EDITOR
             if (GameConfig.Instance.orUseAssetBundle)
             {
                 return GetAssetFromDic(mAssetInfo.bundleName, mAssetInfo.assetName);
@@ -364,9 +351,6 @@ namespace xk_System.AssetPackage
             {
                return GetAssetFromEditorDic(mAssetInfo.assetPath);
             }
-#else
-            return GetAssetFromDic(mAssetInfo.bundleName, mAssetInfo.assetName);
-#endif
         }
 
         /// <summary>
@@ -377,7 +361,6 @@ namespace xk_System.AssetPackage
         /// <returns></returns>
         public IEnumerator AsyncLoadAsset(AssetInfo mAssetInfo)
         {
-#if UNITY_EDITOR
             if (GameConfig.Instance.orUseAssetBundle)
             {
                 string bundleName = mAssetInfo.bundleName;
@@ -387,14 +370,6 @@ namespace xk_System.AssetPackage
                     yield return AsyncLoadFromLocalSingleAsset(mResourcesABManager.GetBundleInfo(bundleName), asstName);
                 }
             }
-#else
-                string bundleName = mAssetInfo.bundleName;
-                string asstName = mAssetInfo.assetName;
-                if (!JudgeOrExistAsset(bundleName, asstName))
-                {
-                    yield return AsyncLoadFromLocalSingleAsset(mResourcesABManager.GetBundleInfo(bundleName), asstName);
-                }
-#endif
         }
     }
 

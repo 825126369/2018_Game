@@ -20,6 +20,7 @@ public class ExportAssetBundlesEditor : MonoBehaviour
     {
         Debug.Log("Start Build AssetBundles");
         Init();
+        MakeAtlasTools.MakeAllAtlas();
         ExportAssemblyInfoEditor.GenerationAssemblyInfo();
         ExportAssetInfoEditor.GenericAssetCSInfo();
         ExportVersionInfoEditor.GenerationVersionInfo();

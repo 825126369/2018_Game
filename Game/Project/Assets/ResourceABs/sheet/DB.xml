@@ -87,1877 +87,2230 @@
     <ItemDB>
       <int id="1001" />
       <Array_int TypeArray="3" />
+      <string ItemTypeName="" />
       <string Name="生命药水" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="5" />
+      <int ItemLimitId="10001" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100000" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1002" />
       <Array_int TypeArray="3" />
+      <string ItemTypeName="" />
       <string Name="复用型药水" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="10001" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100010" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1006" />
       <Array_int TypeArray="5" />
+      <string ItemTypeName="" />
       <string Name="扫描透镜" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="10002" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100020" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1007" />
       <Array_int TypeArray="5" />
+      <string ItemTypeName="" />
       <string Name="监视图腾" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="10002" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100030" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1008" />
       <Array_int TypeArray="11" />
+      <string ItemTypeName="" />
       <string Name="格斗手套" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1009" />
       <Array_int TypeArray="11" />
+      <string ItemTypeName="" />
       <string Name="灵巧披风" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1010" />
       <Array_int TypeArray="10" />
+      <string ItemTypeName="" />
       <string Name="短剑" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="21#15" />
+      <Array_int skillGroup="" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1011" />
       <Array_int TypeArray="18" />
+      <string ItemTypeName="" />
       <string Name="速度之靴" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="10003" />
+      <Array_int ItemAttGroup="7#25" />
+      <Array_int skillGroup="100040" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1012" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="长剑" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#10" />
+      <Array_int skillGroup="" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1013" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="多兰之刃" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#10" />
+      <Array_int skillGroup="" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1014" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="十字镐" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#25" />
+      <Array_int skillGroup="" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1015" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="暴风大剑" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#40" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="1016" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="上古钱币" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="10004" />
+      <Array_int ItemAttGroup="31#25#22#5" />
+      <Array_int skillGroup="100050" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1017" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="窃法之刃" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="10004" />
+      <Array_int ItemAttGroup="4#5#31#25#12#2" />
+      <Array_int skillGroup="100060" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1018" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="治疗宝珠" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="30#50" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="1019" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="仙女护符" />
       <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="100" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="31#25" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="1020" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="蓝水晶" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="2#250" />
+      <Array_int skillGroup="" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1021" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="红水晶" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#150" />
+      <Array_int skillGroup="" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1022" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="多兰之盾" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#80" />
+      <Array_int skillGroup="100070#100071" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="1023" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="布甲" />
       <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="100" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#15" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="1024" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="猎人的宽刃刀" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="50#10" />
+      <Array_int skillGroup="100080" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="1025" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="增幅典籍" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#20" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="1026" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="爆裂魔杖" />
       <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="100" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#40" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="1027" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="无用大棒" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#80" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="1028" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="抗磨斗篷" />
       <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="100" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="6#25" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="1029" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="圣物之盾" />
       <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#70#12#2" />
+      <Array_int skillGroup="100090" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="1030" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="多兰之戒" />
       <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#60#4#15#31#50" />
+      <Array_int skillGroup="100100" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="1031" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="猎人的护身符" />
       <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
-    </ItemDB>
-    <ItemDB>
-      <int id="1032" />
-      <Array_int TypeArray="" />
-      <string Name="萃取" />
-      <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
-    </ItemDB>
-    <ItemDB>
-      <int id="1033" />
-      <Array_int TypeArray="" />
-      <string Name="黑暗封印" />
-      <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
-    </ItemDB>
-    <ItemDB>
-      <int id="1034" />
-      <Array_int TypeArray="" />
-      <string Name="活力夹心饼干" />
-      <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
-    </ItemDB>
-    <ItemDB>
-      <int id="1035" />
-      <Array_int TypeArray="" />
-      <string Name="猎人药水" />
-      <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
-    </ItemDB>
-    <ItemDB>
-      <int id="1036" />
-      <Array_int TypeArray="" />
-      <string Name="腐败药水" />
-      <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="51#150" />
+      <Array_int skillGroup="100110" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2001" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="吸血鬼节杖" />
       <Array_int SubItemArray="1012" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="100" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#15#23#10" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2002" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="巨人杀手" />
       <Array_int SubItemArray="1012" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#10" />
+      <Array_int skillGroup="100120" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2003" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="死刑宣告" />
       <Array_int SubItemArray="1012" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#15" />
+      <Array_int skillGroup="100130" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2004" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="净蚀" />
       <Array_int SubItemArray="1021#1012" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#200#3#15" />
+      <Array_int skillGroup="100140" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2005" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="紫雨林之拳" />
       <Array_int SubItemArray="1021#1012" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#150#3#15" />
+      <Array_int skillGroup="100150" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2006" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="考尔菲德的战锤" />
       <Array_int SubItemArray="1012#1012" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="100" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#15" />
+      <Array_int skillGroup="100160" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2007" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="锯齿短匕" />
       <Array_int SubItemArray="1012#1012" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#25" />
+      <Array_int skillGroup="100170#100171" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2008" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="提亚马特" />
       <Array_int SubItemArray="1012#1018#1012" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#20#30#50" />
+      <Array_int skillGroup="100180#100181" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2009" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="卑劣手斧" />
       <Array_int SubItemArray="1012#1008" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#20#25#10" />
+      <Array_int skillGroup="100190" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2010" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="海克斯饮魔刀" />
       <Array_int SubItemArray="1012#1028" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#25#6#35" />
+      <Array_int skillGroup="100200" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2011" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="遗失的章节" />
       <Array_int SubItemArray="1020#1025" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#25#2#300" />
+      <Array_int skillGroup="100210" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="2012" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="女神之泪" />
       <Array_int SubItemArray="1020#1019" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="2#250" />
+      <Array_int skillGroup="100220#100221" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2013" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="耀光" />
       <Array_int SubItemArray="1020" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="2#250#22#10" />
+      <Array_int skillGroup="100230" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2014" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="催化石" />
       <Array_int SubItemArray="1020#1021" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="100" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#225#2#350" />
+      <Array_int skillGroup="100240" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2015" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="燃烧宝石" />
       <Array_int SubItemArray="1021" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#200" />
+      <Array_int skillGroup="100250" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2016" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="晶体护腕" />
       <Array_int SubItemArray="1018#1021" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#200#30#50" />
+      <Array_int skillGroup="" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="2017" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="斑比的熔渣" />
       <Array_int SubItemArray="1021" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#280" />
+      <Array_int skillGroup="100260" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="2018" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="幽魂斗篷" />
       <Array_int SubItemArray="1028#1021" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#250#6#30" />
+      <Array_int skillGroup="100270" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2019" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="负极斗篷" />
       <Array_int SubItemArray="1028" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="6#40" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2020" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="和谐圣杯" />
       <Array_int SubItemArray="1028#1019#1019" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="6#25#31#25" />
+      <Array_int skillGroup="100290" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2021" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="水银饰带" />
       <Array_int SubItemArray="1028" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="6#30" />
+      <Array_int skillGroup="100300" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2022" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="锁子甲" />
       <Array_int SubItemArray="1023" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#40" />
+      <Array_int skillGroup="" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="2023" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="冰川护甲" />
       <Array_int SubItemArray="1020#1023" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#25#2#250" />
+      <Array_int skillGroup="100310" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="2024" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="守望者铠甲" />
       <Array_int SubItemArray="1023#1023" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#40" />
+      <Array_int skillGroup="100320" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="2025" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="探索者的护臂" />
       <Array_int SubItemArray="1023#1025#1023" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#30#4#25" />
+      <Array_int skillGroup="100330" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="2026" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="狂热" />
       <Array_int SubItemArray="1008#1010" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="21#15#25#20" />
+      <Array_int skillGroup="100340" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="2027" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="反曲之弓" />
       <Array_int SubItemArray="1010#1010" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="21#25" />
+      <Array_int skillGroup="100350" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2028" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="基舍艾斯碎片" />
       <Array_int SubItemArray="1010" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="21#15" />
+      <Array_int skillGroup="100360#100361" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2029" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="蜂刺" />
       <Array_int SubItemArray="1010#1010" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="21#35" />
+      <Array_int skillGroup="100370" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2030" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="忍者足具" />
       <Array_int SubItemArray="1011#1023" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#30" />
+      <Array_int skillGroup="100380#100381" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="2031" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="狂战士胫甲" />
       <Array_int SubItemArray="1011#1010" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="21#35" />
+      <Array_int skillGroup="100390" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2032" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="轻灵之靴" />
       <Array_int SubItemArray="1011" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100400#100401" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2033" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="法师之靴" />
       <Array_int SubItemArray="1011" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100410" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2034" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="水银之靴" />
       <Array_int SubItemArray="1011#1028" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100420" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2035" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="疾行之靴" />
       <Array_int SubItemArray="1011" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100430" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2036" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="明朗之靴" />
       <Array_int SubItemArray="1011" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100440#100441#100442" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2038" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="幽魂面具" />
       <Array_int SubItemArray="1021#1025" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#25#1#300" />
+      <Array_int skillGroup="100450" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2039" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="虚空之杖" />
       <Array_int SubItemArray="1025#1026" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#80" />
+      <Array_int skillGroup="100460" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2040" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="海克斯科技左轮枪" />
       <Array_int SubItemArray="1025#1025" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#40" />
+      <Array_int skillGroup="100470" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2041" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="以太精魂" />
       <Array_int SubItemArray="1025" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#30" />
+      <Array_int skillGroup="100480" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2042" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="恶魔法典" />
       <Array_int SubItemArray="1025" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#30" />
+      <Array_int skillGroup="100490" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2043" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="灭世者的死亡之帽" />
       <Array_int SubItemArray="1025#1026#1027" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#120" />
+      <Array_int skillGroup="100500" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2044" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="巨人腰带" />
       <Array_int SubItemArray="1021" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#380" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2045" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="禁忌雕像" />
       <Array_int SubItemArray="1019#1019" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="31#50" />
+      <Array_int skillGroup="100510#100511" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2046" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="巨神峰之擎" />
       <Array_int SubItemArray="1029#1018" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#175#30#50#12#2" />
+      <Array_int skillGroup="100520" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2047" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="冰霜之牙" />
       <Array_int SubItemArray="1017#1019" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#15#12#2#31#75" />
+      <Array_int skillGroup="100530" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2048" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="最后的轻语" />
       <Array_int SubItemArray="1014" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#25" />
+      <Array_int skillGroup="100540" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2049" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="无尽之刃" />
       <Array_int SubItemArray="1015#1014#1009" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#70#25#20" />
+      <Array_int skillGroup="100550" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2050" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="追猎者的刀锋" />
       <Array_int SubItemArray="1024#1031" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100560#100561" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2051" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="追踪者的匕首" />
       <Array_int SubItemArray="1024#1031" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100570#100571" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2052" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="游击者的军刃" />
       <Array_int SubItemArray="1024#1031" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100580#100581" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2053" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="洞察之石" />
       <Array_int SubItemArray="1021" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#150" />
+      <Array_int skillGroup="100590" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2054" />
       <Array_int TypeArray="5" />
+      <string ItemTypeName="" />
       <string Name="高级真视图腾" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100600" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="2055" />
       <Array_int TypeArray="5" />
+      <string ItemTypeName="" />
       <string Name="高级侦查图腾" />
       <Array_int SubItemArray="" />
       <int CompoundPrice="500" />
-      <int BuyPrice="3000" />
-      <int SellPrice="100" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100610" />
       <string simpleDes="买我可以提高战斗力啊" />
-      <string AttDes="" />
     </ItemDB>
     <ItemDB>
       <int id="2056" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="远见改造" />
       <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2057" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="神谕改造" />
       <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="2058" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="游牧民印章" />
       <Array_int SubItemArray="1016#1019" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="100620" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3001" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="军团圣盾" />
       <Array_int SubItemArray="2016#1028" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#30#6#30" />
+      <Array_int skillGroup="" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3002" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="死亡之舞" />
       <Array_int SubItemArray="2001#1014#2026" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#75#22#10" />
+      <Array_int skillGroup="100630#100631" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3003" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="正义荣耀" />
       <Array_int SubItemArray="2014#2016" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#500#2#300#30#100" />
+      <Array_int skillGroup="100640#100641" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3004" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="巨型九头蛇" />
       <Array_int SubItemArray="2008#2005#1021" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#450#3#35#30#100" />
+      <Array_int skillGroup="100650#100651" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3005" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="亡者的板甲" />
       <Array_int SubItemArray="2044#2022" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#500#5#50" />
+      <Array_int skillGroup="100660#100661" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3006" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="猛禽斗篷" />
       <Array_int SubItemArray="2022#1018" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#40#30#150" />
+      <Array_int skillGroup="100670" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3007" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="夺萃之镰" />
       <Array_int SubItemArray="1009#1015#2006" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#70#25#20" />
+      <Array_int skillGroup="100680#100681#100682" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3008" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="炽热香炉" />
       <Array_int SubItemArray="2041#2045" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#60#22#10#31#50" />
+      <Array_int skillGroup="100690#100691#100692" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3009" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="山岳之容" />
       <Array_int SubItemArray="2046#2015" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#450#30#100#22#10#12#2" />
+      <Array_int skillGroup="100700#100701" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3010" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="卢登的回声" />
       <Array_int SubItemArray="1027#2041" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#100#20#10" />
+      <Array_int skillGroup="100710" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3011" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="米凯尔的坩埚" />
       <Array_int SubItemArray="2020#2045" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="6#35#22#10#31#100" />
+      <Array_int skillGroup="100720#100721#100722" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3016" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="雅典娜的邪恶圣杯" />
       <Array_int SubItemArray="2020#2042" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#40#6#20#22#20#31#75" />
+      <Array_int skillGroup="100730#100731" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3017" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="月华咒刃" />
       <Array_int SubItemArray="2019#2037" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#50#5#50#6#50" />
+      <Array_int skillGroup="100740" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3018" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="莫雷诺秘典" />
       <Array_int SubItemArray="2042#1028#2011" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#100#2#400" />
+      <Array_int skillGroup="100750#100751#100752" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3019" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="中娅沙漏" />
       <Array_int SubItemArray="2042#2037" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#70#5#45#22#10" />
+      <Array_int skillGroup="100760" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3020" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="玛莫提乌斯之噬" />
       <Array_int SubItemArray="2010#2007" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#50#6#45#22#10" />
+      <Array_int skillGroup="100770" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3021" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="比尔吉沃特弯刀" />
       <Array_int SubItemArray="2001#1012" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#25#23#10" />
+      <Array_int skillGroup="100780" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3022" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="兰德里的折磨" />
       <Array_int SubItemArray="2038#1026" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#80#1#300" />
+      <Array_int skillGroup="100790#100791" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3033" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="德拉克萨的幕刃" />
       <Array_int SubItemArray="2007#1015" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#65" />
+      <Array_int skillGroup="100800#100801#100802#100803" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3034" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="兰盾之兆" />
       <Array_int SubItemArray="2024#2044" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#500#5#60#32#10" />
+      <Array_int skillGroup="100810#100811" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3035" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="幽梦之灵" />
       <Array_int SubItemArray="2007#2006" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#65#22#10" />
+      <Array_int skillGroup="100820#100821#100822" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3036" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="鬼索的狂暴之怒" />
       <Array_int SubItemArray="1026#2027#1014" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#35#4#50#21#25" />
+      <Array_int skillGroup="100830#100831" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3037" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="瑞莱的冰晶节杖" />
       <Array_int SubItemArray="1027#1025#2044" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#300#4#75" />
+      <Array_int skillGroup="100840" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3038" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="纳什之牙" />
       <Array_int SubItemArray="2029#2042" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="21#50#4#80" />
+      <Array_int skillGroup="100850#100851" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3039" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="冰霜之心" />
       <Array_int SubItemArray="2024#2023" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#90#22#20#2#400" />
+      <Array_int skillGroup="100860" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3040" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="女妖面纱" />
       <Array_int SubItemArray="2018#2019" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#300#6#70#30#100" />
+      <Array_int skillGroup="100870" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3041" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="巫妖之祸" />
       <Array_int SubItemArray="2013#2041#1026" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#80#20#7#22#10#2#250" />
+      <Array_int skillGroup="100880" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3042" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="疾射火炮" />
       <Array_int SubItemArray="2026#2028" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="21#30#25#30#20#5" />
+      <Array_int skillGroup="100890#100891" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3043" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="冰霜女皇的指令" />
       <Array_int SubItemArray="2047#2042" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#50#22#10#12#2#31#75" />
+      <Array_int skillGroup="100900#100901" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3044" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="斯塔提克电刃" />
       <Array_int SubItemArray="2026#2028" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="21#35#25#30#20#5" />
+      <Array_int skillGroup="100910#100911" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3045" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="卢安娜的飓风" />
       <Array_int SubItemArray="2026#2027" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="21#40#25#30#20#7" />
+      <Array_int skillGroup="100920#100921" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3047" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="狂徒铠甲" />
       <Array_int SubItemArray="2015#2026#2016" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#800#30#200" />
+      <Array_int skillGroup="100930#100931" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3048" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="三相之力" />
       <Array_int SubItemArray="2026#2013#2004" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#250#2#250#3#25#21#40#22#20#20#5" />
+      <Array_int skillGroup="100940#100941" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3049" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="荆棘之甲" />
       <Array_int SubItemArray="2022#1023" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#100" />
+      <Array_int skillGroup="100950" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3050" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="贪欲九头蛇" />
       <Array_int SubItemArray="2001#2008#1014" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#75#30#10#23#12" />
+      <Array_int skillGroup="100960#100961#100962" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3051" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="饮血剑" />
       <Array_int SubItemArray="1015#1012#2001" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#75" />
+      <Array_int skillGroup="100970#100971" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3052" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="黑色切割者" />
       <Array_int SubItemArray="2004#2006" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#300#3#50#22#20" />
+      <Array_int skillGroup="100980#100981" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3053" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="日炎斗篷" />
       <Array_int SubItemArray="2022#2017" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#500#5#50" />
+      <Array_int skillGroup="100990" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3054" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="振奋盔甲" />
       <Array_int SubItemArray="2015#2018" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#500#6#55#30#200#22#10" />
+      <Array_int skillGroup="101000" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3055" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="特斯拉克的挑战护手" />
       <Array_int SubItemArray="2005#1012" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#400#33#25" />
+      <Array_int skillGroup="101010" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3056" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="幻影之舞" />
       <Array_int SubItemArray="2026#1010#1010" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="21#45#25#30#20#5" />
+      <Array_int skillGroup="101020#101021" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3057" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="多米尼克领主的致意" />
       <Array_int SubItemArray="2048#2002" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#50" />
+      <Array_int skillGroup="101030#101031" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3058" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="凡性的提醒" />
       <Array_int SubItemArray="2048#2003" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#50" />
+      <Array_int skillGroup="101040#101041" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3059" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="时光之杖" />
       <Array_int SubItemArray="2014#1026" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#300#2#300#4#60" />
+      <Array_int skillGroup="101050#101051" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3060" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="守护天使" />
       <Array_int SubItemArray="2019#2022" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#60#6#45" />
+      <Array_int skillGroup="101060" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3061" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="冰脉护手" />
       <Array_int SubItemArray="2013#2023" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#65#22#20#2#500" />
+      <Array_int skillGroup="101070" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3062" />
       <Array_int TypeArray="" />
-      <string Name="冰霜战锤" />
+      <string ItemTypeName="" />
+      <string Name="冰霜之锤" />
       <Array_int SubItemArray="2005#1014#1021" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#700#3#30" />
+      <Array_int skillGroup="101080" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3063" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="魔宗" />
       <Array_int SubItemArray="1014#2012" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#25#2#250" />
+      <Array_int skillGroup="101090#101091" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3064" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="大天使之杖" />
       <Array_int SubItemArray="2012#1027" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#80#2#250" />
+      <Array_int skillGroup="101100#101101" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3065" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="深渊权杖" />
       <Array_int SubItemArray="2042#2019#1028" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="4#60#6#60#22#10" />
+      <Array_int skillGroup="101110" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3066" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="追猎者的刀锋-战士" />
       <Array_int SubItemArray="2050#2006" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101120" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3067" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="追猎者的刀锋-熔渣巨人" />
       <Array_int SubItemArray="2050#2017" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101130" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3068" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="追猎者的刀锋-符能回声" />
       <Array_int SubItemArray="2050#2041#1025" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101140" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3069" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="追踪者的刀锋-血刃" />
       <Array_int SubItemArray="2050#2027" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101150" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3070" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="追踪者的匕首-战士" />
       <Array_int SubItemArray="2051#2006" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101160" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3071" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="追踪者的匕首-熔渣巨人" />
       <Array_int SubItemArray="2051#2017" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101170" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3072" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="追踪者的匕首-符能回声" />
       <Array_int SubItemArray="2051#2041#1025" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101180" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3073" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="追踪者的匕首-血刃" />
       <Array_int SubItemArray="2051#2027" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101190" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3074" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="游击者的军刃-战士" />
       <Array_int SubItemArray="2052#2006" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101200" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3075" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="游击者的军刃-熔渣巨人" />
       <Array_int SubItemArray="2052#2017" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101210" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3076" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="游击者的军刃-符能回声" />
       <Array_int SubItemArray="2052#2041#1025" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101220" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3077" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="游击者的军刃-血刃" />
       <Array_int SubItemArray="2052#2027" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
-    </ItemDB>
-    <ItemDB>
-      <int id="3078" />
-      <Array_int TypeArray="" />
-      <string Name="洞察红宝石" />
-      <Array_int SubItemArray="2053#1021" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101230" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3079" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="水银弯刀" />
       <Array_int SubItemArray="2021#2001#1014" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#65#6#35#23#10" />
+      <Array_int skillGroup="101250" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3080" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="守望之眼" />
       <Array_int SubItemArray="2047#2053" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101260" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3081" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="绿洲之眼" />
       <Array_int SubItemArray="2053#2058" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101270" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3082" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="季分之眼" />
       <Array_int SubItemArray="2046#2053" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="" />
+      <Array_int skillGroup="101280" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="3083" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="智慧末刃" />
       <Array_int SubItemArray="2027#2019#1010" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="21#40#6#40" />
+      <Array_int skillGroup="101290#101291" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="4001" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="钢铁烈阳之匣" />
-      <Array_int SubItemArray="" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <Array_int SubItemArray="3001#2015" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#30#6#60" />
+      <Array_int skillGroup="101300" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="4002" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="兹若特传送门" />
       <Array_int SubItemArray="3006#2019" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#55#6#55#30#125" />
+      <Array_int skillGroup="101310#101311" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="4003" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="破败王者之刃" />
       <Array_int SubItemArray="3021#2027" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#25#21#40#23#10" />
+      <Array_int skillGroup="101320#101321" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="4004" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="海克斯科技枪" />
       <Array_int SubItemArray="3021#2040" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="3#40#4#80" />
+      <Array_int skillGroup="101330#101331" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="4005" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="号令之旗" />
       <Array_int SubItemArray="3001#2042" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#60#6#30#2#400#22#10" />
+      <Array_int skillGroup="101340" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="4006" />
       <Array_int TypeArray="" />
+      <string ItemTypeName="" />
       <string Name="干扰水晶" />
       <Array_int SubItemArray="3006#2015" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="1#300#5#50#30#150#22#10" />
+      <Array_int skillGroup="101350#101351" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
     <ItemDB>
       <int id="4007" />
       <Array_int TypeArray="" />
-      <string Name="分升护符" />
+      <string ItemTypeName="" />
+      <string Name="飞升护符" />
       <Array_int SubItemArray="2058#3006" />
-      <int CompoundPrice="" />
-      <int BuyPrice="" />
-      <int SellPrice="" />
-      <string simpleDes="" />
-      <string AttDes="" />
+      <int CompoundPrice="500" />
+      <int SellPricePercent="70" />
+      <int pileCout="1" />
+      <int ItemLimitId="" />
+      <Array_int ItemAttGroup="5#45#30#150##31#75#22#10" />
+      <Array_int skillGroup="101360#101361#101362" />
+      <string simpleDes="买我可以提高战斗力啊" />
     </ItemDB>
   </ItemDBs>
-  <ItemAttDBs>
-    <ItemAttDB>
-      <int id="7" />
-      <int hp="800" />
-      <int mp="300" />
-      <int def="9" />
-      <int CritRatePercent="10" />
-      <int CritDamagePercent="10" />
-      <int hpRegen="10" />
-      <int mpRegen="10" />
-      <int moveSpeed="10" />
-      <int tough="10" />
-      <int ArmorPenetration="10" />
-      <int SpellPenetration="50" />
-    </ItemAttDB>
-    <ItemAttDB>
-      <int id="8" />
-      <int hp="800" />
-      <int mp="300" />
-      <int def="9" />
-      <int CritRatePercent="10" />
-      <int CritDamagePercent="10" />
-      <int hpRegen="10" />
-      <int mpRegen="10" />
-      <int moveSpeed="10" />
-      <int tough="10" />
-      <int ArmorPenetration="10" />
-      <int SpellPenetration="50" />
-    </ItemAttDB>
-    <ItemAttDB>
-      <int id="9" />
-      <int hp="800" />
-      <int mp="300" />
-      <int def="9" />
-      <int CritRatePercent="10" />
-      <int CritDamagePercent="10" />
-      <int hpRegen="10" />
-      <int mpRegen="10" />
-      <int moveSpeed="10" />
-      <int tough="10" />
-      <int ArmorPenetration="10" />
-      <int SpellPenetration="50" />
-    </ItemAttDB>
-    <ItemAttDB>
-      <int id="1" />
-      <int hp="800" />
-      <int mp="300" />
-      <int def="5" />
-      <int CritRatePercent="10" />
-      <int CritDamagePercent="10" />
-      <int hpRegen="10" />
-      <int mpRegen="10" />
-      <int moveSpeed="10" />
-      <int tough="10" />
-      <int ArmorPenetration="10" />
-      <int SpellPenetration="50" />
-    </ItemAttDB>
-  </ItemAttDBs>
   <ServerListDBs>
     <ServerListDB>
       <int id="1" />
@@ -4440,72 +4793,2569 @@
       <string serverName="折戟沉沙56" />
     </ServerListDB>
   </ServerListDBs>
-  <skillDBs>
-    <skillDB>
-      <int id="1" />
-      <string bbb1="10001" />
-      <Array_int bbb2="2" />
-      <Array_string bbb3="3" />
-      <string aaa="skill" />
-      <string bbb="10001" />
-    </skillDB>
-    <skillDB>
-      <int id="2" />
-      <string bbb1="10002" />
-      <Array_int bbb2="3" />
-      <Array_string bbb3="4" />
-      <string aaa="skill" />
-      <string bbb="10002" />
-    </skillDB>
-    <skillDB>
-      <int id="3" />
-      <string bbb1="10003" />
-      <Array_int bbb2="4" />
-      <Array_string bbb3="5" />
-      <string aaa="skill" />
-      <string bbb="10003" />
-    </skillDB>
-    <skillDB>
-      <int id="4" />
-      <string bbb1="10004" />
-      <Array_int bbb2="5" />
-      <Array_string bbb3="6" />
-      <string aaa="skill" />
-      <string bbb="10004" />
-    </skillDB>
-    <skillDB>
-      <int id="5" />
-      <string bbb1="10005" />
-      <Array_int bbb2="6" />
-      <Array_string bbb3="7" />
-      <string aaa="skill" />
-      <string bbb="10005" />
-    </skillDB>
-    <skillDB>
-      <int id="6" />
-      <string bbb1="10006" />
-      <Array_int bbb2="6" />
-      <Array_string bbb3="7" />
-      <string aaa="skill" />
-      <string bbb="10006" />
-    </skillDB>
-    <skillDB>
-      <int id="7" />
-      <string bbb1="10007" />
-      <Array_int bbb2="6" />
-      <Array_string bbb3="7" />
-      <string aaa="skill" />
-      <string bbb="10007" />
-    </skillDB>
-    <skillDB>
-      <int id="8" />
-      <string bbb1="10008" />
-      <Array_int bbb2="6" />
-      <Array_string bbb3="7" />
-      <string aaa="skill" />
-      <string bbb="10008" />
-    </skillDB>
-  </skillDBs>
+  <SkillDBs>
+    <SkillDB>
+      <int id="100000" />
+      <int ownerType="1" />
+      <int ownerID="1001" />
+      <string ownerName="生命药水" />
+      <string skillName="点击饮用" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="1" />
+      <string skillDes="在15秒里持续回复共150生命值。" />
+      <int arg1="25" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100010" />
+      <int ownerType="1" />
+      <int ownerID="1002" />
+      <string ownerName="复用型药水" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="1" />
+      <string skillDes="消耗一层充能，以在12秒里持续回复共125生命值。最多可持有2层充能，并且每当你造访商店时，都会将充能数填满。" />
+      <int arg1="5" />
+      <int arg2="25" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100020" />
+      <int ownerType="1" />
+      <int ownerID="1006" />
+      <string ownerName="扫描透镜" />
+      <string skillName="主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="1" />
+      <string skillDes="扫描一个区域，在感知到隐藏的敌对单位时予以警告，并让隐形的陷阱以及隐形的守卫暴露/失效，持续6秒（冷却时间：(90到60秒）。" />
+      <int arg1="25" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100030" />
+      <int ownerType="1" />
+      <int ownerID="1007" />
+      <string ownerName="监视图腾" />
+      <string skillName="主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="1" />
+      <string skillDes="消耗一层充能来放置1个隐形的侦查守卫，以监视一个区域，持续60 - 120秒。" />
+      <int arg1="15" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100040" />
+      <int ownerType="1" />
+      <int ownerID="1011" />
+      <string ownerName="速度之靴" />
+      <string skillName="唯一被动—强化移动" />
+      <int exclusionSkillGroupId="100001" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="+25移动速度" />
+      <int arg1="6" />
+      <int arg2="5" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100050" />
+      <int ownerType="1" />
+      <int ownerID="1016" />
+      <string ownerName="上古钱币" />
+      <string skillName="唯一被动—恩惠" />
+      <int exclusionSkillGroupId="100002" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="附近的每个非你所杀的敌方小兵，在阵亡时都会为你提供4金币并治疗5生命值。" />
+      <int arg1="8" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100060" />
+      <int ownerType="1" />
+      <int ownerID="1017" />
+      <string ownerName="窃法之刃" />
+      <string skillName="唯一被动—贡品" />
+      <int exclusionSkillGroupId="100003" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="对敌方英雄或建筑物施放技能和进行普攻时，会造成10额外伤害并获得8金币。这个效果每30秒最多触发3次。击杀小兵会导致这个被动效果失效12秒。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100070" />
+      <int ownerType="1" />
+      <int ownerID="1022" />
+      <string ownerName="多兰之盾" />
+      <string skillName="被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="回复6生命/5秒。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100071" />
+      <int ownerType="1" />
+      <int ownerID="1022" />
+      <string ownerName="多兰之盾" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="格挡8来自敌方英雄的普攻伤害和技能伤害。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100080" />
+      <int ownerType="1" />
+      <int ownerID="1024" />
+      <string ownerName="猎人的宽刃刀" />
+      <string skillName="唯一被动—利爪" />
+      <int exclusionSkillGroupId="100004" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="普攻对野怪附带25额外伤害。击杀野怪会获得特殊经验加成。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100090" />
+      <int ownerType="1" />
+      <int ownerID="1029" />
+      <string ownerName="圣物之盾" />
+      <string skillName="唯一被动—战利品" />
+      <int exclusionSkillGroupId="100005" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="近战普通攻击会直接击杀生命值在195(+5x等级)以下的敌方小兵。在击杀小兵的同时，装备持有者和最近的友军英雄会恢复15生命值，并为该友军英雄提供等额的小兵赏金。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100100" />
+      <int ownerType="1" />
+      <int ownerID="1030" />
+      <string ownerName="多兰之戒" />
+      <string skillName="被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="每击杀一名敌方单位，你就会回复4法力。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100110" />
+      <int ownerType="1" />
+      <int ownerID="1031" />
+      <string ownerName="猎人的护身符" />
+      <string skillName="唯一被动—尖牙" />
+      <int exclusionSkillGroupId="100006" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="用技能或普攻对野怪造成伤害时会在5秒里持续偷取共25生命值。击杀野怪会获得特殊经验加成。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100120" />
+      <int ownerType="1" />
+      <int ownerID="2002" />
+      <string ownerName="巨人杀手" />
+      <string skillName="唯一被动—巨人杀手" />
+      <int exclusionSkillGroupId="100007" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="在对抗生命值多于你的敌方英雄时，最多提供+10%物理伤害(每相差50生命值提供+1%伤害，在相差500生命值时达到最大值)。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100130" />
+      <int ownerType="1" />
+      <int ownerID="2003" />
+      <string ownerName="死刑宣告" />
+      <string skillName="唯一被动—死刑宣告" />
+      <int exclusionSkillGroupId="100008" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="物理伤害会对敌方英雄施加持续3秒的重伤效果。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100140" />
+      <int ownerType="1" />
+      <int ownerID="2004" />
+      <string ownerName="净蚀" />
+      <string skillName="唯一被动—狂暴" />
+      <int exclusionSkillGroupId="100009" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="每次普通攻击后会获得20移动速度，持续2秒。每次击杀单位后，获得60移动速度（与前者不叠加）。这个移动速度加成对远程英雄减半。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100150" />
+      <int ownerType="1" />
+      <int ownerID="2005" />
+      <string ownerName="紫雨林之拳" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="击杀一个单位会提供5最大生命值。这个加成最多可叠加30层。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100160" />
+      <int ownerType="1" />
+      <int ownerID="2006" />
+      <string ownerName="考尔菲德的战锤" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="+10%冷却缩减" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100170" />
+      <int ownerType="1" />
+      <int ownerID="2007" />
+      <string ownerName="锯齿短匕" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="+10穿甲" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100171" />
+      <int ownerType="1" />
+      <int ownerID="2007" />
+      <string ownerName="锯齿短匕" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="0" />
+      <string skillDes="+20非战斗状态下的移动速度。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100180" />
+      <int ownerType="1" />
+      <int ownerID="2008" />
+      <string ownerName="提亚马特" />
+      <string skillName="唯一被动—顺劈" />
+      <int exclusionSkillGroupId="100010" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="你的攻击对目标周围的单位造成20%到60%总攻击力的额外物理伤害（越靠近目标的敌人所受的伤害越高）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100181" />
+      <int ownerType="1" />
+      <int ownerID="2008" />
+      <string ownerName="提亚马特" />
+      <string skillName="唯一主动—新月" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="0" />
+      <string skillDes="对身边的敌方单位造成60%到100%总攻击力的额外物理伤害（越靠近你的敌人所受的伤害越高）（冷却时间：10秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100190" />
+      <int ownerType="1" />
+      <int ownerID="2009" />
+      <string ownerName="卑劣手斧" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="你的暴击会让敌方目标流血3秒，总共造成相当于你60%额外攻击力的魔法伤害。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100200" />
+      <int ownerType="1" />
+      <int ownerID="2010" />
+      <string ownerName="海克斯饮魔刀" />
+      <string skillName="唯一被动—救主灵刃" />
+      <int exclusionSkillGroupId="100011" />
+      <int skilltype="1" />
+      <int skillCD="90" />
+      <string skillDes="如果你的生命值即将在承受魔法伤害后低于30%，那么此物品会在此之前为你制造一个吸收110到280(基于携带者的等级)魔法伤害的护盾，持续5秒（冷却时间：90秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100210" />
+      <int ownerType="1" />
+      <int ownerID="2011" />
+      <string ownerName="遗失的章节" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="当你升级后，在3秒里为你回复共20%最大法力值。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100220" />
+      <int ownerType="1" />
+      <int ownerID="2012" />
+      <string ownerName="女神之泪" />
+      <string skillName="唯一被动—敬畏" />
+      <int exclusionSkillGroupId="100012" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="返还15%的法力花费。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100221" />
+      <int ownerType="1" />
+      <int ownerID="2012" />
+      <string ownerName="女神之泪" />
+      <string skillName="唯一被动—法力积攒" />
+      <int exclusionSkillGroupId="100013" />
+      <int skilltype="1" />
+      <int skillCD="0" />
+      <string skillDes="你的英雄每次施放技能或花费法力时，你的最大法力值就会+4（每8秒最多触发2次）。每8秒+1最大法力值；&#xA;最多+750法力值。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100230" />
+      <int ownerType="1" />
+      <int ownerID="2013" />
+      <string ownerName="耀光" />
+      <string skillName="唯一被动—咒刃" />
+      <int exclusionSkillGroupId="100014" />
+      <int skilltype="1" />
+      <int skillCD="1.5" />
+      <string skillDes="施放技能后，你的下一次普通攻击会造成相当于你100%基础攻击力的额外物理伤害（冷却时间：1.5秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100240" />
+      <int ownerType="1" />
+      <int ownerID="2014" />
+      <string ownerName="催化石" />
+      <string skillName="唯一被动—永恒" />
+      <int exclusionSkillGroupId="100015" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="承受来自英雄的伤害时，你会回复15%伤害值的法力。花费法力时，你会回复20%法力消耗的生命值，每次施法最多回复15生命值。（持续消耗法力型技能每秒最多回复15生命值。）" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100250" />
+      <int ownerType="1" />
+      <int ownerID="2015" />
+      <string ownerName="燃烧宝石" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+10%冷却缩减" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100260" />
+      <int ownerType="1" />
+      <int ownerID="2017" />
+      <string ownerName="斑比的熔渣" />
+      <string skillName="唯一被动—献祭" />
+      <int exclusionSkillGroupId="100016" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="每秒对周围敌军造成5(+1x英雄等级)魔法伤害。对小兵和野怪造成50%额外伤害。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100270" />
+      <int ownerType="1" />
+      <int ownerID="2018" />
+      <string ownerName="幽魂斗篷" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="在受到来自敌方英雄的伤害后， 为携带者提供150%基础生命回复，最多持续10秒。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100290" />
+      <int ownerType="1" />
+      <int ownerID="2020" />
+      <string ownerName="和谐圣杯" />
+      <string skillName="唯一被动—和谐" />
+      <int exclusionSkillGroupId="100017" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="在提供相当于你百分比基础法力回复加成的百分比基础生命回复加成。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100300" />
+      <int ownerType="1" />
+      <int ownerID="2021" />
+      <string ownerName="水银饰带" />
+      <string skillName="唯一主动—水银" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="90" />
+      <string skillDes="移除你英雄身上的所有控制效果（冷却时间90秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100310" />
+      <int ownerType="1" />
+      <int ownerID="2023" />
+      <string ownerName="冰川护甲" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+10%冷却缩减" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100320" />
+      <int ownerType="1" />
+      <int ownerID="2024" />
+      <string ownerName="守望者铠甲" />
+      <string skillName="唯一被动—寒铁" />
+      <int exclusionSkillGroupId="100018" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="被普通攻击击中时，减少攻击者15%的攻击速度，持续1秒。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100330" />
+      <int ownerType="1" />
+      <int ownerID="2025" />
+      <string ownerName="探索者的护臂" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="每杀死一个单位，都会获得0.5护甲和法术强度。这个加成最多可以叠加30次。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100340" />
+      <int ownerType="1" />
+      <int ownerID="2026" />
+      <string ownerName="狂热" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+5%移动速度" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100350" />
+      <int ownerType="1" />
+      <int ownerID="2027" />
+      <string ownerName="反曲之弓" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="唯一被动：普通攻击会在命中时造成额外15物理伤害。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100360" />
+      <int ownerType="1" />
+      <int ownerID="2028" />
+      <string ownerName="基舍艾斯碎片" />
+      <string skillName="被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="移动和攻击时会获得充盈能量。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100361" />
+      <int ownerType="1" />
+      <int ownerID="2028" />
+      <string ownerName="基舍艾斯碎片" />
+      <string skillName="唯一被动—能量释放" />
+      <int exclusionSkillGroupId="100019" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="在充盈能量层数达到最大时，你的下一次攻击会在命中时造成40额外魔法伤害。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100370" />
+      <int ownerType="1" />
+      <int ownerID="2029" />
+      <string ownerName="蜂刺" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+10%冷却缩减" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100380" />
+      <int ownerType="1" />
+      <int ownerID="2030" />
+      <string ownerName="忍者足具" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="格挡掉12%的来自普通攻击的伤害。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100381" />
+      <int ownerType="1" />
+      <int ownerID="2030" />
+      <string ownerName="忍者足具" />
+      <string skillName="唯一被动—强化移动" />
+      <int exclusionSkillGroupId="100001" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+45移动速度" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100390" />
+      <int ownerType="1" />
+      <int ownerID="2031" />
+      <string ownerName="狂战士胫甲" />
+      <string skillName="唯一被动—强化移动" />
+      <int exclusionSkillGroupId="100001" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+45移动速度" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100400" />
+      <int ownerType="1" />
+      <int ownerID="2032" />
+      <string ownerName="轻灵之靴" />
+      <string skillName="唯一被动—强化移动" />
+      <int exclusionSkillGroupId="100001" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+55移动速度" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100401" />
+      <int ownerType="1" />
+      <int ownerID="2032" />
+      <string ownerName="轻灵之靴" />
+      <string skillName="唯一被动—减速抵抗" />
+      <int exclusionSkillGroupId="100020" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="移动速度的减缓效果会被降低25%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100410" />
+      <int ownerType="1" />
+      <int ownerID="2033" />
+      <string ownerName="法师之靴" />
+      <string skillName="唯一被动—强化移动" />
+      <int exclusionSkillGroupId="100001" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+45移动速度" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100420" />
+      <int ownerType="1" />
+      <int ownerID="2034" />
+      <string ownerName="水银之靴" />
+      <string skillName="唯一被动—强化移动" />
+      <int exclusionSkillGroupId="100001" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+45移动速度" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100421" />
+      <int ownerType="1" />
+      <int ownerID="2034" />
+      <string ownerName="水银之靴" />
+      <string skillName="唯一被动—韧性" />
+      <int exclusionSkillGroupId="100021" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="受到的晕眩、减速、嘲讽、恐惧、沉默、致盲、变形和禁锢的持续时间减少30%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100430" />
+      <int ownerType="1" />
+      <int ownerID="2035" />
+      <string ownerName="疾行之靴" />
+      <string skillName="唯一被动—强化移动" />
+      <int exclusionSkillGroupId="100001" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+25移动速度。脱离战斗5秒后，将提升至+115移动速度。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100440" />
+      <int ownerType="1" />
+      <int ownerID="2036" />
+      <string ownerName="明朗之靴" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+10%冷却缩减" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100441" />
+      <int ownerType="1" />
+      <int ownerID="2036" />
+      <string ownerName="明朗之靴" />
+      <string skillName="唯一被动—强化移动" />
+      <int exclusionSkillGroupId="100001" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+45移动速度" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100442" />
+      <int ownerType="1" />
+      <int ownerID="2036" />
+      <string ownerName="明朗之靴" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="使召唤师技能的冷却时间减少10%" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100450" />
+      <int ownerType="1" />
+      <int ownerID="2038" />
+      <string ownerName="幽魂面具" />
+      <string skillName="唯一被动—痛苦之眼" />
+      <int exclusionSkillGroupId="100022" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+15法术穿透。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100460" />
+      <int ownerType="1" />
+      <int ownerID="2039" />
+      <string ownerName="虚空之杖" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+35%法术穿透。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100470" />
+      <int ownerType="1" />
+      <int ownerID="2040" />
+      <string ownerName="海克斯科技左轮枪" />
+      <string skillName="唯一被动—魔法弹" />
+      <int exclusionSkillGroupId="100023" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="用普攻对一名敌方英雄造成伤害的同时会震击该英雄，造成50 - 125额外魔法伤害（冷却时间：40秒，与其它海克斯科技装备共享冷却时间）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100480" />
+      <int ownerType="1" />
+      <int ownerID="2041" />
+      <string ownerName="以太精魂" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+5%移动速度" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100490" />
+      <int ownerType="1" />
+      <int ownerID="2042" />
+      <string ownerName="恶魔法典" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+10%冷却缩减" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100500" />
+      <int ownerType="1" />
+      <int ownerID="2043" />
+      <string ownerName="灭世者的死亡之帽" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="法术强度提升35%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100510" />
+      <int ownerType="1" />
+      <int ownerID="2045" />
+      <string ownerName="禁忌雕像" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+10%冷却缩减" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100511" />
+      <int ownerType="1" />
+      <int ownerID="2045" />
+      <string ownerName="禁忌雕像" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+8%治疗和护盾强度" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100520" />
+      <int ownerType="1" />
+      <int ownerID="2046" />
+      <string ownerName="巨神峰之擎" />
+      <string skillName="唯一被动—战利品" />
+      <int exclusionSkillGroupId="100005" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="近战普通攻击会直接击杀生命值在200(+10x等级)以下的敌方小兵。在击杀小兵的同时，装备持有者和距离最近的友军英雄会恢复40生命值，并为该友军英雄提供等额的小兵赏金。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100530" />
+      <int ownerType="1" />
+      <int ownerID="2047" />
+      <string ownerName="冰霜之牙" />
+      <string skillName="唯一被动—贡品" />
+      <int exclusionSkillGroupId="100003" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="对敌方英雄或建筑物施放技能和进行普攻时，会造成15额外伤害并获得15金币。这个效果每30秒最多触发3次。击杀小兵会导致这个被动效果失效12秒。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100540" />
+      <int ownerType="1" />
+      <int ownerID="2048" />
+      <string ownerName="最后的轻语" />
+      <string skillName="唯一被动—最后的轻语" />
+      <int exclusionSkillGroupId="100024" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+30%额外护甲穿透。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100550" />
+      <int ownerType="1" />
+      <int ownerID="2049" />
+      <string ownerName="无尽之刃" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="暴击的额外伤害提升50%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100560" />
+      <int ownerType="1" />
+      <int ownerID="2050" />
+      <string ownerName="追猎者的刀锋" />
+      <string skillName="唯一被动—深寒惩戒" />
+      <int exclusionSkillGroupId="100025" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="【惩戒】可以对敌方英雄使用，造成较少真实伤害并偷取目标20%移动速度，持续2秒。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100561" />
+      <int ownerType="1" />
+      <int ownerID="2050" />
+      <string ownerName="追猎者的刀锋" />
+      <string skillName="唯一被动—尖牙/利爪" />
+      <int exclusionSkillGroupId="100026" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="普攻对野怪造成25额外伤害。用技能或普攻对野怪造成伤害时会在5秒里持续偷取共30生命值。击杀野怪会获得特殊经验加成。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100570" />
+      <int ownerType="1" />
+      <int ownerID="2051" />
+      <string ownerName="追踪者的匕首" />
+      <string skillName="唯一被动—尖牙/利爪" />
+      <int exclusionSkillGroupId="100026" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="普攻对野怪造成25额外伤害。用技能或普攻对野怪造成伤害时会在5秒里持续偷取共30生命值。击杀野怪会获得特殊经验加成。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100571" />
+      <int ownerType="1" />
+      <int ownerID="2051" />
+      <string ownerName="追踪者的匕首" />
+      <string skillName="唯一主动—布置守卫（小型）" />
+      <int exclusionSkillGroupId="100027" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="消耗一层充能来放置1个侦查守卫，以监视一个区域，持续150秒。最多可持有2层充能并在访问商店时填满充能。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100580" />
+      <int ownerType="1" />
+      <int ownerID="2052" />
+      <string ownerName="游击者的军刃" />
+      <string skillName="唯一被动—挑战惩戒" />
+      <int exclusionSkillGroupId="100028" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="【惩戒】可以对一个敌方英雄施放，标记该英雄4秒。在这段时间里，你的普通攻击会对目标英雄造成持续3秒的额外真实伤害，获取该英雄的视野，并且该英雄对你造成的伤害减少20%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100581" />
+      <int ownerType="1" />
+      <int ownerID="2052" />
+      <string ownerName="游击者的军刃" />
+      <string skillName="唯一被动—尖牙/利爪" />
+      <int exclusionSkillGroupId="100026" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="普攻对野怪造成25额外伤害。用技能或普攻对野怪造成伤害时会在5秒里持续偷取共30生命值。击杀野怪会获得特殊经验加成。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100590" />
+      <int ownerType="1" />
+      <int ownerID="2053" />
+      <string ownerName="洞察之石" />
+      <string skillName="唯一主动—布置守卫" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="150" />
+      <string skillDes="消耗一层充能来放置1个侦查守卫，以监视一个区域，持续150秒。最多可持有3层充能并在访问商店时填满充能。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100600" />
+      <int ownerType="1" />
+      <int ownerID="2054" />
+      <string ownerName="高级真视图腾" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="放置一个可见的守卫，来监视一块区域并侦测隐形单位，持续到被敌人摧毁为止（冷却时间：120秒）。 每个玩家最多只能在地图上同时放置1个真视守卫。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100610" />
+      <int ownerType="1" />
+      <int ownerID="2055" />
+      <string ownerName="高级侦查图腾" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="消耗一层充能，来放置一个能够监视一块区域的隐形的守卫，持续180秒。每60秒储存一层充能，最多可持续2层充能。 每个玩家最多只能在地图上同时放置3个隐形的守卫。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100620" />
+      <int ownerType="1" />
+      <int ownerID="2058" />
+      <string ownerName="游牧民印章" />
+      <string skillName="唯一被动—恩惠" />
+      <int exclusionSkillGroupId="100002" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="附近的每个非你所杀的敌方小兵，在阵亡时都会为你提供6金币并治疗10生命值。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100630" />
+      <int ownerType="1" />
+      <int ownerID="3002" />
+      <string ownerName="死亡之舞" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="造成物理伤害的同时会治疗自身，治疗量相当于实际伤害值的15%。这个效果对群体伤害来说只有33%的效率。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100631" />
+      <int ownerType="1" />
+      <int ownerID="3002" />
+      <string ownerName="死亡之舞" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="你所受伤害的15%会以流血形式在3秒里持续扣除。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100640" />
+      <int ownerType="1" />
+      <int ownerID="3003" />
+      <string ownerName="正义荣耀" />
+      <string skillName="唯一被动—永恒" />
+      <int exclusionSkillGroupId="100015" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="承受来自英雄的伤害时，你会回复15%伤害值的法力。花费法力时，你会回复20%法力消耗的生命值，每次施法最多回复25生命值。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100641" />
+      <int ownerType="1" />
+      <int ownerID="3003" />
+      <string ownerName="正义荣耀" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="90" />
+      <string skillDes="为你提供75%移动速度，持续4秒。这个移动速度加成仅在朝着敌方或敌方防御塔移动时有效。在3秒后，你会放出一道冲击波，使附近敌方英雄的移动速度减少75%，持续2秒(冷却时间：90秒)。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100650" />
+      <int ownerType="1" />
+      <int ownerID="3004" />
+      <string ownerName="巨型九头蛇" />
+      <string skillName="唯一被动—顺劈" />
+      <int exclusionSkillGroupId="100010" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="你的基础攻击会对目标造成5+你1%最大生命值的物理伤害，并对锥形范围内的其它敌人造成40+你2.5%最大生命值的物理伤害。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100651" />
+      <int ownerType="1" />
+      <int ownerID="3004" />
+      <string ownerName="巨型九头蛇" />
+      <string skillName="唯一主动—新月" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="20" />
+      <string skillDes="你的下次普攻会对更大锥形范围内的所有单位进行顺劈，并且顺劈伤害提升至40+你10%最大生命值的物理伤害(冷却时间20秒)。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100660" />
+      <int ownerType="1" />
+      <int ownerID="3005" />
+      <string ownerName="亡者的板甲" />
+      <string skillName="唯一被动—无畏" />
+      <int exclusionSkillGroupId="100029" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="在移动时积攒【气势】层数，最多可在100层时提供60移动速度。气势效果的层数会在中了晕眩、嘲讽、恐惧、变形或禁锢效果后快速衰减，并在中了减速后缓慢衰减。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100661" />
+      <int ownerType="1" />
+      <int ownerID="3005" />
+      <string ownerName="亡者的板甲" />
+      <string skillName="唯一被动—碾压猛击" />
+      <int exclusionSkillGroupId="100030" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="普攻会消耗所有【气势】层数，每2层造成1物理伤害。如果消耗了100层效果，那么伤害会翻倍，并且目标会被减速50%，这个减速效果会在1秒里持续衰减(仅近战可用)。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100670" />
+      <int ownerType="1" />
+      <int ownerID="3006" />
+      <string ownerName="猛禽斗篷" />
+      <string skillName="唯一被动—据点冲刺" />
+      <int exclusionSkillGroupId="100031" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="当你在防御塔、被摧毁的防御塔和虚空之门附近时，你会获得逐步提升的移动速度加成。在2秒后，这个移动速度加成会达到最大值20%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100680" />
+      <int ownerType="1" />
+      <int ownerID="3007" />
+      <string ownerName="夺萃之镰" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+10%冷却缩减" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100681" />
+      <int ownerType="1" />
+      <int ownerID="3007" />
+      <string ownerName="夺萃之镰" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="可从其它来源所提供的暴击几率中不断获得更多冷却缩减（最大值：+20%冷却缩减，所需暴击几率：30%）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100682" />
+      <int ownerType="1" />
+      <int ownerID="3007" />
+      <string ownerName="夺萃之镰" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="暴击会回复你3%最大法力值。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100690" />
+      <int ownerType="1" />
+      <int ownerID="3008" />
+      <string ownerName="炽热香炉" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+10%治疗和护盾强度" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100691" />
+      <int ownerType="1" />
+      <int ownerID="3008" />
+      <string ownerName="炽热香炉" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+8%移动速度" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100692" />
+      <int ownerType="1" />
+      <int ownerID="3008" />
+      <string ownerName="炽热香炉" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="你的治疗和护盾在对友方英雄施放时，还会为目标提供20%攻击速度加成并使目标的攻击在命中时吸取20生命值，持续6秒。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100700" />
+      <int ownerType="1" />
+      <int ownerID="3009" />
+      <string ownerName="山岳之容" />
+      <string skillName="唯一被动—战利品" />
+      <int exclusionSkillGroupId="100005" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="近战普通攻击会直接击杀生命值在320(+4x等级)以下的敌方小兵。在击杀小兵的同时，装备持有者和距离最近的友方英雄会恢复50生命值，并为该友方英雄提供等额的小兵赏金。这些效果需要附近有一名友方英雄，并且需要消耗一层战利品的充能。每30秒获得一层充能，最多拥有4层充能。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100701" />
+      <int ownerType="1" />
+      <int ownerID="3009" />
+      <string ownerName="山岳之容" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="60" />
+      <string skillDes="为你和目标友方英雄武装一层持续4秒的护盾，护盾生命值相当于你最大生命值的10%。在4秒后，护盾会爆炸，并对范围内的敌人造成40%减速效果，持续2秒（冷却时间：60秒）。如果朝自己施放，则会自动把附近伤势最重的友方英雄选为目标。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100710" />
+      <int ownerType="1" />
+      <int ownerID="3010" />
+      <string ownerName="卢登的回声" />
+      <string skillName="唯一被动—回声" />
+      <int exclusionSkillGroupId="100032" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="移动和施法的同时会获得充能。在充能数到达100时，你的下一个伤害型技能会将静电全部释放，对最多4个目标造成100(+0.1x法术强度) 魔法伤害。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100720" />
+      <int ownerType="1" />
+      <int ownerID="3011" />
+      <string ownerName="米凯尔的坩埚" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+20%治疗和护盾强度" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100721" />
+      <int ownerType="1" />
+      <int ownerID="3011" />
+      <string ownerName="米凯尔的坩埚" />
+      <string skillName="唯一被动—和谐" />
+      <int exclusionSkillGroupId="100017" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="提供相当于你百分比基础法力回复加成的百分比基础生命回复加成。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100722" />
+      <int ownerType="1" />
+      <int ownerID="3011" />
+      <string ownerName="米凯尔的坩埚" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="移除一名友方英雄身上的所有晕眩、禁锢、嘲讽、恐惧、沉默和减速效果，并为该英雄提供持续2秒的减速免疫效果(冷却时间：120秒)。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100730" />
+      <int ownerType="1" />
+      <int ownerID="3016" />
+      <string ownerName="雅典娜的邪恶圣杯" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="将对英雄造成的20%原始伤害储存为【鲜血充能】，最多可储存100 - 250。对友方英雄施放治疗或护盾时，会消耗所有的充能来为该英雄提供治疗效果，最大治疗量为初始效果值。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100731" />
+      <int ownerType="1" />
+      <int ownerID="3016" />
+      <string ownerName="雅典娜的邪恶圣杯" />
+      <string skillName="唯一被动—和谐" />
+      <int exclusionSkillGroupId="100017" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="提供相当于你百分比基础法力回复加成的百分比基础生命回复加成。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100740" />
+      <int ownerType="1" />
+      <int ownerID="3017" />
+      <string ownerName="月华咒刃" />
+      <string skillName="唯一被动—韧性" />
+      <int exclusionSkillGroupId="100021" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="受到的晕眩、减速、嘲讽、恐惧、沉默、致盲、变形和禁锢的持续时间减少35%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100750" />
+      <int ownerType="1" />
+      <int ownerID="3018" />
+      <string ownerName="莫雷诺秘典" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+20%冷却缩减" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100751" />
+      <int ownerType="1" />
+      <int ownerID="3018" />
+      <string ownerName="莫雷诺秘典" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="在对一个生命值低于35%的敌方英雄造成魔法伤害的同时，也会为该目标施加持续8秒的重伤效果。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100752" />
+      <int ownerType="1" />
+      <int ownerID="3018" />
+      <string ownerName="莫雷诺秘典" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="击杀和助攻会使你恢复20%最大法力值。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100760" />
+      <int ownerType="1" />
+      <int ownerID="3019" />
+      <string ownerName="中娅沙漏" />
+      <string skillName="唯一主动—凝滞" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="120" />
+      <string skillDes="让英雄在2.5秒里免疫任何伤害且无法被选定，但无法移动、攻击、施放技能或使用装备（冷却时间120秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100770" />
+      <int ownerType="1" />
+      <int ownerID="3020" />
+      <string ownerName="玛莫提乌斯之噬" />
+      <string skillName="唯一被动—救主灵刃" />
+      <int exclusionSkillGroupId="100011" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="如果你的生命值即将在承受魔法伤害后低于30%，那么此物品会在此之前为你制造一个吸收300(+1x魔法抗性)魔法伤害的护盾，持续5秒（冷却时间：90秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100780" />
+      <int ownerType="1" />
+      <int ownerID="3021" />
+      <string ownerName="比尔吉沃特弯刀" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="90" />
+      <string skillDes="对目标造成100魔法伤害，并减少目标25%的移动速度，持续2秒（冷却时间90秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100790" />
+      <int ownerType="1" />
+      <int ownerID="3022" />
+      <string ownerName="兰德里的折磨" />
+      <string skillName="唯一被动—痛苦之眼" />
+      <int exclusionSkillGroupId="100022" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+15法术穿透" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100791" />
+      <int ownerType="1" />
+      <int ownerID="3022" />
+      <string ownerName="兰德里的折磨" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="技能会灼烧目标3秒，每秒造成相当于目标2%当前生命值的魔法伤害。这个额外伤害会在对抗移动受损的单位时翻倍。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100800" />
+      <int ownerType="1" />
+      <int ownerID="3033" />
+      <string ownerName="德拉克萨的幕刃" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+15穿甲" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100801" />
+      <int ownerType="1" />
+      <int ownerID="3033" />
+      <string ownerName="德拉克萨的幕刃" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+20非战斗状态下的移动速度。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100802" />
+      <int ownerType="1" />
+      <int ownerID="3033" />
+      <string ownerName="德拉克萨的幕刃" />
+      <string skillName="唯一被动—夜袭者" />
+      <int exclusionSkillGroupId="100033" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="在脱离敌方视野至少1秒以后，你的下次对敌方英雄发起的普攻将在命中时造成50+(200%穿甲)真实伤害(在被一名敌方英雄看见后还会持续4秒)。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100803" />
+      <int ownerType="1" />
+      <int ownerID="3033" />
+      <string ownerName="德拉克萨的幕刃" />
+      <string skillName="唯一被动—封锁" />
+      <int exclusionSkillGroupId="100034" />
+      <int skilltype="1" />
+      <int skillCD="90" />
+      <string skillDes="在被一个敌方守卫发现时，引发持续8秒的封锁效果，使附近所有的敌方守卫和陷阱失效(冷却时间：90秒)。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100810" />
+      <int ownerType="1" />
+      <int ownerID="3034" />
+      <string ownerName="兰顿之兆" />
+      <string skillName="唯一被动—寒铁" />
+      <int exclusionSkillGroupId="100018" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="被普通攻击击中时，减少攻击者15%的攻击速度（持续时间：1秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100811" />
+      <int ownerType="1" />
+      <int ownerID="3034" />
+      <string ownerName="兰顿之兆" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="60" />
+      <string skillDes="减缓周围敌人35%的移动速度，持续4秒（冷却时间：60秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100820" />
+      <int ownerType="1" />
+      <int ownerID="3035" />
+      <string ownerName="幽梦之灵" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+20穿甲" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100821" />
+      <int ownerType="1" />
+      <int ownerID="3035" />
+      <string ownerName="幽梦之灵" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+20非战斗状态下的移动速度" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100822" />
+      <int ownerType="1" />
+      <int ownerID="3035" />
+      <string ownerName="幽梦之灵" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="45" />
+      <string skillDes="提供+20%移动速度，持续6秒(45秒冷却时间)。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100830" />
+      <int ownerType="1" />
+      <int ownerID="3036" />
+      <string ownerName="鬼索的狂暴之怒" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="普攻会在命中时造成15额外魔法伤害。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100831" />
+      <int ownerType="1" />
+      <int ownerID="3036" />
+      <string ownerName="鬼索的狂暴之怒" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="每次普通攻击提供+8%攻击速度，+3攻击力和+4法术强度，持续5秒(最多可叠加6层)。在你拥有6层效果时，提供鬼索之怒。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100840" />
+      <int ownerType="1" />
+      <int ownerID="3037" />
+      <string ownerName="瑞莱的冰晶节杖" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="伤害型的法术和技能会使敌人的移动速度减少20%，持续1秒。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100850" />
+      <int ownerType="1" />
+      <int ownerID="3038" />
+      <string ownerName="纳什之牙" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+20%冷却缩减。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100851" />
+      <int ownerType="1" />
+      <int ownerID="3038" />
+      <string ownerName="纳什之牙" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="普通攻击会造成15（+15%法术强度）的额外魔法伤害。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100860" />
+      <int ownerType="1" />
+      <int ownerID="3039" />
+      <string ownerName="冰霜之心" />
+      <string skillName="唯一光环" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="降低附近敌方单位15%的攻击速度。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100870" />
+      <int ownerType="1" />
+      <int ownerID="3040" />
+      <string ownerName="女妖面纱" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="获得一层可以抵挡一次敌方技能的法术护盾。如果你在40秒内没有受到来自英雄的伤害，那么这个护盾就会刷新。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100880" />
+      <int ownerType="1" />
+      <int ownerID="3041" />
+      <string ownerName="巫妖之祸" />
+      <string skillName="唯一被动—咒刃" />
+      <int exclusionSkillGroupId="100014" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="施放一次技能后，下一次物理攻击将附带75%基础攻击力（+50%法术强度）的额外魔法伤害（冷却时间：1.5秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100890" />
+      <int ownerType="1" />
+      <int ownerID="3042" />
+      <string ownerName="疾射火炮" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="移动和攻击时会获得充盈能量。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100891" />
+      <int ownerType="1" />
+      <int ownerID="3042" />
+      <string ownerName="疾射火炮" />
+      <string skillName="唯一被动—火炮" />
+      <int exclusionSkillGroupId="100035" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="在充盈能量层数达到最大时，你的下一次攻击获得35%额外攻击距离(+150距离最大值)并在命中时造成50~160额外魔法伤害(基于携带者的等级，视为攻击特效)。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100900" />
+      <int ownerType="1" />
+      <int ownerID="3043" />
+      <string ownerName="冰霜女皇的指令" />
+      <string skillName="唯一被动—贡品" />
+      <int exclusionSkillGroupId="100003" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="对敌方英雄或建筑物施放技能和进行普攻时，会造成15额外伤害并获得15金币。这个效果每30秒最多触发3次。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100901" />
+      <int ownerType="1" />
+      <int ownerID="3043" />
+      <string ownerName="冰霜女皇的指令" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="90" />
+      <string skillDes="召唤2个持续6秒的冰霜幽灵来寻找附近的敌方英雄。如果幽灵触碰到了一名敌方英雄，就会暴露该英雄并使其减速40%，并基于幽灵的行进距离持续2到5秒（冷却时间：90秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100910" />
+      <int ownerType="1" />
+      <int ownerID="3044" />
+      <string ownerName="斯塔提克电刃" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="移动和攻击时会获得充盈能量。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100911" />
+      <int ownerType="1" />
+      <int ownerID="3044" />
+      <string ownerName="斯塔提克电刃" />
+      <string skillName="唯一被动—电刃" />
+      <int exclusionSkillGroupId="100036" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="在充盈能量层数达到最大时，你的下一次攻击会在命中时对最多5个目标造成50~120(基于携带者的等级)额外魔法伤害(对小兵造成+120%额外伤害并且可以造成暴击)。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100920" />
+      <int ownerType="1" />
+      <int ownerID="3045" />
+      <string ownerName="卢安娜的飓风" />
+      <string skillName="唯一被动—风怒" />
+      <int exclusionSkillGroupId="100037" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="你的普通攻击会朝2个附近的目标发射微型弩箭，每支弩箭造成（25%攻击力）的物理伤害。这些弩箭能够暴击和附带攻击特效。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100921" />
+      <int ownerType="1" />
+      <int ownerID="3045" />
+      <string ownerName="卢安娜的飓风" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="普通攻击会在命中时造成额外15物理伤害。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100930" />
+      <int ownerType="1" />
+      <int ownerID="3047" />
+      <string ownerName="狂徒铠甲" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+10%冷却缩减" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100931" />
+      <int ownerType="1" />
+      <int ownerID="3047" />
+      <string ownerName="狂徒铠甲" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="在你拥有至少3000最大生命值时，提供狂徒之心效果。狂徒之心：如果8秒内没有受到伤害，就会每5秒回复15%最大生命值。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100940" />
+      <int ownerType="1" />
+      <int ownerID="3048" />
+      <string ownerName="三相之力" />
+      <string skillName="唯一被动—狂暴" />
+      <int exclusionSkillGroupId="100009" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="每次普通攻击后会获得20移动速度，持续2秒。每次击杀单位后，获得60移动速度（与前者不叠加）。这个移动速度加成对远程英雄减半。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100941" />
+      <int ownerType="1" />
+      <int ownerID="3048" />
+      <string ownerName="三相之力" />
+      <string skillName="唯一被动—咒刃" />
+      <int exclusionSkillGroupId="100014" />
+      <int skilltype="1" />
+      <int skillCD="1.5" />
+      <string skillDes="施放技能后，下一次攻击会造成额外物理伤害，伤害值为基础攻击力的200%（冷却时间：1.5秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100950" />
+      <int ownerType="1" />
+      <int ownerID="3049" />
+      <string ownerName="荆棘之甲" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="被普通攻击命中时，会将你额外护甲值的25%加上15%的即将到来的伤害以魔法伤害的形式回敬给攻击者。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100960" />
+      <int ownerType="1" />
+      <int ownerID="3050" />
+      <string ownerName="贪欲九头蛇" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="这个物品所造成的伤害会附带50%的总生命偷取。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100961" />
+      <int ownerType="1" />
+      <int ownerID="3050" />
+      <string ownerName="贪欲九头蛇" />
+      <string skillName="唯一被动—顺劈" />
+      <int exclusionSkillGroupId="100010" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="你的攻击对目标周围的单位造成伤害，伤害值最多相当于你攻击力的60%。越靠近范围边缘的敌人所受的伤害越低，低至你攻击力的20%为止。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100962" />
+      <int ownerType="1" />
+      <int ownerID="3050" />
+      <string ownerName="贪欲九头蛇" />
+      <string skillName="唯一主动—新月" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="10" />
+      <string skillDes="你的攻击会对周围的单位造成伤害，伤害值最多相当于你攻击力的100%。越靠近范围边缘的敌人所受的伤害越低，低至你攻击力的60%为止（冷却时间：10秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100970" />
+      <int ownerType="1" />
+      <int ownerID="3051" />
+      <string ownerName="饮血剑" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+20%生命偷取" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100971" />
+      <int ownerType="1" />
+      <int ownerID="3051" />
+      <string ownerName="饮血剑" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="你的生命偷取效果可以对你进行过量治疗。溢出的生命力会储存为一个能够抵挡50-350伤害（基于英雄等级）的护盾。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100980" />
+      <int ownerType="1" />
+      <int ownerID="3052" />
+      <string ownerName="黑色切割者" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="对一名敌方英雄造成物理伤害的同时，还会对该英雄施加切割效果，减少目标5%的护甲，持续6秒（最多叠加6次，减少30%护甲）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100981" />
+      <int ownerType="1" />
+      <int ownerID="3052" />
+      <string ownerName="黑色切割者" />
+      <string skillName="唯一被动—狂暴" />
+      <int exclusionSkillGroupId="100009" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="造成物理伤害的同时会提供20移动速度，持续2秒。协助击杀被切割的敌方英雄或击杀任何敌对单位时，提供的移动速度加成会变为60，持续2秒。这个移动速度加成对远程英雄减半。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="100990" />
+      <int ownerType="1" />
+      <int ownerID="3053" />
+      <string ownerName="日炎斗篷" />
+      <string skillName="唯一被动—献祭" />
+      <int exclusionSkillGroupId="100016" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="每秒对周围敌方造成25+（1x英雄等级数）魔法伤害。对小兵和野怪造成50%额外伤害。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101000" />
+      <int ownerType="1" />
+      <int ownerID="3054" />
+      <string ownerName="振奋盔甲" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="所受的全部治疗效果提高25%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101010" />
+      <int ownerType="1" />
+      <int ownerID="3055" />
+      <string ownerName="特斯拉克的挑战护手" />
+      <string skillName="唯一被动—救主灵刃" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="60" />
+      <string skillDes="在5秒内受到至少400到1800伤害(基于携带者的等级)时，获得一个快速衰减的护盾，护盾生命值相当于你30%的最大生命值，可持续8秒(冷却时间：60秒)。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101020" />
+      <int ownerType="1" />
+      <int ownerID="3056" />
+      <string ownerName="幻影之舞" />
+      <string skillName="唯一被动—幽影华尔兹" />
+      <int exclusionSkillGroupId="100038" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="当你能够看见550码以内的一名敌方英雄时，为你提供+7%移动速度并使你无视单位的碰撞体积。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101021" />
+      <int ownerType="1" />
+      <int ownerID="3056" />
+      <string ownerName="幻影之舞" />
+      <string skillName="唯一被动—挽歌" />
+      <int exclusionSkillGroupId="100039" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="你所命中的最后一名敌方英雄对你造成的伤害减少12%（如果你在10秒内不继续对该英雄进行攻击，那么这个效果就会消散）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101030" />
+      <int ownerType="1" />
+      <int ownerID="3057" />
+      <string ownerName="多米尼克领主的致意" />
+      <string skillName="唯一被动—巨人杀手" />
+      <int exclusionSkillGroupId="100007" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="在对抗生命值多于你的敌方英雄时，最多提供+15%物理伤害(每相差50生命值提供+1.5%伤害，在相差500生命值时达到最大值)。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101031" />
+      <int ownerType="1" />
+      <int ownerID="3057" />
+      <string ownerName="多米尼克领主的致意" />
+      <string skillName="唯一被动—最后的轻语" />
+      <int exclusionSkillGroupId="100024" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+45%额外护甲穿透" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101040" />
+      <int ownerType="1" />
+      <int ownerID="3058" />
+      <string ownerName="凡性的提醒" />
+      <string skillName="唯一被动—死刑宣告" />
+      <int exclusionSkillGroupId="100008" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="物理伤害会对敌方英雄施加持续5秒的重伤效果。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101041" />
+      <int ownerType="1" />
+      <int ownerID="3058" />
+      <string ownerName="凡性的提醒" />
+      <string skillName="唯一被动—最后的轻语" />
+      <int exclusionSkillGroupId="100024" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="+45%额外护甲穿透" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101050" />
+      <int ownerType="1" />
+      <int ownerID="3059" />
+      <string ownerName="时光之杖" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="每层效果提供+20生命值，+10法力值，以及+4法术强度（最大+200生命值，+100法力值，以及+40法术强度）。每分钟提供1层（最大提供10层）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101051" />
+      <int ownerType="1" />
+      <int ownerID="3059" />
+      <string ownerName="时光之杖" />
+      <string skillName="唯一被动—永恒" />
+      <int exclusionSkillGroupId="100015" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="承受来自英雄的伤害时，你会回复15%伤害值的法力。花费法力时，你会回复20%法力消耗的生命值，每次施法最多回复25生命值。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101060" />
+      <int ownerType="1" />
+      <int ownerID="3060" />
+      <string ownerName="守护天使" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="300" />
+      <string skillDes="你的英雄在受到致命伤害时，会在4秒后原地复活，恢复700生命值或30%最大生命值（取较大者）以及30%最大法力值（冷却时间：300秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101070" />
+      <int ownerType="1" />
+      <int ownerID="3061" />
+      <string ownerName="冰脉护手" />
+      <string skillName="唯一被动—咒刃" />
+      <int exclusionSkillGroupId="100014" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="在施放一个技能后，你的下次普通攻击会对一个范围内的所有敌人造成相当于你100%基础攻击力的额外物理伤害，并制造一个持续2秒的冰冷地带，使地带内敌人的移动速度减少30%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101080" />
+      <int ownerType="1" />
+      <int ownerID="3062" />
+      <string ownerName="冰霜之锤" />
+      <string skillName="唯一被动—钻石星辰击" />
+      <int exclusionSkillGroupId="100040" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="近战的普通攻击将降低目标40%的移动速度，持续1.5秒。远程的普通攻击将降低目标30%的移动速度，持续1.5秒。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101090" />
+      <int ownerType="1" />
+      <int ownerID="3063" />
+      <string ownerName="魔宗" />
+      <string skillName="唯一被动—敬畏" />
+      <int exclusionSkillGroupId="100012" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="提供攻击力，相当于你最大法力值的2%。返还15%的法力花费。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101091" />
+      <int ownerType="1" />
+      <int ownerID="3063" />
+      <string ownerName="魔宗" />
+      <string skillName="唯一被动—法力积攒" />
+      <int exclusionSkillGroupId="100013" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="你的英雄每进行一次普通攻击，使用技能或花费法力时，你的最大法力值都会提高4（每8秒最多触发2次）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101100" />
+      <int ownerType="1" />
+      <int ownerID="3064" />
+      <string ownerName="大天使之杖" />
+      <string skillName="唯一被动—敬畏" />
+      <int exclusionSkillGroupId="100012" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="提供法术强度，相当于最大法力值的3%。返还25%的法力花费。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101101" />
+      <int ownerType="1" />
+      <int ownerID="3064" />
+      <string ownerName="大天使之杖" />
+      <string skillName="唯一被动—法力积攒" />
+      <int exclusionSkillGroupId="100013" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="你的英雄每次使用技能或花费法力时，你的最大法力值都会提高8（每8秒最多触发2次）。法力值加成上限为750。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101110" />
+      <int ownerType="1" />
+      <int ownerID="3065" />
+      <string ownerName="深渊权杖" />
+      <string skillName="唯一光环" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="附近的敌方英雄承受的魔法伤害提升10%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101120" />
+      <int ownerType="1" />
+      <int ownerID="3066" />
+      <string ownerName="追猎者的刀锋-战士" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101130" />
+      <int ownerType="1" />
+      <int ownerID="3067" />
+      <string ownerName="追猎者的刀锋-熔渣巨人" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101140" />
+      <int ownerType="1" />
+      <int ownerID="3068" />
+      <string ownerName="追猎者的刀锋-符能回声" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101150" />
+      <int ownerType="1" />
+      <int ownerID="3069" />
+      <string ownerName="追踪者的刀锋-血刃" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101160" />
+      <int ownerType="1" />
+      <int ownerID="3070" />
+      <string ownerName="追踪者的匕首-战士" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101170" />
+      <int ownerType="1" />
+      <int ownerID="3071" />
+      <string ownerName="追踪者的匕首-熔渣巨人" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101180" />
+      <int ownerType="1" />
+      <int ownerID="3072" />
+      <string ownerName="追踪者的匕首-符能回声" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101190" />
+      <int ownerType="1" />
+      <int ownerID="3073" />
+      <string ownerName="追踪者的匕首-血刃" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101200" />
+      <int ownerType="1" />
+      <int ownerID="3074" />
+      <string ownerName="游击者的军刃-战士" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101210" />
+      <int ownerType="1" />
+      <int ownerID="3075" />
+      <string ownerName="游击者的军刃-熔渣巨人" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101220" />
+      <int ownerType="1" />
+      <int ownerID="3076" />
+      <string ownerName="游击者的军刃-符能回声" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101230" />
+      <int ownerType="1" />
+      <int ownerID="3077" />
+      <string ownerName="游击者的军刃-血刃" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101240" />
+      <int ownerType="1" />
+      <int ownerID="3078" />
+      <string ownerName="洞察红宝石" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="装备的主动效果的冷却时间减少20%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101241" />
+      <int ownerType="1" />
+      <int ownerID="3078" />
+      <string ownerName="洞察红宝石" />
+      <string skillName="唯一主动—布置守卫" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="0" />
+      <string skillDes="消耗一层充能来放置1个侦查守卫，以监视一个区域，持续150秒。最多可持有4层充能并在访问商店时填满充能。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101250" />
+      <int ownerType="1" />
+      <int ownerID="3079" />
+      <string ownerName="水银弯刀" />
+      <string skillName="唯一主动—水银" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="90" />
+      <string skillDes="移除你英雄身上的所有控制效果，并提供50%移动速度加成，持续1秒（冷却时间：90秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101260" />
+      <int ownerType="1" />
+      <int ownerID="3080" />
+      <string ownerName="守望之眼" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101270" />
+      <int ownerType="1" />
+      <int ownerID="3081" />
+      <string ownerName="绿洲之眼" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101280" />
+      <int ownerType="1" />
+      <int ownerID="3082" />
+      <string ownerName="季分之眼" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101290" />
+      <int ownerType="1" />
+      <int ownerID="3083" />
+      <string ownerName="智慧末刃" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="你的普通攻击造成40额外魔法伤害。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101291" />
+      <int ownerType="1" />
+      <int ownerID="3083" />
+      <string ownerName="智慧末刃" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="你的普通攻击会偷取目标5魔法抗性，持续5秒（最多叠加5次）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101300" />
+      <int ownerType="1" />
+      <int ownerID="4001" />
+      <string ownerName="钢铁烈阳之匣" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="90" />
+      <string skillDes="为周围友军提供一个不断衰减的护盾，持续2.5秒，最多可吸收35(+35x等级)伤害(冷却时间：90秒)。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101310" />
+      <int ownerType="1" />
+      <int ownerID="4002" />
+      <string ownerName="兹若特传送门" />
+      <string skillName="唯一被动—据点冲刺" />
+      <int exclusionSkillGroupId="100031" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="当你在防御塔、被摧毁的防御塔和虚空之门附近时，你会获得逐步提升的移动速度加成。在2秒后，该加成会达到最大值20%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101311" />
+      <int ownerType="1" />
+      <int ownerID="4002" />
+      <string ownerName="兹若特传送门" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="生成一扇持续150秒的虚空之门（冷却时间：150秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101320" />
+      <int ownerType="1" />
+      <int ownerID="4003" />
+      <string ownerName="破败王者之刃" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="你的普通攻击会造成相当于目标当前生命值的8%的额外物理伤害（对野怪最多造成60伤害）。这个伤害可附带生命偷取。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101321" />
+      <int ownerType="1" />
+      <int ownerID="4003" />
+      <string ownerName="破败王者之刃" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="汲取目标英雄，相当于目标最大生命值的10%（最小值100）的物理伤害，并且你会获得治疗，治疗量等于该伤害值。此外，你会偷取目标25%的移动速度，持续3秒（冷却时间90秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101330" />
+      <int ownerType="1" />
+      <int ownerID="4004" />
+      <string ownerName="海克斯科技枪" />
+      <string skillName="唯一被动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="造成伤害的15%用来治疗自身。群体伤害的治疗效率只有33%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101331" />
+      <int ownerType="1" />
+      <int ownerID="4004" />
+      <string ownerName="海克斯科技枪" />
+      <string skillName="唯一主动—闪电弹" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="造成250(+30%x法术强度)魔法伤害并使目标英雄的移动速度减少40%，持续2秒（冷却时间：40秒，与其它海克斯科技装备共享冷却时间）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101340" />
+      <int ownerType="1" />
+      <int ownerID="4005" />
+      <string ownerName="号令之旗" />
+      <string skillName="唯一主动—晋升" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="120" />
+      <string skillDes="显著提升一个线上小兵的作战能力并使其免疫魔法伤害（冷却时间：120秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101350" />
+      <int ownerType="1" />
+      <int ownerID="4006" />
+      <string ownerName="干扰水晶" />
+      <string skillName="唯一被动—据点冲刺" />
+      <int exclusionSkillGroupId="100031" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="当你在防御塔（包括被摧毁的防御塔）和虚空之门附近时，你会获得逐步提升的移动速度加成。在2秒后，该加成会达到最大值20%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101351" />
+      <int ownerType="1" />
+      <int ownerID="4006" />
+      <string ownerName="干扰水晶" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="阻止附近的敌方防御塔进行攻击，持续3秒（冷却时间：120秒）。该效果在8秒里仅能对同一防御塔使用一次。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101360" />
+      <int ownerType="1" />
+      <int ownerID="4007" />
+      <string ownerName="飞升护符" />
+      <string skillName="唯一被动—据点冲刺" />
+      <int exclusionSkillGroupId="100031" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="当你在防御塔（包括被摧毁的防御塔）附近时，你会获得逐步提升的移动速度加成。在2秒后，该加成会达到最大值20%。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101361" />
+      <int ownerType="1" />
+      <int ownerID="4007" />
+      <string ownerName="飞升护符" />
+      <string skillName="唯一被动—恩惠" />
+      <int exclusionSkillGroupId="100002" />
+      <int skilltype="1" />
+      <int skillCD="1" />
+      <string skillDes="附近的每个非你所杀的敌方小兵，在阵亡时都会为你提供6金币并治疗10生命值。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+    <SkillDB>
+      <int id="101362" />
+      <int ownerType="1" />
+      <int ownerID="4007" />
+      <string ownerName="飞升护符" />
+      <string skillName="唯一主动" />
+      <int exclusionSkillGroupId="" />
+      <int skilltype="2" />
+      <int skillCD="60" />
+      <string skillDes="附近友方英雄移动速度增加40% ，持续时间3秒（冷却时间：60秒）。" />
+      <int arg1="" />
+      <int arg2="" />
+    </SkillDB>
+  </SkillDBs>
   <Sheet1DBs>
     <Sheet1DB>
       <int id="1" />

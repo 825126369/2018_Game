@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\module\NetData\LoginMessage.cs" />
     <Compile Include="Assets\Scripts\module\NetData\TimeMessage.cs" />
     <Compile Include="Assets\Scripts\module\configData\ItemConfig.cs" />
+    <Compile Include="Assets\Scripts\module\configData\SkillConfig.cs" />
     <Compile Include="Assets\Scripts\module\init\GameEngine.cs" />
     <Compile Include="Assets\Scripts\module\init\initManager.cs" />
     <Compile Include="Assets\Scripts\module\init\initView.cs" />
@@ -126,6 +127,7 @@
     <Compile Include="Assets\Scripts\module\view\store\item\StoreCompoundItem.cs" />
     <Compile Include="Assets\Scripts\module\view\store\item\StoreSubItem.cs" />
     <Compile Include="Assets\Scripts\module\view\store\model\StoreModel.cs" />
+    <Compile Include="Assets\Scripts\module\view\store\view\ItemAttView.cs" />
     <Compile Include="Assets\Scripts\module\view\store\view\ItemShowView.cs" />
     <Compile Include="Assets\Scripts\module\view\store\view\StoreAllItemView.cs" />
     <Compile Include="Assets\Scripts\module\view\store\view\StoreRecommendView.cs" />

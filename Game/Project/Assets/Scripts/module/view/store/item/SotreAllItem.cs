@@ -31,7 +31,7 @@ namespace xk_System.View.Modules
             base.RefreshItem(data);
             mSaveData = data as ItemData;
             mName.text = mSaveData.mItemDB.Name;
-            mPrice.text = "" + mSaveData.mItemDB.BuyPrice;
+            mPrice.text = "" + mSaveData.mItemDB.CompoundPrice;
             Sprite mSprite = AtlasManager.Instance.GetSprite("item", mSaveData.mItemDB.id.ToString());
             mIcon.sprite = mSprite;
         }
@@ -39,7 +39,7 @@ namespace xk_System.View.Modules
 
         public override Vector2 GetCellSize()
         {
-            return new Vector2(170, 60);
+            return new Vector2(170, 65);
         }
     }
 }
