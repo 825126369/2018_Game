@@ -11,6 +11,7 @@ namespace xk_System.View.Modules
         protected override void Awake()
         {
             base.Awake();
+            obj = transform.FindChild("Image").gameObject;
             WTimerCallBack mCallBack = new WTimerCallBack();
             mCallBack.onRunning = PlayAnimation;
             mWTimer = new WTimer(50,0,mCallBack);
@@ -26,16 +27,6 @@ namespace xk_System.View.Modules
         {
             base.OnDisable();
             mWTimer.stop();
-
-        }
-        protected override void FindObject()
-        {
-            obj = transform.FindChild("Image").gameObject;
-        }
-
-        protected override void SetViewParent()
-        {
-            transform.parent = WindowManager.Instance.mUILayout.showParent;
         }
 
         void PlayAnimation(object  mdata)

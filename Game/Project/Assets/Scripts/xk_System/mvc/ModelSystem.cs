@@ -93,7 +93,7 @@ namespace xk_System.Model
             return base.GetType().GetProperty(strName).GetValue(this, null);
         }
 
-        public void addDataBinding(Action<object> callBack, string propertyName)
+        public void addDataBind(Action<object> callBack, string propertyName)
         {
             List<Action<object>> list = null;
             if (this.m_dicDataBinding.ContainsKey(propertyName))
@@ -108,7 +108,7 @@ namespace xk_System.Model
             list.Add(callBack);
         }
 
-        public void removeDataBinding(Action<object> callBack, string propertyName)
+        public void removeDataBind(Action<object> callBack, string propertyName)
         {
             List<Action<object>> list = null;
             if (this.m_dicDataBinding.ContainsKey(propertyName))
@@ -121,7 +121,7 @@ namespace xk_System.Model
             }
         }
 
-        internal void updateBinding(string propertyName)
+        internal void updateBind(string propertyName)
         {
             if (this.m_dicDataBinding.ContainsKey(propertyName))
             {

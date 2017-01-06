@@ -20,14 +20,13 @@ namespace xk_System.View.Modules
         protected override void Awake()
         {
             base.Awake();
+            yesBtn.onClick.AddListener(Click_YesBtn);
+            noBtn.onClick.AddListener(Click_SureBtn);
+            sureBtn.onClick.AddListener(Click_SureBtn);
+            closeBtn.onClick.AddListener(Click_SureBtn);
         }
 
-        protected override void SetViewParent()
-        {
-           // transform.parent = WindowManager.Instance.mUILayout.m_tip_layer.transform;
-        }
-
-       protected override void FindObject()
+        private void FindObject()
         {
             Transform t = transform.FindChild("Text");
             mText = t.GetComponent<Text>();
@@ -45,14 +44,6 @@ namespace xk_System.View.Modules
             closeBtn = t.GetComponent<Button>();
         }
 
-        protected override void AddListener()
-        {
-            yesBtn.onClick.AddListener(Click_YesBtn);
-            noBtn.onClick.AddListener(Click_SureBtn);
-            sureBtn.onClick.AddListener(Click_SureBtn);
-            closeBtn.onClick.AddListener(Click_SureBtn);
-        }
-
         private void Click_SureBtn()
         {
             HideView<MsgBoxView>();
@@ -67,7 +58,7 @@ namespace xk_System.View.Modules
             }
         }
 
-        protected override void InitView(object data = null)
+        public override void InitView(object data = null)
         {
             base.InitView(data);
             if (data is InitViewInfo)

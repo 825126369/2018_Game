@@ -21,20 +21,41 @@ namespace xk_System.View.Modules
         private Button mCloseBtn;
 
         private ShareSdk mShareSDK=null;
+        private Texture2D o;
         protected override void Awake()
         {
             base.Awake();
+            FindObject();
             mButton_WeChat_TimeLine.gameObject.SetActive(false);
             mButton_WeChat_Session.gameObject.SetActive(false);
             Init_ShareSDK();
+
+            mButton_QQ.onClick.AddListener(OnClickToShare);
+            mButton_Qzone.onClick.AddListener(OnClickToShare);
+            mButton_Sina.onClick.AddListener(OnClickToShare);
+            mButton_WeChat.onClick.AddListener(OnClickToShare);
+            mButton_WeChat_Session.onClick.AddListener(OnClickToShare);
+            mButton_WeChat_TimeLine.onClick.AddListener(OnClickToShare);
+            mCloseBtn.onClick.AddListener(OnClickCloseBtn);
         }
 
-        protected override IEnumerator PrepareResource()
+        public override IEnumerator PrepareResource()
         {
             DebugSystem.Log("准备加载ShareView资源");
-            yield return PrepareLocalImage();
+            AssetInfo mAssetInfo = ResourceABsFolder.Instance.atlas.share.mshare_1;
+            yield return AssetBundleManager.Instance.AsyncLoadAsset(mAssetInfo);
+            Texture2D o1 = AssetBundleManager.Instance.LoadAsset(mAssetInfo) as Texture2D;
+            o = o1;
+            if (o == null)
+            {
+                DebugSystem.LogError("加载分享本地图片失败");
+            }
+            else
+            {
+                DebugSystem.LogError("加载分享本地图片成功");
+            }
         }
-        protected override void FindObject()
+        private void FindObject()
         {
             Transform mT = transform.FindChild("Button_QQ");
             mButton_QQ = mT.GetComponent<Button>();
@@ -56,19 +77,6 @@ namespace xk_System.View.Modules
 
             mT = transform.FindChild("Close");
             mCloseBtn = mT.GetComponent<Button>();
-        }
-
-        protected override void AddListener()
-        {
-            base.AddListener();
-            mButton_QQ.onClick.AddListener(OnClickToShare);
-            mButton_Qzone.onClick.AddListener(OnClickToShare);
-            mButton_Sina.onClick.AddListener(OnClickToShare);
-            mButton_WeChat.onClick.AddListener(OnClickToShare);
-            mButton_WeChat_Session.onClick.AddListener(OnClickToShare);
-            mButton_WeChat_TimeLine.onClick.AddListener(OnClickToShare);
-            mCloseBtn.onClick.AddListener(OnClickCloseBtn);
-
         }
 
         private void OnClickCloseBtn()
@@ -271,21 +279,6 @@ namespace xk_System.View.Modules
             DebugSystem.Log("本地图片地址： "+imagePath);
             return imagePath;  
         }
-        private Texture2D o;
-        private IEnumerator PrepareLocalImage()
-        {
-            AssetInfo mAssetInfo = ResourceABsFolder.Instance.atlas.share.mshare_1;
-            yield return AssetBundleManager.Instance.AsyncLoadAsset(mAssetInfo);
-            Texture2D o1 = AssetBundleManager.Instance.LoadAsset(mAssetInfo) as Texture2D;
-            o = o1;
-            if(o==null)
-            {
-                DebugSystem.LogError("加载分享本地图片失败");
-            }else
-            {
-                DebugSystem.LogError("加载分享本地图片成功");
-            }
-        }  
 
     }
 }

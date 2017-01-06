@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">xk_ShareSDK</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="qq_Share">qq分享</string>
+    <string name="qzone_Share">qq空间分享</string>
+    <string name="share_titile">分享标题</string>
+    <string name="share_summary">分享简介</string>
+    <string name="share_targetUrl">分享目标链接地址</string>
+    <string name="share_musicUrl">分享音乐链接地址</string>
+    <string name="share_imageUrl">分享图片链接地址</string>
+    <string name="share_videoUrl">分享视频链接地址</string>
+    <string name="share_appName">许珂的app</string>
+
+</resources>

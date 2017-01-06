@@ -13,15 +13,15 @@ public class LoginMessage : NetModel
     public override void initModel()
     {
         base.initModel();
-        addNetListenFun(ProtoCommand.RegisterAccount, Receive_RegisterAccountResult);
-        addNetListenFun(ProtoCommand.Login, receive_LoginGame);
+        addNetListenFun(ProtoCommand.PROTO_REGISTERACCOUNT, Receive_RegisterAccountResult);
+        addNetListenFun(ProtoCommand.PROTO_LOGIN, receive_LoginGame);
     }
 
     public override void destroyModel()
     {
         base.destroyModel();
-        removeNetListenFun(ProtoCommand.RegisterAccount, Receive_RegisterAccountResult);
-        removeNetListenFun(ProtoCommand.Login, receive_LoginGame);
+        removeNetListenFun(ProtoCommand.PROTO_REGISTERACCOUNT, Receive_RegisterAccountResult);
+        removeNetListenFun(ProtoCommand.PROTO_LOGIN, receive_LoginGame);
     }
 
     public void Send_RegisterAccount(string aN, string ps, string reps)
@@ -30,14 +30,20 @@ public class LoginMessage : NetModel
         mdata.accountName = aN;
         mdata.password = ps;
         mdata.repeatPassword = reps;
-        sendNetData(ProtoCommand.RegisterAccount, mdata);
+        sendNetData(ProtoCommand.PROTO_REGISTERACCOUNT, mdata);
     }
 
     public void Receive_RegisterAccountResult(Package mProtobuf)
     {
-        scRegisterAccount mscRegisterAccountdata = null;
+        scRegisterAccount mscRegisterAccountdata = new scRegisterAccount();
         mProtobuf.getData<scRegisterAccount>(mscRegisterAccountdata);
-        mRegisterResult.HandleData(mscRegisterAccountdata.result);
+        if (mscRegisterAccountdata.result == 1)
+        {
+            mRegisterResult.HandleData(mscRegisterAccountdata.result == 1);
+        }else
+        {
+            DebugSystem.LogError("Register Account Error: "+mscRegisterAccountdata.result);
+        }
     }
 
     public void send_LoginGame(string ac, string ps)
@@ -45,13 +51,19 @@ public class LoginMessage : NetModel
         csLoginGame mdata = new csLoginGame();
         mdata.accountName = ac;
         mdata.password = ps;
-        sendNetData(ProtoCommand.Login, mdata);
+        sendNetData(ProtoCommand.PROTO_LOGIN, mdata);
     }
 
     public void receive_LoginGame(Package mProtobuf)
     {
-        scLoginGame mscLoginGame = null;
+        scLoginGame mscLoginGame = new scLoginGame();
         mProtobuf.getData<scLoginGame>(mscLoginGame);
-        mLoginResult.HandleData(mscLoginGame.result);
+        if (mscLoginGame.result == 1)
+        {
+            mLoginResult.HandleData(mscLoginGame.result == 1);
+        }else
+        {
+            DebugSystem.LogError("Login Account Error: " + mscLoginGame.result);
+        }
     }
 }

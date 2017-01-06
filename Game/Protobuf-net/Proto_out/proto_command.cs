@@ -7,27 +7,33 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// Generated from: Proto/proto_command.proto
+// Generated from: proto_command.proto
 namespace game.protobuf.data
 {
     [global::ProtoBuf.ProtoContract(Name=@"ProtoCommand")]
     public enum ProtoCommand
     {
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Chat", Value=1100)]
-      Chat = 1100,
+      [global::ProtoBuf.ProtoEnum(Name=@"PROTO_CHAT", Value=1100)]
+      PROTO_CHAT = 1100,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"RegisterAccount", Value=1101)]
-      RegisterAccount = 1101,
+      [global::ProtoBuf.ProtoEnum(Name=@"PROTO_REGISTERACCOUNT", Value=1101)]
+      PROTO_REGISTERACCOUNT = 1101,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"Login", Value=1102)]
-      Login = 1102,
+      [global::ProtoBuf.ProtoEnum(Name=@"PROTO_LOGIN", Value=1102)]
+      PROTO_LOGIN = 1102,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"SelectServer", Value=1103)]
-      SelectServer = 1103,
+      [global::ProtoBuf.ProtoEnum(Name=@"PROTO_SELECTSERVER", Value=1103)]
+      PROTO_SELECTSERVER = 1103,
             
-      [global::ProtoBuf.ProtoEnum(Name=@"EnterGame", Value=1104)]
-      EnterGame = 1104
+      [global::ProtoBuf.ProtoEnum(Name=@"PROTO_CREATEROLE", Value=1104)]
+      PROTO_CREATEROLE = 1104,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"PROTO_PUSH_CHATINFO", Value=5001)]
+      PROTO_PUSH_CHATINFO = 5001,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"PROTO_PUSH_PLAYERINFO", Value=5002)]
+      PROTO_PUSH_PLAYERINFO = 5002
     }
   
 }

@@ -15,23 +15,22 @@ namespace xk_System.Net
 {
     public class NetManager : MonoBehaviour
     {
-        public string ip = "192.168.1.7";
+        public string ip = "192.168.1.109";
         public int port = 7878;
-        // Use this for initialization
         private void Start()
         {
-           // NetSystem.getSingle().init(ip, port);
+            NetSystem.getSingle().init(ip, port);
         }
 
         // Update is called once per frame
         void Update()
         {
-           // NetSystem.getSingle().ReceiveData();
+            NetSystem.getSingle().ReceiveData();
         }
 
         private void OnDestroy()
         {
-           // NetSystem.getSingle().CloseNet();
+            NetSystem.getSingle().CloseNet();
         }
     }
 
@@ -434,11 +433,6 @@ namespace xk_System.Net
 
     }
 
-    /// <summary>
-    /// 又可以用了，大哥
-    /// 采取阻塞，线程方式，这种方法经测试是不可取的，原因在于Unity中几乎所有方法不是线程安全的
-    /// 第一次是采用这个来连接网络，有些Unity方法，不能用在线程里使用:如协程
-    /// </summary>
     internal class NetSystem_Thread : NetSystem
     {
         private List<Thread> ThreadPool;
@@ -1238,9 +1232,7 @@ namespace xk_System.Net
     {
         public const int stream_head_Length = 2;
         public const int stream_tail_Length = 2;
-
         public const int msg_head_BodyLength = 4;
-
     }
 
     /// <summary>

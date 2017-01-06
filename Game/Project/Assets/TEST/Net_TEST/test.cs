@@ -13,8 +13,8 @@ namespace Test
         void Start()
         {
             mNetSystem = new NetSystem_Thread();
-            mNetSystem.init("192.168.1.7",7878);
-            mNetSystem.addListenFun((int)ProtoCommand.Chat, ReceiveFun);
+            mNetSystem.init("192.168.1.109",7878);
+           // mNetSystem.addListenFun((int)ProtoCommand.PROTO_CHAT, ReceiveFun);
             ID++;
 
             StartCoroutine(Run());
@@ -26,7 +26,7 @@ namespace Test
             {
                 for (int i = 0; i < 10; i++)
                 {
-                    SendFun();
+                    //SendFun();
                 }
                 yield return new WaitForSeconds(2f);
                 //break;
@@ -38,7 +38,7 @@ namespace Test
             mNetSystem.ReceiveData();
         }
 
-        void SendFun()
+        /*void SendFun()
         {
             ClientSendData mClient = new ClientSendData();
             mClient.SenderName = "client" + ID;
@@ -55,7 +55,8 @@ namespace Test
         }
         void OnDestroy()
         {
+            StopAllCoroutines();
             mNetSystem.CloseNet();
-        }
+        }*/
     }
 }

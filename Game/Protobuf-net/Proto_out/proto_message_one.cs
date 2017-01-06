@@ -6,3 +6,61 @@
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
+
+// Generated from: proto_message_one.proto
+// Note: requires additional types generated from: proto_struct.proto
+namespace game.protobuf.data
+{
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"pushChatInfo")]
+  public partial class pushChatInfo : global::ProtoBuf.IExtensible
+  {
+    public pushChatInfo() {}
+    
+    private uint _result = default(uint);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"result", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint result
+    {
+      get { return _result; }
+      set { _result = value; }
+    }
+    private struct_ChatInfo _chatInfo = null;
+    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"chatInfo", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::System.ComponentModel.DefaultValue(null)]
+    public struct_ChatInfo chatInfo
+    {
+      get { return _chatInfo; }
+      set { _chatInfo = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"pushPlayerInfo")]
+  public partial class pushPlayerInfo : global::ProtoBuf.IExtensible
+  {
+    public pushPlayerInfo() {}
+    
+    private uint _result = default(uint);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"result", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint result
+    {
+      get { return _result; }
+      set { _result = value; }
+    }
+    private struct_PlayerDetailInfo _playerInfo = null;
+    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"playerInfo", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::System.ComponentModel.DefaultValue(null)]
+    public struct_PlayerDetailInfo playerInfo
+    {
+      get { return _playerInfo; }
+      set { _playerInfo = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
+}

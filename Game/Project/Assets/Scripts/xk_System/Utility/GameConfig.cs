@@ -4,6 +4,8 @@ public class GameConfig : SingleTonMonoBehaviour<GameConfig>
 {
     public bool orUseAssetBundle = true;
     public bool orUseLog = false;
+    public bool orUseNet = true;
+
     public UnityConfig mUnityPlatformConfig;
 
     private void Awake()

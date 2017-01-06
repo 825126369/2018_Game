@@ -11,9 +11,9 @@ namespace xk_System.View.Modules
         public Button mChatBtn;
         public Button mStoreBtn;
 
-        protected override void AddListener()
+        protected override void Awake()
         {
-            base.AddListener();
+            base.Awake();
             mShareBtn.onClick.AddListener(OnClick_Share);
             mChatBtn.onClick.AddListener(OnClick_Chat);
             mStoreBtn.onClick.AddListener(OnClick_Store);

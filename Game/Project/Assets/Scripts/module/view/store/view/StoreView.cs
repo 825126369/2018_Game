@@ -21,9 +21,9 @@ namespace xk_System.View.Modules
             base.OnEnable();
         }
 
-        protected override void AddListener()
+        protected override void Awake()
         {
-            base.AddListener();
+            base.Awake();
             mCloseBtn.onClick.AddListener(Click_CloseBtn);
             mAllItemBtn.onClick.AddListener(Click_AllItemBtn);
             mRecommendItemBtn.onClick.AddListener(Click_RecommendItemBtn);

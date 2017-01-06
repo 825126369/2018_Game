@@ -2,6 +2,7 @@
 using System.Collections;
 using xk_System.AssetPackage;
 using xk_System.HotUpdate;
+using xk_System.Net;
 
 public class GameEngine : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class GameEngine : MonoBehaviour
                 gameObject.AddComponent<LogManager>();
             }
         }
+        gameObject.AddComponent<NetManager>();
+
     }
     private void Start()
     {

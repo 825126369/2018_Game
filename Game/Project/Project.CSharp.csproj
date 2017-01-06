@@ -114,7 +114,6 @@
     <Compile Include="Assets\Scripts\module\view\common\EventTriggerListener.cs" />
     <Compile Include="Assets\Scripts\module\view\common\xScrollViewBase.cs" />
     <Compile Include="Assets\Scripts\module\view\login\LoginCommand.cs" />
-    <Compile Include="Assets\Scripts\module\view\login\LoginModel.cs" />
     <Compile Include="Assets\Scripts\module\view\login\LoginView.cs" />
     <Compile Include="Assets\Scripts\module\view\main\MainModel.cs" />
     <Compile Include="Assets\Scripts\module\view\main\MainView.cs" />

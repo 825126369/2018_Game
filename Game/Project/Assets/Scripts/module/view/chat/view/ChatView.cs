@@ -25,26 +25,24 @@ namespace xk_System.View.Modules
             base.Awake();
             mChatModel = GetModel<ChatModel>();
             TextUtility.Instance.Init();
-        }
-        
-        protected override void AddListener()
-        {
-            base.AddListener();
             mSendBtn.onClick.AddListener(OnClick_SureSendBtn);
             mCloseBtn.onClick.AddListener(ClickCloseBtn);
             mExpressionBtn.onClick.AddListener(Click_OpenExpressionView);
         }
 
-        protected override void AddNetEvent()
+        protected override void OnEnable()
         {
-            base.AddNetEvent();
-            ModelSystem.Instance.GetModel<ChatModel>().addDataBinding(RefreshView, "mChatDataList");
+            base.OnEnable();
+            ModelSystem.Instance.GetModel<ChatModel>().addDataBind(RefreshView, "mChatDataList");
+
+            mInput.text = string.Empty;
+            StartCoroutine(InitData());
         }
 
-        protected override void RemoveNetEvent()
+        protected override void OnDisable()
         {
-            base.RemoveNetEvent();
-            ModelSystem.Instance.GetModel<ChatModel>().removeDataBinding(RefreshView, "mChatDataList");
+            base.OnDisable();
+            ModelSystem.Instance.GetModel<ChatModel>().removeDataBind(RefreshView, "mChatDataList");
         }
 
         private void Click_OpenExpressionView()
@@ -56,18 +54,6 @@ namespace xk_System.View.Modules
         private void ClickCloseBtn()
         {
             HideView<ChatView>();
-        }
-
-        protected override void OnEnable()
-        {
-            base.OnEnable();
-            mInput.text = string.Empty;
-            StartCoroutine(InitData());
-        }
-
-        protected override void Start()
-        {
-            base.Start();
         }
 
         private IEnumerator InitData()

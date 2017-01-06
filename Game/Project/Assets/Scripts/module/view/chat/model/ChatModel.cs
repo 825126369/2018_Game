@@ -40,12 +40,12 @@ namespace xk_System.Model.Modules
             ModelSystem.Instance.GetModel<ChatMessage>().mBindServerSendData.removeDataBind(GetServerData);
         }
 
-        private void GetServerData(ServerSendData mdata)
+        private void GetServerData(struct_ChatInfo mdata)
         {
             ReceiveData(GetCLientData(mdata));
         }
 
-        private ChatItemData GetCLientData(ServerSendData mdata)
+        private ChatItemData GetCLientData(struct_ChatInfo mdata)
         {
             ChatItemData mClientData = new ChatItemData();
             return mClientData;
@@ -54,7 +54,7 @@ namespace xk_System.Model.Modules
         public void ReceiveData(ChatItemData mdata)
         {
             mChatDataList.Insert(0,mdata);
-            updateBinding("mChatDataList");
+            updateBind("mChatDataList");
         }
     }
 

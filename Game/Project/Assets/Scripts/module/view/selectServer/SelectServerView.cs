@@ -19,16 +19,12 @@ namespace xk_System.View.Modules
         {
             base.Awake();
             mServerText.text = string.Empty;
+            mSureGame.onClick.AddListener(OnClick_SureGame);
         }
 
         public void RefreshText(ServerListDB mdata)
         {
             mServerText.text = mdata.serverName+mdata.id;
-        }
-        protected override void AddListener()
-        {
-            base.AddListener();
-            mSureGame.onClick.AddListener(OnClick_SureGame);
         }
 
         private void OnClick_SureGame()

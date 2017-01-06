@@ -1,7 +1,8 @@
 set CURRENT_DIR=%cd%
 set CURRENT_DISK=%~d0 
 set NET_FRAMEWORK_CSC="%windir%\Microsoft.NET\Framework\v3.5\
-set PROTO_FILE=%CURRENT_DIR%\Proto\
+::set PROTO_FILE=%CURRENT_DIR%\Proto\
+set PROTO_FILE=F:\2018_Config\Config\Proto
 set CS_FILE=%CURRENT_DIR%\Proto_out
 set PROTOBUF_DLL=%CURRENT_DIR%\protobuf-net\ProtoGen\protobuf-net.dll
 set PROTOBUF_OUT_DLL=%CURRENT_DIR%\Proto_out\protobuf-net.dll
@@ -10,6 +11,7 @@ set SERIALIZER_DLL=%CURRENT_DIR%\Proto_out\GameProtocols.dll
 set GEN_TOOL=%CURRENT_DIR%\protobuf-net\ProtoGen\protogen.exe
 set PRECOMPIE_TOOL=%CURRENT_DIR%\protobuf-net\Precompile\precompile.exe 
 
+cd %PROTO_FILE%
 for /r %PROTO_FILE% %%i in (*.proto) do (
 %GEN_TOOL% -i:%%i -o:%CS_FILE%/%%~ni.cs -ns:game.protobuf.data
 

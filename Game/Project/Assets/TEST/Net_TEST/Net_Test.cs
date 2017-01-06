@@ -18,7 +18,7 @@ namespace Test
             int i = 0;
             while (i<50)
             {
-               // Instantiate(mTest.gameObject);
+                Instantiate(mTest.gameObject);
                 i++;
                 yield return 0;
             }

@@ -27,6 +27,7 @@ namespace xk_System.View
             obj.transform.localPosition = Vector3.zero;
             obj.SetActive(true);
             DontDestroyOnLoad(obj);
+
             GameObject mRoot = obj;
             Transform mCanvas = mRoot.transform.FindChild("Canvas/hide");
             mUILayout.hideParent = mCanvas;
@@ -57,7 +58,7 @@ namespace xk_System.View
                 {
                     if (data != null)
                     {
-                        mViewPrefabDic[mType].SetInitViewInfo(data);
+                        mViewPrefabDic[mType].InitView(data);
                     }
                     mViewPrefabDic[mType].gameObject.SetActive(true);
                     DebugSystem.Log("显示界面：" + mType.Name);
@@ -129,7 +130,7 @@ namespace xk_System.View
             {
                 mView = obj.AddComponent<T>();
             }
-            yield return mView.WaitInitFinish();
+            yield return mView.PrepareResource();
             mView.addLayer();            
             if (!mViewPrefabDic.ContainsKey(mType))
             {
@@ -207,37 +208,48 @@ namespace xk_System.View
 
     public  abstract  class xk_View : MonoBehaviour
     {
-        private object data=null;
+        protected object data=null;
 
-        protected virtual void FindObject()
+        public virtual void InitView(object data = null)
         {
-
+            if (data != null)
+            {
+                this.data = data;
+            }
         }
 
-        protected virtual void AddListener()
+        protected virtual void Awake()
         {
             
         }
 
-        protected virtual void AddNetEvent()
+        protected virtual void OnEnable()
         {
-
+            this.transform.SetAsLastSibling();
         }
 
-        protected virtual void RemoveNetEvent()
+        protected virtual void OnDisable()
         {
-
+            this.transform.SetAsFirstSibling();
+            StopAllCoroutines();
+            data = null;
         }
 
-        protected virtual IEnumerator PrepareResource()
+        protected virtual void OnDestroy()
+        {
+            
+        }
+
+        public virtual IEnumerator PrepareResource()
         {
             DebugSystem.Log("准备加载xk_View资源");
             yield return 0;
         }
 
-        protected virtual void InitView(object data = null)
+        public void addLayer()
         {
-
+            SetViewParent();
+            SetViewTransform();
         }
 
         protected virtual void SetViewParent()
@@ -251,9 +263,9 @@ namespace xk_System.View
             transform.localPosition = Vector3.zero;
             transform.localRotation = Quaternion.identity;
             RectTransform mRT = transform.GetComponent<RectTransform>();
-            if(mRT==null)
+            if (mRT == null)
             {
-                mRT=gameObject.AddComponent<RectTransform>();
+                mRT = gameObject.AddComponent<RectTransform>();
             }
             if (mRT != null)
             {
@@ -264,55 +276,7 @@ namespace xk_System.View
                 mRT.anchorMin = new Vector2(0, 0);
                 mRT.anchorMax = new Vector2(1, 1);
             }
-            
         }
-
-        protected virtual void Awake()
-        {
-            FindObject();
-        }
-
-        protected virtual void OnEnable()
-        {
-            AddNetEvent();
-            this.transform.SetAsLastSibling();
-        }
-
-        protected virtual void Start()
-        {
-            AddListener();
-        }
-        protected virtual void OnDisable()
-        {
-            this.transform.SetAsFirstSibling();
-            RemoveNetEvent();
-            StopAllCoroutines();
-            data = null;
-        }
-
-        protected virtual void OnDestroy()
-        {
-            
-        }
-
-        public IEnumerator WaitInitFinish()
-        {
-            yield return PrepareResource();
-            DebugSystem.Log("初始化" + this.GetType().Name + "完成");
-        }
-
-        public void SetInitViewInfo(object data = null)
-        {
-            this.data = data;
-            InitView(data);
-        }
-
-        public void addLayer()
-        {
-            SetViewParent();
-            SetViewTransform();
-        }
-
 
         public T GetModel<T>() where T : xk_Model, new()
         {

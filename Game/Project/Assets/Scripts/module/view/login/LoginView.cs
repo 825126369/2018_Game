@@ -10,65 +10,50 @@ namespace xk_System.View.Modules
 {
     public class LoginView : xk_View
     {
-        private InputField mAccount;
-        private InputField mPassword;
-        private  InputField mRepeatPassword;
-        private  Button mLogin;
-        private  Button mRegister;
+        public GameObject mLoginView;
+        public GameObject mRegisterView;
+        public InputField mAccount;
+        public InputField mPassword;
 
-        private LoginModel mLoginModel;
+        public InputField mRegisterAccount;
+        public InputField mRegisterPassword;
+        public InputField mRepeatPassword;
+
+        public Button mLoginBtn;
+        public Button mShowRegtisterViewBtn;
+        public Button mReturnLoginBtn;
+        public Button mRegisterBtn;
+
+        private LoginMessage mLoginModel=null;
 
         protected override void Awake()
         {
             base.Awake();
-            mLogin.name = "Login";
-            mLogin.GetComponentInChildren<Text>().text = "登陆";
-            mRepeatPassword.gameObject.SetActive(false);
-            mAccount.gameObject.SetActive(true);
-            mPassword.gameObject.SetActive(true);
-            mLoginModel = GetModel<LoginModel>();
+            mLoginModel = GetModel<LoginMessage>();
 
-            mAccount.text= PlayerPrefs.GetString(CacheManager.cache_key_account,"");
-            mPassword.text = PlayerPrefs.GetString(CacheManager.cache_key_password,"");
+            mLoginBtn.onClick.AddListener(OnClick_Login);
+            mShowRegtisterViewBtn.onClick.AddListener(OnClick_ShowRegisterView);
+            mRegisterBtn.onClick.AddListener(OnClick_Register);
+            mReturnLoginBtn.onClick.AddListener(OnClick_ReturnLogin);
+
+            mAccount.text = PlayerPrefs.GetString(CacheManager.cache_key_account, "");
+            mPassword.text = PlayerPrefs.GetString(CacheManager.cache_key_password, "");
+            mLoginView.SetActive(true);
+            mRegisterView.SetActive(false);
         }
 
-        protected override void FindObject()
+        protected override void OnEnable()
         {
-            Transform mt = transform.FindChild("account");
-            mAccount = mt.GetComponent<InputField>();
-
-            mt = transform.FindChild("password");
-            mPassword = mt.GetComponent<InputField>();
-
-            mt = transform.FindChild("repeatpassword");
-            mRepeatPassword = mt.GetComponent<InputField>();
-
-            mt = transform.FindChild("zhuce");
-            mRegister = mt.GetComponent<Button>();
-
-            mt = transform.FindChild("denglu");
-            mLogin = mt.GetComponent<Button>();
+            base.OnEnable();
+            mLoginModel.mRegisterResult.addDataBind(JudgeOrRegisterSuccess);
+            mLoginModel.mLoginResult.addDataBind(JudegeOrLoginSuccess);
         }
 
-        protected override void AddListener()
+        protected override void OnDisable()
         {
-            base.AddListener();
-            mLogin.onClick.AddListener(OnClick_Login);
-            mRegister.onClick.AddListener(OnClick_Register);
-        }
-
-        protected override void AddNetEvent()
-        {
-            base.AddNetEvent();
-           // mLoginModel.mRegisterResult.addDataBind(JudgeOrRegisterSuccess);
-          //  mLoginModel.mLoginResult.addDataBind(JudegeOrLoginSuccess);
-        }
-
-        protected override void RemoveNetEvent()
-        {
-            base.RemoveNetEvent();
-          //  mLoginModel.mLoginResult.removeDataBind(JudegeOrLoginSuccess);
-          //  mLoginModel.mRegisterResult.removeDataBind(JudgeOrRegisterSuccess);
+            base.OnDisable();
+            mLoginModel.mLoginResult.removeDataBind(JudegeOrLoginSuccess);
+            mLoginModel.mRegisterResult.removeDataBind(JudgeOrRegisterSuccess);
         }
 
 
@@ -84,39 +69,52 @@ namespace xk_System.View.Modules
                 DebugSystem.LogError("密码不能为空");
                 return;
             }
-            if (mLogin.name == "Login")
-            {
-                DebugSystem.Log("点击登陆");
-                // mLoginModel.send_LoginGame(mAccount.text, mPassword.text);
-                JudegeOrLoginSuccess(true);
-            }
-            else if (mLogin.name == "finishregister")
-            {
-                DebugSystem.Log("点击注册");
-               // mLoginModel.Send_RegisterAccount(mAccount.text, mPassword.text, mPassword.text);
-                mLogin.name = "Login";
-                mLogin.GetComponentInChildren<Text>().text = "登陆";
-            }
-
+            DebugSystem.Log("点击登陆");
+            mLoginModel.send_LoginGame(mAccount.text.Trim(), mPassword.text.Trim());     
         }
+
+        private void OnClick_ShowRegisterView()
+        {
+            mLoginView.SetActive(false);
+            mRegisterView.SetActive(true);
+        }
+
 
         private void OnClick_Register()
         {
-            mAccount.text = "";
-            mPassword.text = "";
-            mLogin.name = "finishregister";
-            mLogin.GetComponentInChildren<Text>().text = "提交注册";
+            if (string.IsNullOrEmpty(mRegisterAccount.text.Trim()))
+            {
+                DebugSystem.LogError("注冊账号不能为空");
+                return;
+            }
+            if (string.IsNullOrEmpty(mRegisterPassword.text.Trim()))
+            {
+                DebugSystem.LogError("注冊密码不能为空");
+                return;
+            }
+            if (mRepeatPassword.text.Trim() !=mRegisterPassword.text.Trim())
+            {
+                DebugSystem.LogError("Register Password no Equal");
+                return;
+            }
+            DebugSystem.Log("Click RegisterBtn");
+            mLoginModel.Send_RegisterAccount(mAccount.text, mPassword.text, mPassword.text);
         }
 
-        public void JudgeOrRegisterSuccess(bool result)
+        private void OnClick_ReturnLogin()
         {
+            mLoginView.SetActive(true);
+            mRegisterView.SetActive(false);
+        }
+
+        public void JudgeOrRegisterSuccess(bool data)
+        {
+            bool result = data;
             if (result)
             {
-                mLogin.name = "Login";
-                mLogin.GetComponentInChildren<Text>().text = "登陆";
                 DebugSystem.LogError("注册成功");
-                mAccount.text = "";
-                mPassword.text = "";
+                mLoginView.SetActive(true);
+                mRegisterView.SetActive(false);
             }
             else
             {
@@ -124,8 +122,9 @@ namespace xk_System.View.Modules
             }
         }
 
-        public void JudegeOrLoginSuccess(bool result)
+        public void JudegeOrLoginSuccess(bool data)
         {
+            bool result = data;
             if (result)
             {
                 DebugSystem.Log("登陆成功");
@@ -134,7 +133,6 @@ namespace xk_System.View.Modules
 
                 PlayerPrefs.SetString(CacheManager.cache_key_account,mAccount.text);
                 PlayerPrefs.SetString(CacheManager.cache_key_password,mPassword.text);
-
             }
             else
             {
