@@ -162,6 +162,21 @@ namespace game.protobuf.data
       get { return _result; }
       set { _result = value; }
     }
+    private uint _lastSelecServerId = default(uint);
+    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"lastSelecServerId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint lastSelecServerId
+    {
+      get { return _lastSelecServerId; }
+      set { _lastSelecServerId = value; }
+    }
+    private readonly global::System.Collections.Generic.List<uint> _beforeLoginRecordServerList = new global::System.Collections.Generic.List<uint>();
+    [global::ProtoBuf.ProtoMember(3, Name=@"beforeLoginRecordServerList", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    public global::System.Collections.Generic.List<uint> beforeLoginRecordServerList
+    {
+      get { return _beforeLoginRecordServerList; }
+    }
+  
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
@@ -198,14 +213,21 @@ namespace game.protobuf.data
       get { return _result; }
       set { _result = value; }
     }
-    private uint _action = default(uint);
-    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"action", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
-    [global::System.ComponentModel.DefaultValue(default(uint))]
-    public uint action
+    private ulong _LastSelectRoleId = default(ulong);
+    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"LastSelectRoleId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(ulong))]
+    public ulong LastSelectRoleId
     {
-      get { return _action; }
-      set { _action = value; }
+      get { return _LastSelectRoleId; }
+      set { _LastSelectRoleId = value; }
     }
+    private readonly global::System.Collections.Generic.List<struct_PlayerDetailInfo> _roleList = new global::System.Collections.Generic.List<struct_PlayerDetailInfo>();
+    [global::ProtoBuf.ProtoMember(3, Name=@"roleList", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    public global::System.Collections.Generic.List<struct_PlayerDetailInfo> roleList
+    {
+      get { return _roleList; }
+    }
+  
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
@@ -249,6 +271,86 @@ namespace game.protobuf.data
   public partial class scCreateRole : global::ProtoBuf.IExtensible
   {
     public scCreateRole() {}
+    
+    private uint _result = default(uint);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"result", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint result
+    {
+      get { return _result; }
+      set { _result = value; }
+    }
+    private struct_PlayerDetailInfo _role = null;
+    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"role", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::System.ComponentModel.DefaultValue(null)]
+    public struct_PlayerDetailInfo role
+    {
+      get { return _role; }
+      set { _role = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"csSelectRole")]
+  public partial class csSelectRole : global::ProtoBuf.IExtensible
+  {
+    public csSelectRole() {}
+    
+    private ulong _roleId = default(ulong);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"roleId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(ulong))]
+    public ulong roleId
+    {
+      get { return _roleId; }
+      set { _roleId = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"scSelectRole")]
+  public partial class scSelectRole : global::ProtoBuf.IExtensible
+  {
+    public scSelectRole() {}
+    
+    private uint _result = default(uint);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"result", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint result
+    {
+      get { return _result; }
+      set { _result = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"csEnterMap")]
+  public partial class csEnterMap : global::ProtoBuf.IExtensible
+  {
+    public csEnterMap() {}
+    
+    private uint _configId = default(uint);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"configId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint configId
+    {
+      get { return _configId; }
+      set { _configId = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"scEnterMap")]
+  public partial class scEnterMap : global::ProtoBuf.IExtensible
+  {
+    public scEnterMap() {}
     
     private uint _result = default(uint);
     [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"result", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]

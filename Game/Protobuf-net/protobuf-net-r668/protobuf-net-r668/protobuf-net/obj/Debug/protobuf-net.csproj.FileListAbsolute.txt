@@ -1,6 +1,0 @@
-F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net\bin\Debug\Licence.txt
-F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net\bin\Debug\protobuf-net.xml
-F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net\bin\Debug\protobuf-net.dll
-F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net\bin\Debug\protobuf-net.pdb
-F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net\obj\Debug\protobuf-net.dll
-F:\2018_Game\Game\Protobu-net\protobuf-net-r668\protobuf-net-r668\protobuf-net\obj\Debug\protobuf-net.pdb

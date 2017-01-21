@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 1933845971
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5cec3ee3297378815144cda2179cca9f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 72c672a573805b082a1a1eda500886ca
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/skill/Prefab/fx_point_fireball.prefab
+- Assets/ResourceABs/skill/Prefab/fx_impact_s2006_ult_1.prefab
+- Assets/ResourceABs/skill/Prefab/fx_point_C1003_ult.prefab
+- Assets/ResourceABs/skill/Prefab/fx_buff_M2132_atk_2.prefab
+- Assets/ResourceABs/skill/Prefab/fx_tile_M2135_atk.prefab
+- Assets/ResourceABs/skill/Prefab/fx_B224.prefab
+- Assets/ResourceABs/skill/Prefab/fx_S1008.prefab
+- Assets/ResourceABs/skill/Prefab/fx_skill_h002_atk.prefab
+- Assets/ResourceABs/skill/Prefab/fx_buff_C1060_ult_2.prefab
+- Assets/ResourceABs/skill/Prefab/fx_buff_heal.prefab
+- Assets/ResourceABs/skill/Prefab/fx_point_M3007_atk5.prefab
+Dependencies:
+- F:/2018_Game/Game/Project/Assets/StreamingAssets/skill_materials.xk_unity3d

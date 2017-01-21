@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3939649910
+CRC: 2027094727
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -9,7 +9,7 @@ AssetBundleManifest:
         Dependency_1: atlas_button.xk_unity3d
         Dependency_2: atlas_texture.xk_unity3d
         Dependency_3: atlas_emoj.xk_unity3d
-        Dependency_4: atlas_heroicon.xk_unity3d
+        Dependency_4: atlas_hero.xk_unity3d
         Dependency_5: atlas_skill.xk_unity3d
     Info_1:
       Name: manager.xk_unity3d
@@ -39,7 +39,7 @@ AssetBundleManifest:
       Name: atlas_emoj.xk_unity3d
       Dependencies: {}
     Info_10:
-      Name: atlas_heroicon.xk_unity3d
+      Name: atlas_hero.xk_unity3d
       Dependencies: {}
     Info_11:
       Name: atlas_rune.xk_unity3d
@@ -52,4 +52,20 @@ AssetBundleManifest:
       Dependencies: {}
     Info_14:
       Name: audio.xk_unity3d
+      Dependencies: {}
+    Info_15:
+      Name: shader.xk_unity3d
+      Dependencies:
+        Dependency_0: skill_textures.xk_unity3d
+    Info_16:
+      Name: skill_materials.xk_unity3d
+      Dependencies:
+        Dependency_0: shader.xk_unity3d
+        Dependency_1: skill_textures.xk_unity3d
+    Info_17:
+      Name: skill_prefab.xk_unity3d
+      Dependencies:
+        Dependency_0: skill_materials.xk_unity3d
+    Info_18:
+      Name: skill_textures.xk_unity3d
       Dependencies: {}

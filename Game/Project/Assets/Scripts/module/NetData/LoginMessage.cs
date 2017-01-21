@@ -1,69 +1,122 @@
 ﻿using UnityEngine;
 using System.Collections;
 using xk_System.Model;
-using game.protobuf.data;
+//using game.protobuf.data;
+using XkProtobufData;
 using xk_System.Debug;
 using xk_System.Net;
 
 public class LoginMessage : NetModel
 {
-    public DataBind<bool> mRegisterResult = new DataBind<bool>();
-    public DataBind<bool> mLoginResult = new DataBind<bool>();
+    public DataBind<scRegisterAccount> mRegisterResult = new DataBind<scRegisterAccount>();
+    public DataBind<scLoginGame> mLoginResult = new DataBind<scLoginGame>();
+    public DataBind<scSelectServer> mSeletServerResult = new DataBind<scSelectServer>();
+    public DataBind<scCreateRole> mCreateRoleResult = new DataBind<scCreateRole>();
+    public DataBind<scSelectRole> mSelectRoleResult = new DataBind<scSelectRole>();
 
     public override void initModel()
     {
         base.initModel();
-        addNetListenFun(ProtoCommand.PROTO_REGISTERACCOUNT, Receive_RegisterAccountResult);
-        addNetListenFun(ProtoCommand.PROTO_LOGIN, receive_LoginGame);
+        addNetListenFun(ProtoCommand.ProtoRegisteraccount, Receive_RegisterAccountResult);
+        addNetListenFun(ProtoCommand.ProtoLogin, receive_LoginGame);
+        addNetListenFun(ProtoCommand.ProtoSelectserver, receive_SelectServer);
+        addNetListenFun(ProtoCommand.ProtoCreaterole, receive_CreateRole);
+        addNetListenFun(ProtoCommand.ProtoSelectrole, receive_SelectRole);
+
+
     }
 
     public override void destroyModel()
     {
         base.destroyModel();
-        removeNetListenFun(ProtoCommand.PROTO_REGISTERACCOUNT, Receive_RegisterAccountResult);
-        removeNetListenFun(ProtoCommand.PROTO_LOGIN, receive_LoginGame);
+        removeNetListenFun(ProtoCommand.ProtoRegisteraccount, Receive_RegisterAccountResult);
+        removeNetListenFun(ProtoCommand.ProtoLogin, receive_LoginGame);
+        removeNetListenFun(ProtoCommand.ProtoSelectserver, receive_SelectServer);
+        removeNetListenFun(ProtoCommand.ProtoCreaterole, receive_CreateRole);
+        removeNetListenFun(ProtoCommand.ProtoSelectrole, receive_SelectRole);
     }
-
+    /// <summary>
+    /// 发送账户注册信息
+    /// </summary>
+    /// <param name="aN"></param>
+    /// <param name="ps"></param>
+    /// <param name="reps"></param>
     public void Send_RegisterAccount(string aN, string ps, string reps)
     {
         csRegisterAccount mdata = new csRegisterAccount();
-        mdata.accountName = aN;
-        mdata.password = ps;
-        mdata.repeatPassword = reps;
-        sendNetData(ProtoCommand.PROTO_REGISTERACCOUNT, mdata);
+        mdata.AccountName = aN;
+        mdata.Password = ps;
+        mdata.RepeatPassword = reps;
+        sendNetData(ProtoCommand.ProtoRegisteraccount, mdata);
     }
 
-    public void Receive_RegisterAccountResult(Package mProtobuf)
+    private void Receive_RegisterAccountResult(Package mProtobuf)
     {
-        scRegisterAccount mscRegisterAccountdata = new scRegisterAccount();
-        mProtobuf.getData<scRegisterAccount>(mscRegisterAccountdata);
-        if (mscRegisterAccountdata.result == 1)
-        {
-            mRegisterResult.HandleData(mscRegisterAccountdata.result == 1);
-        }else
-        {
-            DebugSystem.LogError("Register Account Error: "+mscRegisterAccountdata.result);
-        }
+        scRegisterAccount mscRegisterAccountdata=mProtobuf.getData<scRegisterAccount>();
+        mRegisterResult.HandleData(mscRegisterAccountdata);
     }
-
+    /// <summary>
+    /// 发送账户登录信息
+    /// </summary>
+    /// <param name="ac"></param>
+    /// <param name="ps"></param>
     public void send_LoginGame(string ac, string ps)
     {
         csLoginGame mdata = new csLoginGame();
-        mdata.accountName = ac;
-        mdata.password = ps;
-        sendNetData(ProtoCommand.PROTO_LOGIN, mdata);
+        mdata.AccountName= ac;
+        mdata.Password = ps;
+        sendNetData(ProtoCommand.ProtoLogin, mdata);
     }
 
-    public void receive_LoginGame(Package mProtobuf)
+    private void receive_LoginGame(Package mPackage)
     {
-        scLoginGame mscLoginGame = new scLoginGame();
-        mProtobuf.getData<scLoginGame>(mscLoginGame);
-        if (mscLoginGame.result == 1)
-        {
-            mLoginResult.HandleData(mscLoginGame.result == 1);
-        }else
-        {
-            DebugSystem.LogError("Login Account Error: " + mscLoginGame.result);
-        }
+        scLoginGame mscLoginGame=mPackage.getData<scLoginGame>();
+        mLoginResult.HandleData(mscLoginGame);
     }
+
+    /// <summary>
+    /// 发送选择大区信息
+    /// </summary>
+    /// <param name="serverId"></param>
+    public void send_SelectServer(uint serverId)
+    {
+        csSelectServer mdata = new csSelectServer();
+        mdata.Id = serverId;
+        sendNetData(ProtoCommand.ProtoSelectserver, mdata);
+    }
+
+    private void receive_SelectServer(Package mProtobuf)
+    {
+        scSelectServer mdata=mProtobuf.getData<scSelectServer>();
+        mSeletServerResult.HandleData(mdata);
+    }
+
+    public void send_CreateRole(string name,uint sex,uint profession)
+    {
+        csCreateRole mdata = new csCreateRole();
+        mdata.Name= name;
+        mdata.Sex = sex;
+        mdata.Profession = profession;
+        sendNetData(ProtoCommand.ProtoCreaterole, mdata);
+    }
+
+    private void receive_CreateRole(Package mPackage)
+    {
+        scCreateRole mdata = mPackage.getData<scCreateRole>();
+        mCreateRoleResult.HandleData(mdata);
+    }
+
+    public void send_SelectRole(ulong roleId)
+    {
+        csSelectRole mdata = new csSelectRole();
+        mdata.RoleId = roleId;
+        sendNetData(ProtoCommand.ProtoSelectrole, mdata);
+    }
+
+    private void receive_SelectRole(Package mPackage)
+    {
+        scSelectRole mdata = mPackage.getData<scSelectRole>();
+        mSelectRoleResult.HandleData(mdata);
+    }
+
 }

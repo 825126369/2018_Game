@@ -17,12 +17,5 @@ namespace xk_System.Db
         {
            return  mSkillConfig.Find((x) => x.id == id);
         }
-
-        
-
-
-
-
-
     }
 }

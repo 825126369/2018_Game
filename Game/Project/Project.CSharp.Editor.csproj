@@ -91,14 +91,20 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets\Scripts\dlls\protobuf\protobuf-net.dll</HintPath>
+    </Reference>
     <Reference Include="GameProtocols">
       <HintPath>Assets\Scripts\dlls\protobuf\GameProtocols.dll</HintPath>
     </Reference>
     <Reference Include="GameProtocolsData">
       <HintPath>Assets\Scripts\dlls\protobuf\GameProtocolsData.dll</HintPath>
     </Reference>
-    <Reference Include="protobuf-net">
-      <HintPath>Assets\Scripts\dlls\protobuf\protobuf-net.dll</HintPath>
+    <Reference Include="xk_protobuf_data">
+      <HintPath>Assets\Scripts\dlls\xk_protobuf\xk_protobuf_data.dll</HintPath>
+    </Reference>
+    <Reference Include="xk_Protobuf">
+      <HintPath>Assets\Scripts\dlls\xk_protobuf\xk_Protobuf.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +122,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\ResourceABs\shader\Hero_ParticleAdditive.shader" />
+    <None Include="Assets\ResourceABs\shader\Hero_Particle_Add.shader" />
+    <None Include="Assets\ResourceABs\shader\Hero_Particle_AlphaBlend.shader" />
+    <None Include="Assets\ResourceABs\shader\Hero_Particle_AlphaBlendColor.shader" />
     <None Include="Assets\ResourceABs\sheet\DB.xml" />
     <None Include="Assets\ResourceABs\version\version.xml" />
     <None Include="Assets\Scripts\Shader\aaa.shader" />

@@ -12,7 +12,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
@@ -70,8 +70,15 @@
     <Reference Include="protobuf-net">
       <HintPath>Assets\Scripts\dlls\protobuf\protobuf-net.dll</HintPath>
     </Reference>
+    <Reference Include="xk_Protobuf">
+      <HintPath>Assets\Scripts\dlls\xk_protobuf\xk_Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="xk_protobuf_data">
+      <HintPath>Assets\Scripts\dlls\xk_protobuf\xk_protobuf_data.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\OtherScripts\PingView.cs" />
     <Compile Include="Assets\Scripts\UIEffect\Rainbow.cs" />
     <Compile Include="Assets\Scripts\auto\DB.cs" />
     <Compile Include="Assets\Scripts\auto\ResourceABs.cs" />
@@ -80,6 +87,7 @@
     <Compile Include="Assets\Scripts\module\NetData\LoginMessage.cs" />
     <Compile Include="Assets\Scripts\module\NetData\TimeMessage.cs" />
     <Compile Include="Assets\Scripts\module\configData\ItemConfig.cs" />
+    <Compile Include="Assets\Scripts\module\configData\LoginConfig.cs" />
     <Compile Include="Assets\Scripts\module\configData\SkillConfig.cs" />
     <Compile Include="Assets\Scripts\module\init\GameEngine.cs" />
     <Compile Include="Assets\Scripts\module\init\initManager.cs" />
@@ -114,9 +122,14 @@
     <Compile Include="Assets\Scripts\module\view\common\EventTriggerListener.cs" />
     <Compile Include="Assets\Scripts\module\view\common\xScrollViewBase.cs" />
     <Compile Include="Assets\Scripts\module\view\login\LoginCommand.cs" />
+    <Compile Include="Assets\Scripts\module\view\login\LoginDataModel.cs" />
     <Compile Include="Assets\Scripts\module\view\login\LoginView.cs" />
     <Compile Include="Assets\Scripts\module\view\main\MainModel.cs" />
     <Compile Include="Assets\Scripts\module\view\main\MainView.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectRole\model\SelectRoleModel.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectRole\view\RoleCreateView.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectRole\view\RoleSelectView.cs" />
+    <Compile Include="Assets\Scripts\module\view\selectRole\view\SelectHeroItem.cs" />
     <Compile Include="Assets\Scripts\module\view\selectServer\SelectServerModel.cs" />
     <Compile Include="Assets\Scripts\module\view\selectServer\SelectServerView.cs" />
     <Compile Include="Assets\Scripts\module\view\selectServer\component\SelectServerScrollView.cs" />
@@ -154,7 +167,9 @@
     <Compile Include="Assets\Scripts\xk_System\Utility\Singleton.cs" />
     <Compile Include="Assets\Scripts\xk_System\Utility\Utility.cs" />
     <Compile Include="Assets\Scripts\xk_System\mvc\ModelSystem.cs" />
+    <Compile Include="Assets\Scripts\xk_System\mvc\ObjectRoot.cs" />
     <Compile Include="Assets\Scripts\xk_System\mvc\WindowManager.cs" />
+    <Compile Include="Assets\Scripts\xk_System\mvc\mvc.cs" />
     <Compile Include="Assets\TEST\AndroidSdkTest\AndroidSdkManagerTest.cs" />
     <Compile Include="Assets\TEST\CSharp_TEST\CSharp_Main.cs" />
     <Compile Include="Assets\TEST\CSharp_TEST\CSharp_TEST3.cs" />
@@ -171,6 +186,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\ResourceABs\shader\Hero_ParticleAdditive.shader" />
+    <None Include="Assets\ResourceABs\shader\Hero_Particle_Add.shader" />
+    <None Include="Assets\ResourceABs\shader\Hero_Particle_AlphaBlend.shader" />
+    <None Include="Assets\ResourceABs\shader\Hero_Particle_AlphaBlendColor.shader" />
     <None Include="Assets\ResourceABs\sheet\DB.xml" />
     <None Include="Assets\ResourceABs\version\version.xml" />
     <None Include="Assets\Scripts\Shader\aaa.shader" />

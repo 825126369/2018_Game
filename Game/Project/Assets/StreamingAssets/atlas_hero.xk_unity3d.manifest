@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 504449620
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 16164c2db483a4ed93d028f1147485e8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9dea23ffc7e96552740e12d1ee5309d8
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/atlas/hero/Ahri_1.jpg
+Dependencies: []

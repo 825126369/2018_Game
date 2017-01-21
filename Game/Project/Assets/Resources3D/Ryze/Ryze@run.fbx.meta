@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 9ea3fc7df5b23ad499011d20588485d4
+timeCreated: 1484982952
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bag
+    100002: bag_b
+    100004: bag_c
+    100006: bag_d
+    100008: bag_e
+    100010: bag_f
+    100012: book_l
+    100014: book_r
+    100016: BUFFBONE_CSTM_GEM
+    100018: BUFFBONE_GLB_CHANNEL_LOC
+    100020: BUFFBONE_GLB_GROUND_LOC
+    100022: BUFFBONE_GLB_WEAPON_1
+    100024: C_BUFFBONE_GLB_CENTER_LOC
+    100026: C_BUFFBONE_GLB_CHEST_LOC
+    100028: C_BUFFBONE_GLB_HEAD_LOC
+    100030: C_BUFFBONE_GLB_LAYOUT_LOC
+    100032: C_BUFFBONE_GLB_OVERHEAD_LOC
+    100034: front_a
+    100036: front_b
+    100038: front_c
+    100040: head
+    100042: L_arm
+    100044: L_BUFFBONE_GLB_FOOT_LOC
+    100046: L_BUFFBONE_GLB_HAND_LOC
+    100048: L_calf
+    100050: L_finger
+    100052: L_foot
+    100054: L_forarm
+    100056: L_hand
+    100058: L_PARENTING_HAND_LOC
+    100060: L_shoulder
+    100062: L_thigh
+    100064: L_toe
+    100066: neck
+    100068: pelvis
+    100070: R_arm
+    100072: R_BUFFBONE_GLB_FOOT_LOC
+    100074: R_BUFFBONE_GLB_HAND_LOC
+    100076: R_calf
+    100078: R_finger
+    100080: R_finger_b
+    100082: R_foot
+    100084: R_forarm
+    100086: R_hand
+    100088: R_PARENTING_HAND_LOC
+    100090: R_shoulder
+    100092: R_thigh
+    100094: R_thumb
+    100096: R_toe
+    100098: root
+    100100: //RootNode
+    100102: spine
+    100104: spine_b
+    100106: transformRyze
+    100108: weapon
+    400000: bag
+    400002: bag_b
+    400004: bag_c
+    400006: bag_d
+    400008: bag_e
+    400010: bag_f
+    400012: book_l
+    400014: book_r
+    400016: BUFFBONE_CSTM_GEM
+    400018: BUFFBONE_GLB_CHANNEL_LOC
+    400020: BUFFBONE_GLB_GROUND_LOC
+    400022: BUFFBONE_GLB_WEAPON_1
+    400024: C_BUFFBONE_GLB_CENTER_LOC
+    400026: C_BUFFBONE_GLB_CHEST_LOC
+    400028: C_BUFFBONE_GLB_HEAD_LOC
+    400030: C_BUFFBONE_GLB_LAYOUT_LOC
+    400032: C_BUFFBONE_GLB_OVERHEAD_LOC
+    400034: front_a
+    400036: front_b
+    400038: front_c
+    400040: head
+    400042: L_arm
+    400044: L_BUFFBONE_GLB_FOOT_LOC
+    400046: L_BUFFBONE_GLB_HAND_LOC
+    400048: L_calf
+    400050: L_finger
+    400052: L_foot
+    400054: L_forarm
+    400056: L_hand
+    400058: L_PARENTING_HAND_LOC
+    400060: L_shoulder
+    400062: L_thigh
+    400064: L_toe
+    400066: neck
+    400068: pelvis
+    400070: R_arm
+    400072: R_BUFFBONE_GLB_FOOT_LOC
+    400074: R_BUFFBONE_GLB_HAND_LOC
+    400076: R_calf
+    400078: R_finger
+    400080: R_finger_b
+    400082: R_foot
+    400084: R_forarm
+    400086: R_hand
+    400088: R_PARENTING_HAND_LOC
+    400090: R_shoulder
+    400092: R_thigh
+    400094: R_thumb
+    400096: R_toe
+    400098: root
+    400100: //RootNode
+    400102: spine
+    400104: spine_b
+    400106: transformRyze
+    400108: weapon
+    4300000: transformRyze
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: transformRyze
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

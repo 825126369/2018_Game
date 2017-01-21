@@ -4,12 +4,13 @@ using System.Text;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
-using game.protobuf.data;
 using System.IO;
 using xk_System.Debug;
 using UnityEngine;
 using xk_System.Crypto;
 using System.Collections;
+using Google.Protobuf;
+using game.protobuf.data;
 
 namespace xk_System.Net
 {
@@ -23,7 +24,7 @@ namespace xk_System.Net
         }
 
         // Update is called once per frame
-        void Update()
+        private void Update()
         {
             NetSystem.getSingle().ReceiveData();
         }
@@ -928,7 +929,7 @@ namespace xk_System.Net
         private static NetSendSystem single;
         static NetSendSystem_Protobuf single_Protobuf = new NetSendSystem_Protobuf();
         protected PackageSendPool mSendPool = new PackageSendPool();
-        protected Package mPackage=new Protobuf();  
+        protected Package mPackage=new xk_Protobuf();  
         protected NetSendSystem()
         {
             
@@ -1108,7 +1109,7 @@ namespace xk_System.Net
                     {
                         if (mCanUsePackageQueue.Count == 0)
                         {
-                            mPackage = new Protobuf();
+                            mPackage = new xk_Protobuf();
                         }
                         else
                         {
@@ -1140,7 +1141,7 @@ namespace xk_System.Net
 
         internal abstract void DeSerializeStream(byte[] msg);
 
-        public abstract void getData<T>(T t) where T : new();
+        public abstract T getData<T>() where T : new();
 
         public virtual void Destory()
         {
@@ -1159,6 +1160,7 @@ namespace xk_System.Net
         {
             //DebugSystem.Log("Send MemoryStream Length: "+mst.Length);
             mst.Position = 0;
+           // mst.SetLength(0);
             serializer.Serialize(mst, data);
             data_byte = mst.ToArray();
            /* if (data_byte.Length==0)
@@ -1177,20 +1179,52 @@ namespace xk_System.Net
            // DebugSystem.Log("接受命令："+command+" | "+data_byte.Length);
         }
 
-        public override void getData<T>(T t)
+        public override T  getData<T>()
         {
            // DebugSystem.Log("Receive MemoryStream Length: " + mst.Length);
             mst.SetLength(data_byte.Length);
             mst.Position = 0;
             mst.Write(data_byte,0,data_byte.Length);
             mst.Position = 0;
-            serializer.Deserialize(mst,t, typeof(T)); //反序列化    
+            return (T)serializer.Deserialize(mst,null, typeof(T)); //反序列化    
         }
 
         public override void Destory()
         {
             base.Destory();
             mst.Close();
+        }
+    }
+
+    public class xk_Protobuf : Package
+    {
+        NetOutputStream mOutputStream = new NetOutputStream();
+        NetInputStream mInputStream = new NetInputStream();
+
+        internal override byte[] SerializePackage(int command, object data)
+        {
+            Google.Protobuf.IMessage data1 = data as Google.Protobuf.IMessage;
+            data_byte = data1.ToByteArray();
+            mOutputStream.SetData(command, data_byte);
+            return mOutputStream.data;
+        }
+
+        internal override void DeSerializeStream(byte[] msg)
+        {
+            mInputStream.SetData(msg);
+            data_byte = mInputStream.buffer;
+            command = mInputStream.command;
+            // DebugSystem.Log("接受命令："+command+" | "+data_byte.Length);
+        }
+
+        public override T getData<T>()
+        {
+            T t = new T();          
+            IMessage m =(IMessage)t;
+            Google.Protobuf.CodedInputStream mStream = new CodedInputStream(data_byte);
+            m.MergeFrom(mStream);
+           // m= m.Descriptor.Parser.ParseFrom(data_byte);
+            return (T)m;
         }
     }
     //begin~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~网络接受包信息池系统~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

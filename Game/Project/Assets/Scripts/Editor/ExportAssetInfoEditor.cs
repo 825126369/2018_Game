@@ -42,11 +42,15 @@ public class ExportAssetInfoEditor : MonoBehaviour
             {
                 string fieldName = v.Name + "Folder";
                 m += "\t\t public " + fieldName + " " + v.Name + "=new " + fieldName + "();\n";
+               // s += CreateDirClass(v, v.Name.ToLower());
             }
-            s += CreateDirClass(v, v.Name.ToLower());
+        }
+        foreach (var v in mDir.GetDirectories())
+        {
+            m += CreateDirClass(v, v.Name.ToLower());
         }
         m += "\t}\n";
-        m += s;
+       // m += s;
         m += "}\n";
         string fileName = CsOutPath + "/" + mDir.Name + ".cs";
         StreamWriter mSw = new StreamWriter(fileName, false);
@@ -56,6 +60,7 @@ public class ExportAssetInfoEditor : MonoBehaviour
 
     private static string CreateDirClass(DirectoryInfo mDir, string bundleName)
     {
+        string tStr = GetTStr(mDir);
         string m = "";
         string s = "";
         FileInfo[] mFileInfos = mDir.GetFiles();
@@ -71,24 +76,24 @@ public class ExportAssetInfoEditor : MonoBehaviour
         if (mFilesLength > 0)
         {
             string bundleName1 = bundleName+ extention;
-            m = "\tpublic class " + mDir.Name + "Folder\n\t{\n";
+            m = tStr+"public class " + mDir.Name + "Folder\n"+tStr+"{\n";
             foreach (var v in mFileInfos)
             {
                 if (v.Extension != ".meta")
                 {
                     string assetPath = GetAssetPath(v.FullName);
                     string fileName = v.Name.Substring(0, v.Name.LastIndexOf(v.Extension));
-                    m += "\t\t public AssetInfo m" + fileName + "=new AssetInfo(\""+assetPath+"\",\"" + bundleName1 + "\",\"" + v.Name + "\");\n";
+                    m += tStr+"\t public AssetInfo m" + fileName + "=new AssetInfo(\""+assetPath+"\",\"" + bundleName1 + "\",\"" + v.Name + "\");\n";
                 }
             }
-            m += "\t}\n";
+            m += tStr+"}\n";
         }
         else
         {
             if (mDir.GetDirectories().Length > 0)
             {
 
-                m = "\tpublic class " + mDir.Name + "Folder\n\t{\n";
+                m = tStr+"public class " + mDir.Name + "Folder\n"+tStr+"{\n";
                 foreach (var v in mDir.GetDirectories())
                 {
                     FileInfo[] mFileInfos1 = v.GetFiles();
@@ -104,15 +109,46 @@ public class ExportAssetInfoEditor : MonoBehaviour
                     if (mFilesLength1 > 0 || v.GetDirectories().Length > 0)
                     {
                         string fieldName = v.Name + "Folder";
-                        m += "\t\t public " + fieldName + " " + v.Name + "=new " + fieldName + "();\n";
+                        m += tStr+"\t public " + fieldName + " " + v.Name + "=new " + fieldName + "();\n";
                     }
-                    s += CreateDirClass(v, bundleName+"_"+v.Name.ToLower());
                 }
-                m += "\t}\n";
-                m += s;
+                foreach (var v in mDir.GetDirectories())
+                {
+                    m += CreateDirClass(v, bundleName + "_" + v.Name.ToLower());
+                }
+                m += tStr+"}\n";
+               // m += s;
             }
         }
         return m;
+    }
+    public static string GetTStr(DirectoryInfo mDir)
+    {
+        int coutT = 0;
+        int index = mDir.FullName.IndexOf(@"ResourceABs\");
+        if (index >= 0)
+        {
+            for(int j=0;j<mDir.FullName.Length;j++)
+            {
+                if (j > index)
+                {
+                    var v = mDir.FullName[j];
+                    if (v.Equals('\\'))
+                    {
+                        coutT++;
+                    }
+                }
+            }
+        }
+        coutT++;
+        string tStr = "";
+        int i = 0;
+        while(i<coutT)
+        {
+            tStr += "\t";
+            i++;
+        }
+        return tStr;
     }
 
     public static string GetAssetPath(string filePath)

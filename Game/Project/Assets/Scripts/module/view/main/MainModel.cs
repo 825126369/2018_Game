@@ -4,7 +4,7 @@ using xk_System.Model;
 
 namespace xk_System.Model.Modules
 {
-    public class MainModel : xk_Model
+    public class MainModel : DataModel
     {
         public override void initModel()
         {

@@ -5,7 +5,7 @@ using xk_System.Debug;
 using UnityEngine.UI;
 namespace xk_System.View.Modules
 {
-    public class MainView :xk_View
+    public class MainView :xk_WindowView
     {
         public Button mShareBtn;
         public Button mChatBtn;

@@ -1,17 +1,15 @@
 ManifestFileVersion: 0
-CRC: 921190627
+CRC: 4194596588
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c5b953727edff30c4572dfc2d0ba38f6
+    Hash: f1195f0a3903d83ce437b7d9c7831bc8
   TypeTreeHash:
     serializedVersion: 2
-    Hash: e9c02bfd8077a615e5019f83ada83c10
+    Hash: c433f8f8dbfdab07099c4ad5c70a3332
 HashAppended: 0
 ClassTypes:
 - Class: 1
-  Script: {instanceID: 0}
-- Class: 4
   Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
@@ -25,6 +23,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: b8bca7b0aed090c4f8a73a0d6fe78f80, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 06e65fd02cb0af545bfa417cf8f73dd5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0efa7c21ebb346444a4d30883b9bd9a6, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: fbd65351245eafd4ca1d104ca1133a1f, type: 3}
 - Class: 114
@@ -54,6 +54,10 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 - Class: 114
+  Script: {fileID: 2109663825, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -1184210157, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 0705572320ebf94459703c2534a5af18, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7a1ea4b3eb847a246865e256744c8e3f, type: 3}
@@ -80,6 +84,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 5ecd73ca102fcf748be13b873e262709, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 9f1887ca9038f914e99eaf2478956f96, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 56d04ceaa808a4540845b5b7aee2ce16, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4b89197b1e94d604dbb86b117244e9e8, type: 3}
@@ -93,6 +99,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 68da82bd3c634c741ab0d3436df91e96, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: c5e9a57ee4f23494b8f2936a72a2bf29, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 246b63ab32cf996449a596d090dd2082, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -104,13 +112,14 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
+- Assets/ResourceABs/view/RoleCreateView.prefab
 - Assets/ResourceABs/view/ShareView.prefab
 - Assets/ResourceABs/view/StoreView.prefab
 - Assets/ResourceABs/view/MsgBoxView.prefab
 - Assets/ResourceABs/view/SceneLoadingView.prefab
 - Assets/ResourceABs/view/MainView.prefab
+- Assets/ResourceABs/view/RoleSelectView.prefab
 - Assets/ResourceABs/view/SelectServerView.prefab
-- Assets/ResourceABs/view/HotUpdateView.prefab
 - Assets/ResourceABs/view/ChatView.prefab
 - Assets/ResourceABs/view/WindowLoadingView.prefab
 - Assets/ResourceABs/view/LoginView.prefab
@@ -119,5 +128,5 @@ Dependencies:
 - F:/2018_Game/Game/Project/Assets/StreamingAssets/atlas_button.xk_unity3d
 - F:/2018_Game/Game/Project/Assets/StreamingAssets/atlas_texture.xk_unity3d
 - F:/2018_Game/Game/Project/Assets/StreamingAssets/atlas_emoj.xk_unity3d
-- F:/2018_Game/Game/Project/Assets/StreamingAssets/atlas_heroicon.xk_unity3d
+- F:/2018_Game/Game/Project/Assets/StreamingAssets/atlas_hero.xk_unity3d
 - F:/2018_Game/Game/Project/Assets/StreamingAssets/atlas_skill.xk_unity3d

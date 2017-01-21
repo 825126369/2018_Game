@@ -63,4 +63,30 @@ namespace game.protobuf.data
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"pushOhterPlayerInfo")]
+  public partial class pushOhterPlayerInfo : global::ProtoBuf.IExtensible
+  {
+    public pushOhterPlayerInfo() {}
+    
+    private uint _result = default(uint);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"result", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint result
+    {
+      get { return _result; }
+      set { _result = value; }
+    }
+    private struct_PlayerDetailInfo _playerInfo = null;
+    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"playerInfo", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::System.ComponentModel.DefaultValue(null)]
+    public struct_PlayerDetailInfo playerInfo
+    {
+      get { return _playerInfo; }
+      set { _playerInfo = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
 }

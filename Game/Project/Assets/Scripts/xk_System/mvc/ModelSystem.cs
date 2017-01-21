@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System;
 using xk_System.Net;
-using game.protobuf.data;
+//using game.protobuf.data;
+using XkProtobufData;
 using xk_System.Debug;
 using System.Reflection;
 
@@ -54,7 +55,7 @@ namespace xk_System.Model
         }
     }
 
-    public class xk_Model
+    public abstract class xk_Model
     {
         public xk_Model()
         {
@@ -66,21 +67,34 @@ namespace xk_System.Model
 
         }
 
+
         public virtual void destroyModel()
         {
 
         }
+
+        public T GetModel<T>() where T : xk_Model, new()
+        {
+            return ModelSystem.Instance.GetModel<T>();
+        }
     }
 
-    public class SASAModel:xk_Model
+    public class DataModel:xk_Model
     {
-        private Dictionary<string, List<Action<object>>> m_dicDataBinding = new Dictionary<string, List<Action<object>>>();
+        private Dictionary<string, List<Action<object>>> m_dicDataBinding = null;
         private Type m_thisType;
 
         public override void initModel()
         {
             base.initModel();
+            m_dicDataBinding = new Dictionary<string, List<Action<object>>>();
             this.m_thisType = base.GetType();
+        }
+
+        public override void destroyModel()
+        {
+            base.destroyModel();
+            m_dicDataBinding.Clear();       
         }
 
         private object _getPropertyValue(string strName)
@@ -137,20 +151,20 @@ namespace xk_System.Model
 
     public class NetModel : xk_Model
     {
-        public void addNetListenFun(ProtoCommand command, Action<Package> mFun)
+        protected void addNetListenFun(ProtoCommand command, Action<Package> mFun)
         {
             NetSystem.getSingle().addListenFun((int)command, mFun);
         }
 
-        public void removeNetListenFun(ProtoCommand command, Action<Package> mFun)
+        protected void removeNetListenFun(ProtoCommand command, Action<Package> mFun)
         {
             NetSystem.getSingle().removeListenFun((int)command, mFun);
         }
 
-        public void sendNetData(ProtoCommand command, object data)
+        protected void sendNetData(ProtoCommand command, object data)
         {
             NetSystem.getSingle().SendData((int)command, data);
-        }
+        }    
     }
 
     public class DataBind<T>

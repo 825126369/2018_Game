@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 319439836
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e79a1c496fdc3e2b6a1f8e27c5baf6e0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6759894fca659e2049f05064db45ce61
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/skill/Textures/fx_smoke_53.tga
+- Assets/ResourceABs/skill/Textures/fx_trail_55.tga
+- Assets/ResourceABs/skill/Textures/fx_trail_22.tga
+- Assets/ResourceABs/skill/Textures/fx_smoke_11.tga
+- Assets/ResourceABs/skill/Textures/fx_patten_132.tga
+- Assets/ResourceABs/skill/Textures/fx_particle_12.tga
+- Assets/ResourceABs/skill/Textures/fx_lighting_02.tga
+- Assets/ResourceABs/skill/Textures/fx_lightning_23.TGA
+- Assets/ResourceABs/skill/Textures/fx_smoke_14.tga
+- Assets/ResourceABs/skill/Textures/fx_smoke_47.tga
+- Assets/ResourceABs/skill/Textures/fx_water_11.tga
+- Assets/ResourceABs/skill/Textures/fx_patten_104.tga
+- Assets/ResourceABs/skill/Textures/fx_particle_47.tga
+- Assets/ResourceABs/skill/Textures/fx_smoke_12.tga
+- Assets/ResourceABs/skill/Textures/fx_smoke_03.tga
+- Assets/ResourceABs/skill/Textures/fx_particle_42.tga
+- Assets/ResourceABs/skill/Textures/fx_particle_04.tga
+- Assets/ResourceABs/skill/Textures/fx_particle_31.tga
+- Assets/ResourceABs/skill/Textures/fx_glow_43_AB.tga
+- Assets/ResourceABs/skill/Textures/fx_trail_13.tga
+- Assets/ResourceABs/skill/Textures/fx_particle_19.tga
+- Assets/ResourceABs/skill/Textures/fx_patten_89.tga
+- Assets/ResourceABs/skill/Textures/fx_smoke_07.tga
+- Assets/ResourceABs/skill/Textures/fx_trail_72.tga
+- Assets/ResourceABs/skill/Textures/fx_patten_151.tga
+Dependencies: []

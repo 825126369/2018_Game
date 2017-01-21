@@ -1,9 +1,0 @@
-C:\Users\xuke\Desktop\Protobuf\bin\Debug\Licence.txt
-C:\Users\xuke\Desktop\Protobuf\bin\Debug\GameProtocolsData.dll
-C:\Users\xuke\Desktop\Protobuf\bin\Debug\GameProtocolsData.pdb
-C:\Users\xuke\Desktop\Protobuf\bin\Debug\protobuf-net.dll
-C:\Users\xuke\Desktop\Protobuf\bin\Debug\protobuf-net.pdb
-C:\Users\xuke\Desktop\Protobuf\bin\Debug\protobuf-net.xml
-C:\Users\xuke\Desktop\Protobuf\obj\x86\Debug\GameProtocolsData.csprojResolveAssemblyReference.cache
-C:\Users\xuke\Desktop\Protobuf\obj\x86\Debug\GameProtocolsData.dll
-C:\Users\xuke\Desktop\Protobuf\obj\x86\Debug\GameProtocolsData.pdb

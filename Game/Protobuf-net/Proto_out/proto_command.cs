@@ -29,6 +29,9 @@ namespace game.protobuf.data
       [global::ProtoBuf.ProtoEnum(Name=@"PROTO_CREATEROLE", Value=1104)]
       PROTO_CREATEROLE = 1104,
             
+      [global::ProtoBuf.ProtoEnum(Name=@"PROTO_SELECTROLE", Value=1105)]
+      PROTO_SELECTROLE = 1105,
+            
       [global::ProtoBuf.ProtoEnum(Name=@"PROTO_PUSH_CHATINFO", Value=5001)]
       PROTO_PUSH_CHATINFO = 5001,
             

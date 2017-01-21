@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-using game.protobuf.data;
+//using game.protobuf.data;
+using XkProtobufData;
 using xk_System.Net;
 using System.Collections.Generic;
 
@@ -15,7 +16,7 @@ namespace xk_System.Model.Modules
         public ulong time;
     }
 
-    public class ChatModel : SASAModel
+    public class ChatModel : DataModel
     {
         public List<ChatItemData> mChatDataList = new List<ChatItemData>();
         /// <summary>

@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 96880058
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c6f792cd08294d2f15547c0d2577af18
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e91bf4d7bfc7c90eaa9aea5318d52d8
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourceABs/skill/Materials/fx_particle_19.mat
+- Assets/ResourceABs/skill/Materials/fx_smoke_07.mat
+- Assets/ResourceABs/skill/Materials/fx_particle_42.mat
+- Assets/ResourceABs/skill/Materials/fx_water_11_AB.mat
+- Assets/ResourceABs/skill/Materials/fx_particle_47.mat
+- Assets/ResourceABs/skill/Materials/fx_lighting_02.mat
+- Assets/ResourceABs/skill/Materials/fx_trail_72.mat
+- Assets/ResourceABs/skill/Materials/fx_smoke_11.mat
+- Assets/ResourceABs/skill/Materials/fx_trail_22.mat
+- Assets/ResourceABs/skill/Materials/fx_glow_43.mat
+- Assets/ResourceABs/skill/Materials/fx_smoke_12_AB.mat
+- Assets/ResourceABs/skill/Materials/fx_smoke_14.mat
+- Assets/ResourceABs/skill/Materials/fx_trail_13.mat
+- Assets/ResourceABs/skill/Materials/fx_trail_55.mat
+- Assets/ResourceABs/skill/Materials/fx_smoke_47.mat
+- Assets/ResourceABs/skill/Materials/fx_particle_04.mat
+- Assets/ResourceABs/skill/Materials/fx_smoke_03.mat
+- Assets/ResourceABs/skill/Materials/fx_particle_12.mat
+- Assets/ResourceABs/skill/Materials/fx_patten_151.mat
+- Assets/ResourceABs/skill/Materials/fx_patten_132.mat
+- Assets/ResourceABs/skill/Materials/fx_particle_31.mat
+- Assets/ResourceABs/skill/Materials/fx_lightning_23.mat
+- Assets/ResourceABs/skill/Materials/fx_smoke_53.mat
+- Assets/ResourceABs/skill/Materials/fx_patten_104.mat
+Dependencies:
+- F:/2018_Game/Game/Project/Assets/StreamingAssets/shader.xk_unity3d
+- F:/2018_Game/Game/Project/Assets/StreamingAssets/skill_textures.xk_unity3d

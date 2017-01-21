@@ -5,13 +5,16 @@ using System.Collections;
 using xk_System.Model;
 using xk_System.Model.Modules;
 using xk_System.Debug;
+//using game.protobuf.data;
+using XkProtobufData;
 
 namespace xk_System.View.Modules
 {
-    public class LoginView : xk_View
+    public class LoginView : xk_WindowView
     {
-        public GameObject mLoginView;
-        public GameObject mRegisterView;
+        public GameObject mLoginViewObj;
+        public GameObject mRegisterViewObj;
+
         public InputField mAccount;
         public InputField mPassword;
 
@@ -21,10 +24,11 @@ namespace xk_System.View.Modules
 
         public Button mLoginBtn;
         public Button mShowRegtisterViewBtn;
+
         public Button mReturnLoginBtn;
         public Button mRegisterBtn;
 
-        private LoginMessage mLoginModel=null;
+        private LoginMessage mLoginModel = null;
 
         protected override void Awake()
         {
@@ -38,8 +42,9 @@ namespace xk_System.View.Modules
 
             mAccount.text = PlayerPrefs.GetString(CacheManager.cache_key_account, "");
             mPassword.text = PlayerPrefs.GetString(CacheManager.cache_key_password, "");
-            mLoginView.SetActive(true);
-            mRegisterView.SetActive(false);
+
+            mLoginViewObj.SetActive(true);
+            mRegisterViewObj.SetActive(false);
         }
 
         protected override void OnEnable()
@@ -70,13 +75,13 @@ namespace xk_System.View.Modules
                 return;
             }
             DebugSystem.Log("点击登陆");
-            mLoginModel.send_LoginGame(mAccount.text.Trim(), mPassword.text.Trim());     
+            mLoginModel.send_LoginGame(mAccount.text.Trim(), mPassword.text.Trim());
         }
 
         private void OnClick_ShowRegisterView()
         {
-            mLoginView.SetActive(false);
-            mRegisterView.SetActive(true);
+            mLoginViewObj.SetActive(false);
+            mRegisterViewObj.SetActive(true);
         }
 
 
@@ -92,42 +97,42 @@ namespace xk_System.View.Modules
                 DebugSystem.LogError("注冊密码不能为空");
                 return;
             }
-            if (mRepeatPassword.text.Trim() !=mRegisterPassword.text.Trim())
+            if (mRepeatPassword.text.Trim() != mRegisterPassword.text.Trim())
             {
                 DebugSystem.LogError("Register Password no Equal");
                 return;
             }
             DebugSystem.Log("Click RegisterBtn");
-            mLoginModel.Send_RegisterAccount(mAccount.text, mPassword.text, mPassword.text);
+            mLoginModel.Send_RegisterAccount(mRegisterAccount.text, mRegisterPassword.text, mRepeatPassword.text);
         }
 
         private void OnClick_ReturnLogin()
         {
-            mLoginView.SetActive(true);
-            mRegisterView.SetActive(false);
+            mLoginViewObj.SetActive(true);
+            mRegisterViewObj.SetActive(false);
         }
 
-        public void JudgeOrRegisterSuccess(bool data)
+        public void JudgeOrRegisterSuccess(scRegisterAccount mdata)
         {
-            bool result = data;
-            if (result)
+            if (mdata.Result == 1)
             {
-                DebugSystem.LogError("注册成功");
-                mLoginView.SetActive(true);
-                mRegisterView.SetActive(false);
+                DebugSystem.LogError("Register Success");
+                mAccount.text = mRegisterAccount.text;
+                mPassword.text = mRegisterPassword.text;
+                mLoginViewObj.SetActive(true);
+                mRegisterViewObj.SetActive(false);
             }
             else
             {
-                DebugSystem.LogError("注册失败");
+                DebugSystem.LogError("Register Account Error: " + mdata.Result);
             }
         }
 
-        public void JudegeOrLoginSuccess(bool data)
+        public void JudegeOrLoginSuccess(scLoginGame mdata)
         {
-            bool result = data;
-            if (result)
+            if (mdata.Result==1)
             {
-                DebugSystem.Log("登陆成功");
+                DebugSystem.Log("Login Success");
                 ShowView<SelectServerView>();
                 HideView<LoginView>();
 
@@ -136,7 +141,7 @@ namespace xk_System.View.Modules
             }
             else
             {
-                DebugSystem.Log("登陆失败");
+                DebugSystem.Log("登陆失败:"+mdata.Result);
             }
         }
     }

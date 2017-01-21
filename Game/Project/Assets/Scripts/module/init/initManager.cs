@@ -47,9 +47,11 @@ public class initManager : Singleton<initManager>
 
     private IEnumerator InitEventSystem()
     {
-        AssetInfo mAssetInfo = ResourceABsFolder.Instance.manager.mEventSystem;
+        AssetInfo mAssetInfo = ResourceABsFolder.Instance.manager.mObjectRoot;
         yield return AssetBundleManager.Instance.AsyncLoadAsset(mAssetInfo);
         GameObject obj = AssetBundleManager.Instance.LoadAsset(mAssetInfo) as GameObject;
+        ObjectRoot mObjectRoot = obj.GetComponent<ObjectRoot>();
+        mObjectRoot.Init();
         obj.SetActive(true);
         MonoBehaviour.DontDestroyOnLoad(obj);
         mTask.progress += 5;

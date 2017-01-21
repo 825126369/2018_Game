@@ -5,7 +5,7 @@ using System;
 
 namespace xk_System.View.Modules
 {
-    public class MsgBoxView : xk_View
+    public class MsgBoxView : xk_DialogView
     {
         public const int YesNoView=1;
         public const int SureView = 2;

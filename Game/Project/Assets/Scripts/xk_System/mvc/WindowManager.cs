@@ -15,29 +15,9 @@ namespace xk_System.View
     public class WindowManager : SingleTonMonoBehaviour<WindowManager>
     {
         private Dictionary<Type, xk_View> mViewPrefabDic=new Dictionary<Type, xk_View>();
-        public UILayout mUILayout=new UILayout();
 
         public IEnumerator InitWindowManager()
         {
-            AssetInfo mAssetInfo = ResourceABsFolder.Instance.manager.mUIRoot;
-            yield return AssetBundleManager.Instance.AsyncLoadAsset(mAssetInfo);
-            GameObject obj = AssetBundleManager.Instance.LoadAsset(mAssetInfo) as GameObject;
-            obj.transform.localScale = Vector3.one;
-            obj.transform.localRotation = Quaternion.identity;
-            obj.transform.localPosition = Vector3.zero;
-            obj.SetActive(true);
-            DontDestroyOnLoad(obj);
-
-            GameObject mRoot = obj;
-            Transform mCanvas = mRoot.transform.FindChild("Canvas/hide");
-            mUILayout.hideParent = mCanvas;
-
-            mCanvas = mRoot.transform.FindChild("Canvas/show");
-            mUILayout.showParent = mCanvas;
-
-            Camera mCamera = mRoot.transform.FindChild("Camera").GetComponent<Camera>();
-            mUILayout.mCamera = mCamera;
-
             yield return InitAsyncLoadGlobalView<WindowLoadingView>();
         }
         /// <summary>
@@ -54,11 +34,13 @@ namespace xk_System.View
             }
             else
             {
+                mViewPrefabDic[mType].transform.SetAsLastSibling();
                 if (!mViewPrefabDic[mType].gameObject.activeSelf)
                 {
-                    if (data != null)
+                    if (mViewPrefabDic[mType] is xk_DialogView && data != null)
                     {
-                        mViewPrefabDic[mType].InitView(data);
+                        xk_DialogView mView = (xk_DialogView)mViewPrefabDic[mType];
+                        mView.InitView(data);
                     }
                     mViewPrefabDic[mType].gameObject.SetActive(true);
                     DebugSystem.Log("显示界面：" + mType.Name);
@@ -166,12 +148,6 @@ namespace xk_System.View
             }
         }
     }
-    public class UILayout
-    {
-        public Transform hideParent;
-        public Transform showParent;
-        public Camera mCamera;
-    }
 
     public class ViewCollection:Singleton<ViewCollection>
     {
@@ -189,8 +165,6 @@ namespace xk_System.View
                     return ResourceABsFolder.Instance.view.mSelectServerView;
                 case "ShareView":
                     return ResourceABsFolder.Instance.view.mShareView;
-                case "HotUpdateView":
-                    return ResourceABsFolder.Instance.view.mHotUpdateView;
                 case "WindowLoadingView":
                     return ResourceABsFolder.Instance.view.mWindowLoadingView;
                 case "MsgBoxView":
@@ -199,43 +173,68 @@ namespace xk_System.View
                     return ResourceABsFolder.Instance.view.mSceneLoadingView;
                 case "StoreView":
                     return ResourceABsFolder.Instance.view.mStoreView;
+                case "RoleCreateView":
+                    return ResourceABsFolder.Instance.view.mRoleCreateView;
+                case "RoleSelectView":
+                    return ResourceABsFolder.Instance.view.mRoleSelectView;
             }
             DebugSystem.LogError("没有找到资源信息");
             return null;
         }
     }
 
-
-    public  abstract  class xk_View : MonoBehaviour
+    public abstract class xk_Object:MonoBehaviour
     {
-        protected object data=null;
-
-        public virtual void InitView(object data = null)
-        {
-            if (data != null)
-            {
-                this.data = data;
-            }
-        }
-
         protected virtual void Awake()
         {
-            
+
         }
 
         protected virtual void OnEnable()
         {
-            this.transform.SetAsLastSibling();
+            
+        }
+
+        protected virtual void Start()
+        {
+
         }
 
         protected virtual void OnDisable()
         {
-            this.transform.SetAsFirstSibling();
-            StopAllCoroutines();
-            data = null;
+            
         }
 
         protected virtual void OnDestroy()
+        {
+
+        }
+    }
+
+
+    public  abstract  class xk_View : xk_Object
+    {
+        protected override void Awake()
+        {
+            
+        }
+
+        protected override void OnEnable()
+        {
+            
+        }
+
+        protected override void Start()
+        {
+
+        }
+
+        protected override void OnDisable()
+        {
+            
+        }
+
+        protected override void OnDestroy()
         {
             
         }
@@ -254,7 +253,7 @@ namespace xk_System.View
 
         protected virtual void SetViewParent()
         {
-            this.transform.SetParent(WindowManager.Instance.mUILayout.showParent);
+            this.transform.SetParent(ObjectRoot.Instance.ui_2d_root.mParent);
         }
 
         protected virtual void SetViewTransform()
@@ -291,7 +290,7 @@ namespace xk_System.View
         public void ShowView<T>(object data=null) where T:xk_View
         {
             WindowManager.Instance.ShowView<T>(data);
-        }
+        }       
 
         public void HideView<T>(bool orDestroy=false) where T :xk_View
         {
@@ -299,10 +298,27 @@ namespace xk_System.View
         }
     }
 
-    public class xk_GlobalView:xk_View
+    public abstract class xk_WindowView:xk_View
     {
 
+    }
 
+    public abstract class xk_DialogView:xk_View
+    {
+        protected object data = null;
+
+        public virtual void InitView(object data = null)
+        {
+            if (data != null)
+            {
+                this.data = data;
+            }
+        }
+    }
+
+    public abstract class xk_GlobalView:xk_View
+    {
+        
 
     }
 

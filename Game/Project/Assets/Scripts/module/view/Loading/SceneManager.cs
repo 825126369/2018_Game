@@ -19,7 +19,7 @@ public class SceneSystem : Singleton<SceneSystem>
         LoadSceneResource(sceneName);
     }
 
-    public void LoadSceneResource(string sceneName)
+    private void LoadSceneResource(string sceneName)
     {
         WindowManager.Instance.CleanManager();
         WindowManager.Instance.ShowView<SceneLoadingView>();

@@ -44,6 +44,48 @@ namespace game.protobuf.data
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"struct_ItemInfo")]
+  public partial class struct_ItemInfo : global::ProtoBuf.IExtensible
+  {
+    public struct_ItemInfo() {}
+    
+    private ulong _id = default(ulong);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"id", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(ulong))]
+    public ulong id
+    {
+      get { return _id; }
+      set { _id = value; }
+    }
+    private uint _pos = default(uint);
+    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"pos", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint pos
+    {
+      get { return _pos; }
+      set { _pos = value; }
+    }
+    private uint _configId = default(uint);
+    [global::ProtoBuf.ProtoMember(3, IsRequired = false, Name=@"configId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint configId
+    {
+      get { return _configId; }
+      set { _configId = value; }
+    }
+    private uint _cout = default(uint);
+    [global::ProtoBuf.ProtoMember(4, IsRequired = false, Name=@"cout", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint cout
+    {
+      get { return _cout; }
+      set { _cout = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"struct_PlayerSimpleInfo")]
   public partial class struct_PlayerSimpleInfo : global::ProtoBuf.IExtensible
   {
@@ -106,6 +148,72 @@ namespace game.protobuf.data
     {
       get { return _level; }
       set { _level = value; }
+    }
+    private ulong _modelId = default(ulong);
+    [global::ProtoBuf.ProtoMember(4, IsRequired = false, Name=@"modelId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(ulong))]
+    public ulong modelId
+    {
+      get { return _modelId; }
+      set { _modelId = value; }
+    }
+    private readonly global::System.Collections.Generic.List<struct_ItemInfo> _equipList = new global::System.Collections.Generic.List<struct_ItemInfo>();
+    [global::ProtoBuf.ProtoMember(5, Name=@"equipList", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    public global::System.Collections.Generic.List<struct_ItemInfo> equipList
+    {
+      get { return _equipList; }
+    }
+  
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"struct_PlayerBagInfo")]
+  public partial class struct_PlayerBagInfo : global::ProtoBuf.IExtensible
+  {
+    public struct_PlayerBagInfo() {}
+    
+    private uint _maxCout = default(uint);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"maxCout", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint maxCout
+    {
+      get { return _maxCout; }
+      set { _maxCout = value; }
+    }
+    private readonly global::System.Collections.Generic.List<struct_ItemInfo> _itemList = new global::System.Collections.Generic.List<struct_ItemInfo>();
+    [global::ProtoBuf.ProtoMember(2, Name=@"itemList", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    public global::System.Collections.Generic.List<struct_ItemInfo> itemList
+    {
+      get { return _itemList; }
+    }
+  
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"struct_LOL_HeroDetailInfo")]
+  public partial class struct_LOL_HeroDetailInfo : global::ProtoBuf.IExtensible
+  {
+    public struct_LOL_HeroDetailInfo() {}
+    
+    private ulong _id = default(ulong);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"id", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(ulong))]
+    public ulong id
+    {
+      get { return _id; }
+      set { _id = value; }
+    }
+    private uint _configId = default(uint);
+    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"configId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(uint))]
+    public uint configId
+    {
+      get { return _configId; }
+      set { _configId = value; }
     }
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)

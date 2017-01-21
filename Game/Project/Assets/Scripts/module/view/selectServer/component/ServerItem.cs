@@ -22,13 +22,13 @@ namespace xk_System.View.Modules
 
         public override Vector2 GetCellSize()
         {
-            return new Vector2(205, 70);
+            return new Vector2(210, 100);
         }
 
         public override void RefreshItem(ServerListDB data)
         {
             base.RefreshItem(data);
-            mServerName.text = data.serverName;
+            mServerName.text = data.id+"区  "+data.serverName;
         }
     }
 }

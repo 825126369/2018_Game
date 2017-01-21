@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 383397741
+CRC: 3567282898
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 490f01bb088efd03ca85a53b4e8261c4
+    Hash: 961dc2eecef0b2fb2a7563bf1478c6aa
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9dea23ffc7e96552740e12d1ee5309d8
@@ -17,6 +17,7 @@ Assets:
 - Assets/ResourceABs/atlas/button/guanbianjiananxia.png
 - Assets/ResourceABs/atlas/button/guanbi_1.png
 - Assets/ResourceABs/atlas/button/anjian1changtai.png
+- Assets/ResourceABs/atlas/button/shaizi.png
 - Assets/ResourceABs/atlas/button/fanye1.png
 - Assets/ResourceABs/atlas/button/guanbianjianchangtai.png
 - Assets/ResourceABs/atlas/button/biaoqinganjianchangtai.png
