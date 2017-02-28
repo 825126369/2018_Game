@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/TEST/UGUI_TEST/UGUI_TEST.unity
+- path: Assets/TEST/CSharp_TEST/CSharp_Main.unity
   isLoaded: 1
   isActive: 1

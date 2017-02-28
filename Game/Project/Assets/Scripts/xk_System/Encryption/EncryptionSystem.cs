@@ -165,9 +165,10 @@ namespace xk_System.Crypto
             try
             {
                 Cryptograph = cTransform.TransformFinalBlock(Data, 0, Data.Length);
-            }catch(Exception e)
+            }
+            catch (Exception e)
             {
-                DebugSystem.LogError("Encryption_AES: "+e.Message);
+                DebugSystem.LogError("Encryption_AES: " + e.Message);
             }
             if (Cryptograph == null)
             {
@@ -191,7 +192,7 @@ namespace xk_System.Crypto
             Byte[] original = null; // 解密后的明文  
 
             Rijndael Aes = Rijndael.Create();
-           // Aes.Padding = PaddingMode.Zeros;
+            // Aes.Padding = PaddingMode.Zeros;
             Aes.Mode = CipherMode.CBC;
             Aes.Key = bKey;
             Aes.IV = bVector;
@@ -216,14 +217,14 @@ namespace xk_System.Crypto
 
         private void printAesInfo(Rijndael Aes)
         {
-            DebugSystem.Log("Mode:"+Aes.Mode);
+            DebugSystem.Log("Mode:" + Aes.Mode);
             DebugSystem.Log("KeySize:" + Aes.KeySize);
             DebugSystem.Log("BlockSize:" + Aes.BlockSize);
             DebugSystem.Log("FeedBackSize:" + Aes.FeedbackSize);
             DebugSystem.Log("Padding:" + Aes.Padding);
 
         }
-}
+    }
 
 
     internal class Encryption_DSA : EncryptionSystem
@@ -305,4 +306,127 @@ namespace xk_System.Crypto
 
     }
 
+    internal class Encryption_RSA : EncryptionSystem
+    {
+        public  void Initial(ref string PublicKey,ref string PrivateKey)
+        {
+            //声明一个RSA算法的实例，由RSACryptoServiceProvider类型的构造函数指定了密钥长度为1024位
+            RSACryptoServiceProvider rsaProvider = new RSACryptoServiceProvider(1024);
+            //将RSA算法的公钥导出到字符串PublicKey中，参数为false表示不导出私钥
+            PublicKey = rsaProvider.ToXmlString(false);
+            //将RSA算法的私钥导出到字符串PrivateKey中，参数为true表示导出私钥
+            PrivateKey = rsaProvider.ToXmlString(true);
+        }
+
+        public string EncryptData(string PublicKey, string data)
+        {
+            byte[] data_byte = Convert.FromBase64String(data);
+            RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(1024);
+            //将公钥导入到RSA对象中，准备加密；
+            rsa.FromXmlString(PublicKey);
+            //对数据data进行加密，并返回加密结果；
+            //第二个参数用来选择Padding的格式
+            byte[] result_byte= rsa.Encrypt(data_byte, false);
+            return Convert.ToBase64String(result_byte);
+        }
+
+        public byte[] DecryptData(string PrivateKey, string data)
+        {
+            byte[] data_byte = Encoding.UTF8.GetBytes(data);
+            RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(1024);
+            //将私钥导入RSA中，准备解密；
+            rsa.FromXmlString(PrivateKey);
+            //对数据进行解密，并返回解密结果；
+            return rsa.Decrypt(data_byte, false);
+        }
+
+        public string Sign(string PrivateKey, string data)
+        {
+            byte[] data_byte = Encoding.UTF8.GetBytes(data);
+            RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(1024);
+            //导入私钥，准备签名
+            rsa.FromXmlString(PrivateKey);
+            //将数据使用MD5进行消息摘要，然后对摘要进行签名并返回签名数据
+            byte[] result_byte= rsa.SignData(data_byte, "MD5");
+            return Convert.ToBase64String(result_byte);
+        }
+
+        public bool Verify(string PublicKey,string data, string Signature)
+        {
+            byte[] sign_byte = Convert.FromBase64String(Signature);
+            byte[] data_byte = Encoding.UTF8.GetBytes(data);
+            RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(1024);
+            //导入公钥，准备验证签名
+            rsa.FromXmlString(PublicKey);
+            //返回数据验证结果
+            return rsa.VerifyData(data_byte, "MD5", sign_byte);
+        }
+
+        /// <summary>  
+        /// RSA签名  
+        /// </summary>  
+        /// <param name="strKeyPrivate">私钥</param>  
+        /// <param name="strHashbyteSignature">待签名Hash描述</param>  
+        /// <param name="strEncryptedSignatureData">签名后的结果</param>  
+        /// <returns></returns>  
+        public bool SignatureFormatter(string KeyPrivate, string data, ref string sign)
+        {
+            try
+            {
+                byte[] HashbyteSignature;
+                byte[] EncryptedSignatureData;
+                MD5 md= MD5.Create();
+                HashbyteSignature = md.ComputeHash(Encoding.UTF8.GetBytes(data));
+                RSACryptoServiceProvider RSA = new RSACryptoServiceProvider();
+                RSA.FromXmlString(KeyPrivate);
+                RSAPKCS1SignatureFormatter RSAFormatter = new RSAPKCS1SignatureFormatter(RSA);
+                //设置签名的算法为MD5   
+                RSAFormatter.SetHashAlgorithm("MD5");
+                //执行签名   
+                EncryptedSignatureData = RSAFormatter.CreateSignature(HashbyteSignature);
+                sign = Convert.ToBase64String(EncryptedSignatureData);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        /// <summary>  
+        /// RSA签名验证  
+        /// </summary>  
+        /// <param name="strKeyPublic">公钥</param>  
+        /// <param name="strHashbyteDeformatter">Hash描述</param>  
+        /// <param name="strDeformatterData">签名后的结果</param>  
+        /// <returns></returns>  
+        public bool SignatureDeformatter(string strKeyPublic, string data, string sign)
+        {
+            try
+            {
+                byte[] DeformatterData;
+                byte[] HashbyteDeformatter;
+                MD5 md = MD5.Create();
+                HashbyteDeformatter = md.ComputeHash(Encoding.UTF8.GetBytes(data));
+                DeformatterData = Convert.FromBase64String(sign);
+                RSACryptoServiceProvider RSA = new RSACryptoServiceProvider();
+                RSA.FromXmlString(strKeyPublic);
+                RSAPKCS1SignatureDeformatter RSADeformatter = new RSAPKCS1SignatureDeformatter(RSA);
+                //指定解密的时候HASH算法为MD5   
+                RSADeformatter.SetHashAlgorithm("MD5");
+                if (RSADeformatter.VerifySignature(HashbyteDeformatter, DeformatterData))
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+    }
 }

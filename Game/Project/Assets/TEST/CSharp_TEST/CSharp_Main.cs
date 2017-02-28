@@ -2,42 +2,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
-using xk_System.AssetPackage;
+using xk_System.Crypto;
 namespace TEST
 {
     public class CSharp_Main : MonoBehaviour
     {
         void Start()
         {
-            Debug.LogError("热更新代码提示：2222222222222222222222");
-            Debug.LogError(GetType().Assembly.FullName+": "+GetType().FullName);
-            AssetBundleManager manager = GetComponent<AssetBundleManager>();
-            if(manager!=null)
-            {
-                Debug.LogError(manager.GetType().Assembly.FullName + ": " + manager.GetType().FullName);
-                Debug.LogError("第三方程序集找到了: " + manager.GetType());
-            }
-            else
-            {
-                Debug.LogError("第三方程序集没找到: ");
-            }
-        }
+            string data = "我要吃屎了";
+            Encryption_RSA m = new Encryption_RSA();
+            string publicKey = string.Empty;
+            string privateKey = string.Empty;
+            m.Initial(ref publicKey,ref privateKey);
 
-        void AAA()
-        {
-
+            string sign=string.Empty; 
+            m.SignatureFormatter(privateKey, data,ref sign);
+            bool result= m.SignatureDeformatter(publicKey,data,sign);
+            if(result==true)
+            {
+                Debug.Log("验证签名成功");
+            }else
+            {
+                Debug.Log("验证签名失败");
+            }
             
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-            //test2.AAA();
-        }
-
-        void OnDestroy()
-        {
-
-        }
     }
 }
