@@ -355,11 +355,9 @@ namespace xk_System.Crypto
         {
             byte[] sign_byte = Convert.FromBase64String(Signature);
             byte[] data_byte = Encoding.UTF8.GetBytes(data);
-            RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(1024);
-            //导入公钥，准备验证签名
-            rsa.FromXmlString(PublicKey);
+            RSACryptoServiceProvider rsa = RSACryptoService.Instance.CreateRsaProviderFromPublicKey(PublicKey);
             //返回数据验证结果
-            return rsa.VerifyData(data_byte, "MD5", sign_byte);
+            return rsa.VerifyData(data_byte, "SHA1", sign_byte);
         }
 
         /// <summary>  
@@ -406,14 +404,13 @@ namespace xk_System.Crypto
             {
                 byte[] DeformatterData;
                 byte[] HashbyteDeformatter;
-                MD5 md = MD5.Create();
+                SHA1 md = SHA1.Create();
                 HashbyteDeformatter = md.ComputeHash(Encoding.UTF8.GetBytes(data));
                 DeformatterData = Convert.FromBase64String(sign);
-                RSACryptoServiceProvider RSA = new RSACryptoServiceProvider();
-                RSA.FromXmlString(strKeyPublic);
+                RSACryptoServiceProvider RSA = RSACryptoService.Instance.CreateRsaProviderFromPublicKey(strKeyPublic);
                 RSAPKCS1SignatureDeformatter RSADeformatter = new RSAPKCS1SignatureDeformatter(RSA);
                 //指定解密的时候HASH算法为MD5   
-                RSADeformatter.SetHashAlgorithm("MD5");
+                RSADeformatter.SetHashAlgorithm("SHA1");
                 if (RSADeformatter.VerifySignature(HashbyteDeformatter, DeformatterData))
                 {
                     return true;

@@ -152,6 +152,7 @@
     <Compile Include="Assets\Scripts\xk_System\ConfigTable\DbSystem.cs" />
     <Compile Include="Assets\Scripts\xk_System\Debug\LogManager.cs" />
     <Compile Include="Assets\Scripts\xk_System\Encryption\EncryptionSystem.cs" />
+    <Compile Include="Assets\Scripts\xk_System\Encryption\RSA.cs" />
     <Compile Include="Assets\Scripts\xk_System\HotUpdate\AssetBundleHotUpdateManager.cs" />
     <Compile Include="Assets\Scripts\xk_System\Net\NetManager.cs" />
     <Compile Include="Assets\Scripts\xk_System\Reflection\ReflectionSystem.cs" />
